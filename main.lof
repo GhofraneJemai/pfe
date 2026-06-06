@@ -1,0 +1,303 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de Coral-io}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Interface de SAP Concur}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Interface d'Expensya}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Interface de Rydoo}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Architecture Scrum}}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Logo UML}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Logo Visual Studio Code}}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Logo IntelliJ IDEA}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Logo PyCharm}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Logo Git}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Logo GitHub}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Logo draw.io}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Logo Figma}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Logo Angular}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Logo TypeScript}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Logo HTML}}{14}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Logo SCSS}}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Logo Bootstrap}}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Logo Spring Boot}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Logo Java}}{15}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Logo Python}}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Logo FastAPI}}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Logo PostgreSQL}}{16}{figure.caption.33}%
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Logo Keycloak}}{16}{figure.caption.35}%
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Logo Docker}}{17}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Logo Postman}}{17}{figure.caption.39}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 1}}{52}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Raffinement du cas d'utilisation « Gérer les comptes utilisateurs »}}{52}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Raffinement du cas d'utilisation « Gérer profil »}}{53}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Raffinement du cas d'utilisation « Gérer les catégories »}}{53}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagramme de séquence - S'authentifier}}{58}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagramme de séquence - Ajouter un projet}}{59}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagramme de séquence - Ajouter une catégorie}}{60}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagramme de classes du sprint 1}}{61}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Page d'accueil}}{62}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Page d'accueil - Section A propos}}{63}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Page d'accueil - Section Expertises}}{63}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Page d'accueil - Section Services}}{64}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Page d'accueil - Section Contact}}{64}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Interface d'authentification}}{65}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Interface de récupération de mot de passe}}{65}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface de création/mise à jour du mot de passe}}{66}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Interface de mise à jour du profil utilisateur}}{66}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Modal de confirmation de déconnexion}}{67}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Interface liste des utilisateurs}}{68}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Interface d'ajout d'utilisateur}}{68}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Interface de modification d'utilisateur}}{69}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Interface de consultation du profil administrateur}}{70}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Modale de changement de mot de passe}}{70}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Interface de modification du profil employé}}{71}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface de modification du profil manager}}{71}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Interface liste des départements}}{72}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface d'ajout/modification de département}}{72}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Interface liste des projets}}{73}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Interface d'ajout/modification de projet}}{74}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Interface de consultation des projets }}{74}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Interface de consultation des régles de remboursement}}{75}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Interface liste des catégories}}{75}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Interface d'ajout/modification de catégorie }}{76}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Interface de gestion des champs des catégories}}{76}{figure.caption.122}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 2}}{83}{figure.caption.125}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de séquence – Soumission d'une note et décision du manager}}{88}{figure.caption.131}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagramme de classes du sprint 2}}{89}{figure.caption.132}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Formulaire d’ajout de note de frais}}{90}{figure.caption.134}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Suite du formulaire d’ajout de note de frais}}{91}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Liste des notes de l’employé avec filtres et actions}}{92}{figure.caption.137}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Modal de confirmation de suppression d’une note}}{92}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Liste des notes du département }}{93}{figure.caption.141}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Détails d'une note de frais }}{94}{figure.caption.143}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interface de consultation de la consommation par employé}}{94}{figure.caption.144}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Modal de validation }}{95}{figure.caption.146}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Modal de refus }}{96}{figure.caption.148}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Liste déroulante des notifications pour un employé}}{97}{figure.caption.149}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Liste déroulante des notifications pour un manager}}{97}{figure.caption.150}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Liste déroulante des notifications pour un administrateur}}{98}{figure.caption.151}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Interface historique des notifications }}{99}{figure.caption.153}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 3}}{105}{figure.caption.156}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de séquence – Remboursement partiel et création d'ordre}}{109}{figure.caption.161}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence – Rejeter une note de frais}}{110}{figure.caption.163}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de déploiement - Docker}}{111}{figure.caption.165}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagramme de classes du sprint 3}}{112}{figure.caption.166}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Liste des notes validées en attente de remboursement}}{113}{figure.caption.167}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Formulaire de remboursement (total ou partiel)}}{113}{figure.caption.168}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Liste des ordres de paiement en attente}}{114}{figure.caption.169}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Détail d’un ordre de paiement}}{115}{figure.caption.170}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Modal de confirmation de paiement}}{115}{figure.caption.171}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Modal de confirmation de refus de remboursement}}{116}{figure.caption.172}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Archive administrative consolidée}}{117}{figure.caption.173}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Notes internes confidentielles dans le popup de détail}}{118}{figure.caption.174}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Liste des conversations pour messagerie des notes internes}}{118}{figure.caption.175}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Panneau de discussion pour messagerie des notes internes}}{119}{figure.caption.176}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Dashboard projets administrateur}}{120}{figure.caption.177}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Exemple de données exportées au format Excel}}{121}{figure.caption.178}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Conteneurs Docker en cours d'exécution}}{122}{figure.caption.179}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagramme des cas d'utilisation du sprint 4}}{128}{figure.caption.182}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Cycle de vie de soumission d'une note de frais avec les contrôles automatiques}}{132}{figure.caption.185}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagramme de classes du sprint 4 (extrait)}}{133}{figure.caption.186}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagramme de déploiement du sprint 4}}{134}{figure.caption.187}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Extraction par PaddleOCR pour un PDF}}{137}{figure.caption.189}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Extraction par PaddleOCR pour un PNG}}{138}{figure.caption.190}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Extraction par Tesseract}}{139}{figure.caption.191}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{140}{figure.caption.193}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Extrait de la fonction \texttt {TextCleaner.clean()}}}{141}{figure.caption.194}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Extrait de la fonction \texttt {add\_to\_index()}}}{142}{figure.caption.195}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Requête \texttt {get\_user\_category\_expenses()}}}{142}{figure.caption.196}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Exemple de données structurées extraites d'un accord de mission}}{143}{figure.caption.197}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Extrait de \texttt {AccordFormComparator.compare()}}}{143}{figure.caption.198}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Hash MD5}}{145}{figure.caption.201}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces BERT}}{145}{figure.caption.201}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces FAISS + SentenceTransformer}}{146}{figure.caption.202}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Comparaison des F1-scores pour la détection des doublons}}{146}{figure.caption.204}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Mistral 7B}}{147}{figure.caption.207}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Gemma3:4b}}{147}{figure.caption.207}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Llama 3 8B}}{148}{figure.caption.208}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparaison multicritères des modèles LLM}}{148}{figure.caption.210}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Architecture de déploiement des microservices}}{150}{figure.caption.212}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Sauvegarde de l'index FAISS et des métadonnées}}{150}{figure.caption.213}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Alerte de doublon dans le popup de détail}}{151}{figure.caption.215}%
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Détection des montants suspects par ligne de frais}}{152}{figure.caption.217}%
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Avant remplissage automatique des champs depuis une facture}}{152}{figure.caption.219}%
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Après remplissage automatique des champs depuis une facture}}{153}{figure.caption.220}%
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Analyse IA de cohérence accord / note de frais}}{154}{figure.caption.222}%
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Validation de la facture}}{154}{figure.caption.224}%
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Extrait des patterns de classification d'intention}}{156}{figure.caption.225}%
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Construction dynamique du prompt pour le LLM}}{157}{figure.caption.226}%
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Extrait du service de gestion de session}}{158}{figure.caption.227}%
+\contentsline {figure}{\numberline {7.33}{\ignorespaces Logique de routage du chatbot hybride}}{158}{figure.caption.228}%
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Diagramme d'activité du chatbot hybride}}{159}{figure.caption.229}%
+\contentsline {figure}{\numberline {7.35}{\ignorespaces Interface du chatbot hybride intégré}}{160}{figure.caption.230}%
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Tableau de bord employé}}{161}{figure.caption.231}%
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Suite 1 du tableau de bord employé}}{161}{figure.caption.232}%
+\contentsline {figure}{\numberline {7.38}{\ignorespaces Suite 2 du tableau de bord employé}}{162}{figure.caption.233}%
+\contentsline {figure}{\numberline {7.39}{\ignorespaces Suite 3 du tableau de bord employé}}{162}{figure.caption.234}%
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Tableau de bord manager}}{163}{figure.caption.235}%
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Suite 1 du tableau de bord manager}}{164}{figure.caption.236}%
+\contentsline {figure}{\numberline {7.42}{\ignorespaces Suite 2 du tableau de bord manager}}{164}{figure.caption.237}%
+\contentsline {figure}{\numberline {7.43}{\ignorespaces Suite 3 du tableau de bord manager}}{165}{figure.caption.238}%
+\contentsline {figure}{\numberline {7.44}{\ignorespaces Suite 4 du tableau de bord manager}}{165}{figure.caption.239}%
+\contentsline {figure}{\numberline {7.45}{\ignorespaces Suite 5 du tableau de bord manager}}{166}{figure.caption.240}%
+\contentsline {figure}{\numberline {7.46}{\ignorespaces Tableau de bord administrateur}}{167}{figure.caption.241}%
+\contentsline {figure}{\numberline {7.47}{\ignorespaces Suite 1 du tableau de bord administrateur}}{167}{figure.caption.242}%
+\contentsline {figure}{\numberline {7.48}{\ignorespaces Suite 2 du tableau de bord administrateur}}{168}{figure.caption.243}%
+\contentsline {figure}{\numberline {7.49}{\ignorespaces Suite 3 du tableau de bord administrateur}}{168}{figure.caption.244}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Logo de Coral-io}}{4}{figure.caption.249}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Interface de SAP Concur}}{5}{figure.caption.250}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Interface d'Expensya}}{5}{figure.caption.251}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Interface de Rydoo}}{6}{figure.caption.252}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Architecture Scrum}}{11}{figure.caption.253}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Logo UML}}{12}{figure.caption.254}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Logo Visual Studio Code}}{12}{figure.caption.257}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Logo IntelliJ IDEA}}{13}{figure.caption.258}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Logo PyCharm}}{13}{figure.caption.259}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Logo Git}}{13}{figure.caption.261}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Logo GitHub}}{13}{figure.caption.262}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Logo draw.io}}{14}{figure.caption.264}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Logo Figma}}{14}{figure.caption.265}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Logo Angular}}{14}{figure.caption.267}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Logo TypeScript}}{14}{figure.caption.268}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Logo HTML}}{14}{figure.caption.269}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Logo SCSS}}{15}{figure.caption.270}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Logo Bootstrap}}{15}{figure.caption.271}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Logo Spring Boot}}{15}{figure.caption.273}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Logo Java}}{15}{figure.caption.274}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Logo Python}}{16}{figure.caption.275}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Logo FastAPI}}{16}{figure.caption.276}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Logo PostgreSQL}}{16}{figure.caption.278}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Logo Keycloak}}{16}{figure.caption.280}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Logo Docker}}{17}{figure.caption.282}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Logo Postman}}{17}{figure.caption.284}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 1}}{42}{figure.caption.292}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Raffinement du cas d'utilisation « Gérer les comptes utilisateurs »}}{42}{figure.caption.293}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Raffinement du cas d'utilisation « Gérer profil »}}{43}{figure.caption.294}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Raffinement du cas d'utilisation « Gérer les catégories »}}{43}{figure.caption.295}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Diagramme de séquence - S'authentifier}}{48}{figure.caption.298}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Diagramme de séquence - Ajouter un projet}}{49}{figure.caption.299}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Diagramme de séquence - Ajouter une catégorie}}{51}{figure.caption.300}%
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Diagramme de classes du sprint 1}}{52}{figure.caption.301}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Page d'accueil}}{53}{figure.caption.302}%
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Page d'accueil - Section A propos}}{54}{figure.caption.303}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Page d'accueil - Section Expertises}}{54}{figure.caption.304}%
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Page d'accueil - Section Services}}{55}{figure.caption.305}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Page d'accueil - Section Contact}}{55}{figure.caption.306}%
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Interface d'authentification}}{56}{figure.caption.307}%
+\contentsline {figure}{\numberline {11.15}{\ignorespaces Interface de récupération de mot de passe}}{56}{figure.caption.308}%
+\contentsline {figure}{\numberline {11.16}{\ignorespaces Interface de création/mise à jour du mot de passe}}{57}{figure.caption.309}%
+\contentsline {figure}{\numberline {11.17}{\ignorespaces Interface de mise à jour du profil utilisateur}}{57}{figure.caption.310}%
+\contentsline {figure}{\numberline {11.18}{\ignorespaces Modal de confirmation de déconnexion}}{58}{figure.caption.311}%
+\contentsline {figure}{\numberline {11.19}{\ignorespaces Interface liste des utilisateurs}}{59}{figure.caption.312}%
+\contentsline {figure}{\numberline {11.20}{\ignorespaces Interface d'ajout d'utilisateur}}{59}{figure.caption.313}%
+\contentsline {figure}{\numberline {11.21}{\ignorespaces Interface de modification d'utilisateur}}{60}{figure.caption.314}%
+\contentsline {figure}{\numberline {11.22}{\ignorespaces Interface de consultation du profil administrateur}}{61}{figure.caption.315}%
+\contentsline {figure}{\numberline {11.23}{\ignorespaces Modale de changement de mot de passe}}{61}{figure.caption.316}%
+\contentsline {figure}{\numberline {11.24}{\ignorespaces Interface de modification du profil employé}}{62}{figure.caption.317}%
+\contentsline {figure}{\numberline {11.25}{\ignorespaces Interface de modification du profil manager}}{62}{figure.caption.318}%
+\contentsline {figure}{\numberline {11.26}{\ignorespaces Interface liste des départements}}{63}{figure.caption.319}%
+\contentsline {figure}{\numberline {11.27}{\ignorespaces Interface d'ajout/modification de département}}{63}{figure.caption.320}%
+\contentsline {figure}{\numberline {11.28}{\ignorespaces Interface liste des projets}}{64}{figure.caption.321}%
+\contentsline {figure}{\numberline {11.29}{\ignorespaces Interface d'ajout/modification de projet}}{65}{figure.caption.322}%
+\contentsline {figure}{\numberline {11.30}{\ignorespaces Interface de consultation des projets }}{65}{figure.caption.323}%
+\contentsline {figure}{\numberline {11.31}{\ignorespaces Interface de consultation des régles de remboursement}}{66}{figure.caption.324}%
+\contentsline {figure}{\numberline {11.32}{\ignorespaces Interface liste des catégories}}{66}{figure.caption.325}%
+\contentsline {figure}{\numberline {11.33}{\ignorespaces Interface d'ajout/modification de catégorie }}{67}{figure.caption.326}%
+\contentsline {figure}{\numberline {11.34}{\ignorespaces Interface de gestion des champs des catégories}}{67}{figure.caption.327}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 2}}{74}{figure.caption.330}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Diagramme de séquence – Soumission d'une note et décision du manager}}{79}{figure.caption.331}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Diagramme de classes du sprint 2}}{80}{figure.caption.332}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Formulaire d’ajout de note de frais}}{81}{figure.caption.333}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Suite du formulaire d’ajout de note de frais}}{82}{figure.caption.334}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Liste des notes de l’employé avec filtres et actions}}{83}{figure.caption.335}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Modal de confirmation de suppression d’une note}}{83}{figure.caption.336}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Liste des notes du département }}{84}{figure.caption.337}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Détails d'une note de frais }}{85}{figure.caption.338}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Interface de consultation de la consommation par employé}}{85}{figure.caption.339}%
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Modal de validation }}{86}{figure.caption.340}%
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Modal de refus }}{87}{figure.caption.341}%
+\contentsline {figure}{\numberline {12.13}{\ignorespaces Liste déroulante des notifications pour un employé}}{88}{figure.caption.342}%
+\contentsline {figure}{\numberline {12.14}{\ignorespaces Liste déroulante des notifications pour un manager}}{88}{figure.caption.343}%
+\contentsline {figure}{\numberline {12.15}{\ignorespaces Liste déroulante des notifications pour un administrateur}}{89}{figure.caption.344}%
+\contentsline {figure}{\numberline {12.16}{\ignorespaces Interface historique des notifications }}{90}{figure.caption.345}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 3}}{96}{figure.caption.348}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Diagramme de séquence – Remboursement partiel et création d'ordre}}{100}{figure.caption.349}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Diagramme de séquence – Rejeter une note de frais}}{101}{figure.caption.350}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Diagramme de déploiement - Docker}}{102}{figure.caption.351}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Diagramme de classes du sprint 3}}{103}{figure.caption.352}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Liste des notes validées en attente de remboursement}}{104}{figure.caption.353}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Formulaire de remboursement (total ou partiel)}}{104}{figure.caption.354}%
+\contentsline {figure}{\numberline {13.8}{\ignorespaces Liste des ordres de paiement en attente}}{105}{figure.caption.355}%
+\contentsline {figure}{\numberline {13.9}{\ignorespaces Détail d’un ordre de paiement}}{106}{figure.caption.356}%
+\contentsline {figure}{\numberline {13.10}{\ignorespaces Modal de confirmation de paiement}}{106}{figure.caption.357}%
+\contentsline {figure}{\numberline {13.11}{\ignorespaces Modal de confirmation de refus de remboursement}}{107}{figure.caption.358}%
+\contentsline {figure}{\numberline {13.12}{\ignorespaces Archive administrative consolidée}}{108}{figure.caption.359}%
+\contentsline {figure}{\numberline {13.13}{\ignorespaces Notes internes confidentielles dans le popup de détail}}{109}{figure.caption.360}%
+\contentsline {figure}{\numberline {13.14}{\ignorespaces Liste des conversations pour messagerie des notes internes}}{109}{figure.caption.361}%
+\contentsline {figure}{\numberline {13.15}{\ignorespaces Panneau de discussion pour messagerie des notes internes}}{110}{figure.caption.362}%
+\contentsline {figure}{\numberline {13.16}{\ignorespaces Dashboard projets administrateur}}{111}{figure.caption.363}%
+\contentsline {figure}{\numberline {13.17}{\ignorespaces Exemple de données exportées au format Excel}}{112}{figure.caption.364}%
+\contentsline {figure}{\numberline {13.18}{\ignorespaces Conteneurs Docker en cours d'exécution}}{113}{figure.caption.365}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Diagramme des cas d'utilisation du sprint 4}}{119}{figure.caption.368}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Cycle de vie de soumission d'une note de frais avec les contrôles automatiques}}{123}{figure.caption.371}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Diagramme de classes du sprint 4 (extrait)}}{124}{figure.caption.372}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Diagramme de déploiement du sprint 4}}{125}{figure.caption.373}%
+\contentsline {figure}{\numberline {14.5}{\ignorespaces Extraction par PaddleOCR pour un PDF}}{128}{figure.caption.375}%
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Extraction par PaddleOCR pour un PNG}}{129}{figure.caption.376}%
+\contentsline {figure}{\numberline {14.7}{\ignorespaces Extraction par Tesseract}}{130}{figure.caption.377}%
+\contentsline {figure}{\numberline {14.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{131}{figure.caption.379}%
+\contentsline {figure}{\numberline {14.9}{\ignorespaces Extrait de la fonction \texttt {TextCleaner.clean()}}}{132}{figure.caption.380}%
+\contentsline {figure}{\numberline {14.10}{\ignorespaces Extrait de la fonction \texttt {add\_to\_index()}}}{133}{figure.caption.381}%
+\contentsline {figure}{\numberline {14.11}{\ignorespaces Requête \texttt {get\_user\_category\_expenses()}}}{133}{figure.caption.382}%
+\contentsline {figure}{\numberline {14.12}{\ignorespaces Exemple de données structurées extraites d'un accord de mission}}{134}{figure.caption.383}%
+\contentsline {figure}{\numberline {14.13}{\ignorespaces Extrait de \texttt {AccordFormComparator.compare()}}}{134}{figure.caption.384}%
+\contentsline {figure}{\numberline {14.14}{\ignorespaces Hash MD5}}{136}{figure.caption.387}%
+\contentsline {figure}{\numberline {14.15}{\ignorespaces BERT}}{136}{figure.caption.387}%
+\contentsline {figure}{\numberline {14.16}{\ignorespaces FAISS + SentenceTransformer}}{137}{figure.caption.388}%
+\contentsline {figure}{\numberline {14.17}{\ignorespaces Comparaison des F1-scores pour la détection des doublons}}{137}{figure.caption.390}%
+\contentsline {figure}{\numberline {14.18}{\ignorespaces Mistral 7B}}{138}{figure.caption.393}%
+\contentsline {figure}{\numberline {14.19}{\ignorespaces Gemma3:4b}}{138}{figure.caption.393}%
+\contentsline {figure}{\numberline {14.20}{\ignorespaces Llama 3 8B}}{139}{figure.caption.394}%
+\contentsline {figure}{\numberline {14.21}{\ignorespaces Comparaison multicritères des modèles LLM}}{139}{figure.caption.396}%
+\contentsline {figure}{\numberline {14.22}{\ignorespaces Architecture de déploiement des microservices}}{141}{figure.caption.398}%
+\contentsline {figure}{\numberline {14.23}{\ignorespaces Sauvegarde de l'index FAISS et des métadonnées}}{141}{figure.caption.399}%
+\contentsline {figure}{\numberline {14.24}{\ignorespaces Alerte de doublon dans le popup de détail}}{142}{figure.caption.401}%
+\contentsline {figure}{\numberline {14.25}{\ignorespaces Détection des montants suspects par ligne de frais}}{143}{figure.caption.403}%
+\contentsline {figure}{\numberline {14.26}{\ignorespaces Avant remplissage automatique des champs depuis une facture}}{143}{figure.caption.405}%
+\contentsline {figure}{\numberline {14.27}{\ignorespaces Après remplissage automatique des champs depuis une facture}}{144}{figure.caption.406}%
+\contentsline {figure}{\numberline {14.28}{\ignorespaces Analyse IA de cohérence accord / note de frais}}{145}{figure.caption.408}%
+\contentsline {figure}{\numberline {14.29}{\ignorespaces Validation de la facture}}{145}{figure.caption.410}%
+\contentsline {figure}{\numberline {14.30}{\ignorespaces Extrait des patterns de classification d'intention}}{147}{figure.caption.411}%
+\contentsline {figure}{\numberline {14.31}{\ignorespaces Construction dynamique du prompt pour le LLM}}{148}{figure.caption.412}%
+\contentsline {figure}{\numberline {14.32}{\ignorespaces Extrait du service de gestion de session}}{149}{figure.caption.413}%
+\contentsline {figure}{\numberline {14.33}{\ignorespaces Logique de routage du chatbot hybride}}{149}{figure.caption.414}%
+\contentsline {figure}{\numberline {14.34}{\ignorespaces Diagramme d'activité du chatbot hybride}}{150}{figure.caption.415}%
+\contentsline {figure}{\numberline {14.35}{\ignorespaces Interface du chatbot hybride intégré}}{151}{figure.caption.416}%
+\contentsline {figure}{\numberline {14.36}{\ignorespaces Tableau de bord employé}}{152}{figure.caption.417}%
+\contentsline {figure}{\numberline {14.37}{\ignorespaces Suite 1 du tableau de bord employé}}{152}{figure.caption.418}%
+\contentsline {figure}{\numberline {14.38}{\ignorespaces Suite 2 du tableau de bord employé}}{153}{figure.caption.419}%
+\contentsline {figure}{\numberline {14.39}{\ignorespaces Suite 3 du tableau de bord employé}}{153}{figure.caption.420}%
+\contentsline {figure}{\numberline {14.40}{\ignorespaces Tableau de bord manager}}{154}{figure.caption.421}%
+\contentsline {figure}{\numberline {14.41}{\ignorespaces Suite 1 du tableau de bord manager}}{155}{figure.caption.422}%
+\contentsline {figure}{\numberline {14.42}{\ignorespaces Suite 2 du tableau de bord manager}}{155}{figure.caption.423}%
+\contentsline {figure}{\numberline {14.43}{\ignorespaces Suite 3 du tableau de bord manager}}{156}{figure.caption.424}%
+\contentsline {figure}{\numberline {14.44}{\ignorespaces Suite 4 du tableau de bord manager}}{156}{figure.caption.425}%
+\contentsline {figure}{\numberline {14.45}{\ignorespaces Suite 5 du tableau de bord manager}}{157}{figure.caption.426}%
+\contentsline {figure}{\numberline {14.46}{\ignorespaces Tableau de bord administrateur}}{158}{figure.caption.427}%
+\contentsline {figure}{\numberline {14.47}{\ignorespaces Suite 1 du tableau de bord administrateur}}{158}{figure.caption.428}%
+\contentsline {figure}{\numberline {14.48}{\ignorespaces Suite 2 du tableau de bord administrateur}}{159}{figure.caption.429}%
+\contentsline {figure}{\numberline {14.49}{\ignorespaces Suite 3 du tableau de bord administrateur}}{159}{figure.caption.430}%
+\babel@toc {english}{}\relax 
+\babel@toc {french}{}\relax 
