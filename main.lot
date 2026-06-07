@@ -1,20 +1,20 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Critique comparative des solutions de gestion des notes de frais}}{8}{table.1.1}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Configurations des machines}}{13}{table.caption.10}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Critique comparative des solutions de gestion des notes de frais}}{7}{table.1.1}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Configurations des machines}}{12}{table.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Besoins non fonctionnels}}{30}{table.caption.60}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Backlog de produit}}{31}{table.3.2}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Planification des Sprints}}{39}{table.caption.61}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Critères d’acceptation des User Stories prioritaires}}{40}{table.3.5}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Besoins non fonctionnels}}{28}{table.caption.33}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Backlog de produit}}{29}{table.3.2}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Planification des Sprints}}{37}{table.caption.34}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Critères d’acceptation des User Stories prioritaires}}{38}{table.3.5}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Backlog Sprint 1 }}{51}{table.4.1}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Description textuelle « Créer compte »}}{54}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Description textuelle « S'authentifier »}}{55}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Description textuelle « Récupérer mot de passe »}}{56}{table.caption.74}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Description textuelle « Modifier son profil »}}{57}{table.caption.76}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Description textuelle « Ajouter une catégorie »}}{57}{table.4.7}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Backlog Sprint 1 }}{49}{table.4.1}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Description textuelle « Créer compte »}}{52}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Description textuelle « S'authentifier »}}{53}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Description textuelle « Récupérer mot de passe »}}{54}{table.caption.40}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Description textuelle « Modifier son profil »}}{55}{table.caption.41}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Description textuelle « Ajouter une catégorie »}}{55}{table.4.7}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Backlog Sprint 2 }}{79}{table.5.1}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces Description textuelle – Créer et soumettre une note de frais}}{83}{table.5.3}%
@@ -30,9 +30,9 @@
 \contentsline {table}{\numberline {7.1}{\ignorespaces Backlog sprint 4}}{124}{table.7.1}%
 \contentsline {table}{\numberline {7.3}{\ignorespaces Description textuelle – Téléverser un justificatif et déclencher les analyses automatiques}}{128}{table.7.3}%
 \contentsline {table}{\numberline {7.5}{\ignorespaces Description textuelle – Consulter les anomalies IA}}{130}{table.7.5}%
-\contentsline {table}{\numberline {7.7}{\ignorespaces Comparaison des outils OCR utilisés}}{136}{table.caption.189}%
-\contentsline {table}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{141}{table.caption.193}%
-\contentsline {table}{\numberline {7.9}{\ignorespaces Performances comparées des modèles de détection de doublons}}{147}{table.caption.204}%
-\contentsline {table}{\numberline {7.10}{\ignorespaces Performances comparées des LLM pour l'extraction de champs}}{149}{table.caption.210}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Comparaison des outils OCR utilisés}}{136}{table.caption.113}%
+\contentsline {table}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{141}{table.caption.117}%
+\contentsline {table}{\numberline {7.9}{\ignorespaces Performances comparées des modèles de détection de doublons}}{147}{table.caption.126}%
+\contentsline {table}{\numberline {7.10}{\ignorespaces Performances comparées des LLM pour l'extraction de champs}}{149}{table.caption.130}%
 \babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 

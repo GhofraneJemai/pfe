@@ -54,8 +54,25 @@
 
 \usepackage{caption}
 \usepackage{pdfpages}
+\usepackage{titlesec}
+
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing{\paragraph}{0pt}{10pt}{0pt}
 \usetikzlibrary{matrix, positioning}
 
+\usepackage{titlesec}
+\titleformat{\subparagraph}
+{\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{}
+\titlespacing{\subparagraph}{0pt}{10pt}{0pt}
+
+% Pour inclure subsubsection dans la numérotation et la TOC
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% Format de numérotation automatique : a), b), c), ...
+\renewcommand{\thesubsubsection}{\alph{subsubsection})}
 % Personnalisation des puces
 
 \setlist[itemize]{label=\tiny$\bullet$}
@@ -296,8 +313,6 @@ Aucune phrase ne pourra traduire ce que je ressens. Derrière chacune de mes ré
 \textbf{CRISP-DM} & Cross-Industry Standard Process for Data Mining \\
 \textbf{KDD} & Knowledge Discovery in Databases \\
 \textbf{SEMMA} & Sample, Explore, Modify, Model, Assess \\
-\textbf{Isolation Forest} & Algorithme non supervisé de détection d'anomalies \\
-\textbf{SentenceTransformer} & Modèle de génération d'embeddings de phrases \\
 \textbf{FastAPI} & Framework web Python pour microservices IA \\
 \textbf{BERT} & Bidirectional Encoder Representations from Transformers \\
 \textbf{HTML} & HyperText Markup Language \\
@@ -475,7 +490,7 @@ Plusieurs solutions de gestion des notes de frais sont présentes sur le marché
 
  \centering
 
- \includegraphics[width=\textwidth, height=0.4\textheight]{sap.png}
+ \includegraphics[width=\textwidth, height=0.3\textheight]{sap.png}
 
  \caption{Interface de SAP Concur}
 
@@ -511,7 +526,7 @@ Plusieurs solutions de gestion des notes de frais sont présentes sur le marché
 
  \centering
 
- \includegraphics[width=0.5\textwidth]{rydoo.png}
+ \includegraphics[width=\textwidth,height=0.3\textheight]{rydoo.jpg}
 
  \caption{Interface de Rydoo}
 
@@ -1368,13 +1383,13 @@ Dans ce chapitre, nous avons présenté le cadre du projet, l'entreprise d'accue
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
 
-Ce chapitre présente les concepts fondamentaux et les technologies clés utilisées dans le développement de Coral.io Expense. Nous y définissons les notions d'intelligence artificielle et d'apprentissage automatique, puis nous détaillons les technologies spécifiquement mises en œuvre dans notre solution : l'OCR pour l'extraction de texte à partir de justificatifs, les LLM pour la structuration des données et la comparaison sémantique, FAISS pour la recherche de similarité vectorielle, SentenceTransformer pour les embeddings, Isolation Forest pour la détection d'anomalies, FastAPI et l'architecture microservices qui orchestrent l'ensemble, ainsi que Docker pour la conteneurisation et le déploiement. Enfin, nous présentons la méthodologie CRISP-DM qui a guidé le développement du module d'intelligence artificielle lors du sprint 4.
+Ce chapitre présente les concepts fondamentaux et les technologies clés utilisées dans le développement de Coral.io Expense. Nous y définissons les notions d'intelligence artificielle et d'apprentissage automatique, puis nous détaillons les technologies spécifiquement mises en œuvre dans notre solution.
 
 \section{Intelligence Artificielle}
 
 \subsection{Définition}
 
-L'Intelligence Artificielle (IA) est une discipline scientifique visant à créer des machines capables de reproduire certaines formes d'intelligence humaine. Elle regroupe l'apprentissage automatique (Machine Learning) et l'apprentissage profond (Deep Learning). L'IA permet d'automatiser des tâches complexes, d'analyser de grands volumes de données et de prendre des décisions adaptées.
+L'Intelligence Artificielle est une discipline scientifique visant à créer des machines capables de reproduire certaines formes d'intelligence humaine. Elle regroupe l'apprentissage automatique (Machine Learning) et l'apprentissage profond (Deep Learning). L'IA permet d'automatiser des tâches complexes, d'analyser de grands volumes de données et de prendre des décisions adaptées.
 
 \subsection{Apprentissage Automatique (Machine Learning)}
 
@@ -1382,13 +1397,13 @@ Le Machine Learning est un sous-domaine de l'IA qui consiste à créer des modè
 
 \begin{itemize}
  \item \textbf{Apprentissage supervisé} : le modèle est entraîné sur des données étiquetées.
- \item \textbf{Apprentissage non supervisé} : le modèle cherche des structures dans des données non étiquetées. C'est dans cette catégorie que se situe Isolation Forest, que nous utilisons pour la détection des montants suspects.
+ \item \textbf{Apprentissage non supervisé} : le modèle cherche des structures dans des données non étiquetées.
  \item \textbf{Apprentissage par renforcement} : le modèle apprend par essais-erreurs en recevant des récompenses ou des punitions.
 \end{itemize}
 
 \subsection{Apprentissage profond (Deep Learning)}
 
-Le Deep Learning est une technique d'apprentissage automatique basée sur des réseaux de neurones artificiels comportant plusieurs couches cachées. Il est particulièrement performant pour traiter des données non structurées comme les images, le son ou le texte. Les modèles Transformer (qui sous-tendent les LLM que nous utilisons) reposent sur cette architecture.
+Le Deep Learning est une technique d'apprentissage automatique basée sur des réseaux de neurones artificiels comportant plusieurs couches cachées. Il est particulièrement performant pour traiter des données non structurées comme les images, le son ou le texte. Les modèles Transformer reposent sur cette architecture.
 
 \section{Technologies spécifiques au projet}
 
@@ -1396,21 +1411,20 @@ Le Deep Learning est une technique d'apprentissage automatique basée sur des r�
 
 \subsubsection{Définition}
 
-L'OCR (Reconnaissance Optique de Caractères) est une technologie permettant de convertir des images de texte (scannées, photographiées) en texte exploitable par une machine. Elle est essentielle pour traiter les justificatifs de frais (factures, accords de mission) déposés sous forme de PDF scannés ou d'images.
+L'OCR (Reconnaissance Optique de Caractères) est une technologie permettant de convertir des images de texte en texte exploitable par une machine. Elle est essentielle pour traiter les justificatifs de frais (factures, accords de mission) déposés sous forme de PDF scannés ou d'images.
 
 \subsubsection{Outils OCR utilisés dans Coral.io Expense}
 
 \begin{itemize}
  \item \textbf{PaddleOCR} : moteur OCR léger et multilingue, performant sur les documents français, anglais et arabes. Il est notre outil principal pour les images et les PDF scannés.
  \item \textbf{Tesseract} : moteur OCR open source de Google, utilisé en solution de repli lorsque PaddleOCR ne parvient pas à fournir une extraction satisfaisante.
- \item \textbf{pdfplumber} : bibliothèque Python pour extraire le texte natif des PDF textuels (sans OCR). Très rapide et précis, elle est privilégiée pour les accords de mission au format PDF texte.
+ \item \textbf{pdfplumber} : bibliothèque Python pour extraire le texte natif des PDF textuels. Très rapide et précis, elle est privilégiée pour les accords de mission au format PDF texte.
 \end{itemize}
-
 \subsection{LLM (Large Language Models)}
 
 \subsubsection{Définition}
 
-Un LLM (Modèle de Langage de Grande Taille) est un modèle d'IA entraîné sur des quantités massives de texte. Il est capable de comprendre et de générer du langage naturel. Dans notre projet, les LLM sont utilisés pour deux tâches principales : la structuration de textes OCRisés (extraction de montants, dates, commerçants) et la comparaison sémantique entre un accord de mission et une note de frais.
+Un LLM (Modèle de Langage de Grande Taille) est un modèle d'IA entraîné sur des quantités massives de texte. Il est capable de comprendre et de générer du langage naturel. Dans notre projet, les LLM sont utilisés pour deux tâches principales : la structuration de textes OCRisés et la comparaison sémantique entre un accord de mission et une note de frais.
 
 \subsubsection{Modèles évalués et modèle retenu}
 
@@ -1442,8 +1456,7 @@ SentenceTransformer est un modèle qui transforme un texte en vecteur (embedding
 
 \subsubsection{Embedding}
 
-Un embedding est une représentation vectorielle d'un texte (mot, phrase ou document) dans un espace continu de dimensions fixes. Dans cet espace, deux textes sémantiquement proches auront des vecteurs proches, tandis que des textes de sens différent auront des vecteurs éloignés. Cette propriété permet de mesurer la similarité sémantique entre deux documents par le calcul de la distance (cosinus, euclidienne, etc.) entre leurs embeddings. Dans notre projet, les embeddings sont utilisés à la fois pour la détection des doublons (via FAISS) et pour la comparaison sémantique entre accords et notes de frais.
-
+Un embedding est une représentation vectorielle d'un texte (mot, phrase ou document) dans un espace continu de dimensions fixes. Dans cet espace, deux textes sémantiquement proches auront des vecteurs proches, tandis que des textes de sens différent auront des vecteurs éloignés. Cette propriété permet de mesurer la similarité sémantique entre deux documents par le calcul de la distance (cosinus, euclidienne, etc.) entre leurs embeddings. Dans notre projet, les embeddings sont utilisés pour la détection des doublons.
 \subsubsection{Modèle utilisé}
 
 Nous utilisons \texttt{all-MiniLM-L6-v2}, un modèle léger (384 dimensions) qui offre un excellent compromis entre précision (98\%) et rapidité (120 ms par fichier).
@@ -1477,40 +1490,6 @@ Dans notre projet, l'intelligence artificielle n'est pas intégrée directement 
 
 Ce découpage permet d'isoler la logique d'IA, de faciliter son évolution et de la scaler indépendamment du reste de l'application.
 
-\subsection{Docker}
-
-\subsubsection{Définition}
-
-Docker est une plateforme open-source de conteneurisation qui permet d'empaqueter une application et ses dépendances dans un conteneur isolé, garantissant ainsi un environnement d'exécution identique quel que soit l'hôte (développement, test, production).
-
-\subsubsection{Avantages de Docker}
-
-\begin{itemize}
- \item \textbf{Reproductibilité} : un conteneur exécute le même code et les mêmes dépendances sur toutes les machines.
- \item \textbf{Isolation} : chaque microservice tourne dans son propre conteneur, évitant les conflits de versions.
- \item \textbf{Légèreté} : les conteneurs partagent le noyau de l'hôte, contrairement aux machines virtuelles.
- \item \textbf{Déploiement simplifié} : une seule commande (\texttt{docker-compose up -d}) lance l'ensemble des services.
-\end{itemize}
-
-\subsubsection{Application dans Coral.io Expense}
-
-Dans notre projet, Docker a été utilisé pour conteneuriser l'ensemble des composants :
-
-\begin{itemize}
- \item \textbf{Base de données PostgreSQL} : conteneur isolé pour les données de l'application.
- \item \textbf{Keycloak} : serveur d'authentification conteneurisé.
- \item \textbf{Backend Spring Boot (port 8888)} : microservice métier Java.
- \item \textbf{Microservice Python FastAPI (port 9000)} : détection de doublons, analyse de factures, montants suspects.
- \item \textbf{Microservice Python FastAPI (port 8000)} : analyse des accords de mission.
- \item \textbf{Ollama (port 11434)} : serveur de LLM pour les analyses sémantiques.
-\end{itemize}
-
-L'orchestration est assurée par Docker Compose, qui définit dans un fichier \texttt{docker-compose.yml} l'ensemble des services, leurs ports, leurs volumes et leurs dépendances. Cette approche a permis de :
-\begin{itemize}
- \item Uniformiser l'environnement de développement entre les deux membres de l'équipe.
- \item Tester l'intégration complète avant le déploiement final.
- \item Faciliter la mise en production chez un client potentiel.
-\end{itemize}
 
 \section{Méthodologie de gestion de projet Data Science : CRISP-DM}
 
@@ -1558,7 +1537,7 @@ L'apprentissage par transfert consiste à transférer des connaissances acquises
 
 \section{Conclusion}
 
-Ce chapitre a présenté les concepts fondamentaux et les technologies spécifiquement utilisées dans le développement de Coral.io Expense. Les notions d'IA, de Machine Learning et de Deep Learning ont été définies. Les technologies mises en œuvre ont été détaillées : OCR (PaddleOCR, Tesseract, pdfplumber), LLM (Gemma3:4b via Ollama), FAISS pour la recherche de similarité, SentenceTransformer pour les embeddings, Isolation Forest pour la détection d'anomalies, FastAPI pour l'architecture microservices dédiée à l'IA, et Docker pour la conteneurisation et le déploiement de l'ensemble des services. Enfin, la méthodologie CRISP-DM a été présentée comme le cadre de travail pour le développement du module d'intelligence artificielle du sprint 4. Ces bases théoriques permettent d'aborder sereinement les chapitres de réalisation.
+Ce chapitre a présenté les concepts fondamentaux et les technologies spécifiquement utilisées dans le développement de Coral.io Expense. Les notions d'IA, de Machine Learning et de Deep Learning ont été définies. Ces bases théoriques permettent d'aborder sereinement les chapitres de réalisation.
 
 % ============================================================
 
@@ -2518,7 +2497,7 @@ Chatbot & 72 & En tant qu'utilisateur, je veux poser des questions au chatbot hy
 
 
 
-\multirow{5}{*}{Remboursements} & US-49 & 4 & \begin{itemize}
+\multirow{5}{*}{Rembourse-\\ments} & US-49 & 4 & \begin{itemize}
 
  \item L’employé et le manager reçoivent des notifications pour : validation, refus, remboursement, rejet, soumission, ajout de note interne.
 
@@ -3498,15 +3477,7 @@ Post-condition & La catégorie est créée et ses champs sont disponibles dans l
 
 \centering
 
-\includegraphics[
-
- width=\textwidth,
-
- keepaspectratio,
-
- height=0.80\textheight % Réduit à 45% de la page
-
-]{authentification.png}
+\includegraphics[width=1\textwidth,keepaspectratio,height=0.80\textheight]{authentification.png}
 
  \caption{Diagramme de séquence - S'authentifier}
 
@@ -5073,7 +5044,7 @@ Cette interface permet à l'utilisateur (employé, manager ou administrateur) de
 
 \addcontentsline{toc}{section}{Conclusion}
 
-Le deuxième sprint a livré une gestion complète des notes de frais pour l’employé et le manager, conformément aux US-12 à US-22. Les fonctionnalités implantées sont : création/soumission, consultation avec filtres, modification/suppression (notes en attente), validation/refus par manager avec commentaire, notifications, multi‑devises. L’architecture technique repose sur les services déjà mis en place au sprint 1. Le sprint suivant (sprint 3) traitera les remboursements, les ordres de paiement et les notifications associées.
+Le deuxième sprint a livré une gestion complète des notes de frais pour l’employé et le manager, conformément aux US-12 à US-22. Les fonctionnalités implantées sont : création/soumission, consultation avec filtres, modification/suppression (notes en attente), validation/refus par manager avec commentaire, notifications, multi‑devises. L’architecture technique repose sur les services déjà mis en place au sprint 1. Le sprint suivant traitera les remboursements, les ordres de paiement et les notifications associées.
 
 
 
@@ -6398,7 +6369,7 @@ Précondition & L'employé est authentifié et est en train de créer/modifier u
 
 & 8. Le système analyse le montant saisi via Isolation Forest (comparaison avec l'historique employé/catégorie) \\
 
-& 9. Si un accord de mission est associé à la note, le système compare sémantiquement les données (dates, lieu, objectif) via LLM (Gemma3:4b) \\
+& 9. Si un accord de mission est associé à la note, le système compare sémantiquement les données via LLM (Gemma3:4b) \\
 
 & 10. Le système affiche un aperçu du justificatif téléversé \\
 
@@ -6630,8 +6601,8 @@ L'objectif principal est de réduire les risques de fraude et d'erreur dans le p
 
  \item Identifier les montants anormalement élevés par rapport à l'historique de l'employé dans une catégorie donnée.
 
- \item Analyser les factures (OCR + LLM) pour vérifier si le justificatif est valide ou non.
-
+\item Analyser les factures (OCR + LLM) pour vérifier la validité du justificatif et en extraire automatiquement les informations clés (dates, montants, fournisseur, TVA), permettant ainsi un pré-remplissage du formulaire de note de frais.
+\item Analyser l'accord de mission signé via un couplage entre règles prédéfinies (vérification formelle) et LLM (analyse sémantique), permettant de détecter automatiquement les incohérences contextuelles.
  \item Comparer l'accord de mission signé avec les données du formulaire de note de frais pour détecter des incohérences sémantiques ou contextuelles (dates, lieu, objectif, identité, projet).
 
 \end{itemize}
@@ -7088,7 +7059,7 @@ Avant de détailler les modèles, nous définissons brièvement les concepts cl�
 
 Nous avons exploré plusieurs approches pour chaque type d'anomalie. Dans ce chapitre, nous détaillons particulièrement les modèles évalués pour la détection des doublons et le remplissage automatique du formulaire. Pour les autres anomalies (montants suspects, incohérences accord/note), les modèles retenus sont présentés synthétiquement en fin de section.
 
-\paragraph{1. Détection des doublons de justificatifs}
+\paragraph{1. Détection des doublons de justificatifs} \\
 
 Nous avons comparé trois approches distinctes :
 
@@ -7128,7 +7099,7 @@ Nous avons comparé trois approches distinctes :
 \textbf{FAISS + SentenceTransformer (all-MiniLM-L6-v2)} : Notre approche retenue. Le texte est transformé en embedding de 384 dimensions via SentenceTransformer, puis indexé dans FAISS pour une recherche rapide. \textit{Avantages} : compromis idéal entre précision (98\%), rappel (96\%) et rapidité (120 ms/fichier). Index persistant pour une mise à jour incrémentale.
 \end{minipage}
 
-\subparagraph{$\bullet$ Matrices de confusion – Détection des doublons}
+\subparagraph{$\bullet$ Matrices de confusion – Détection des doublons}  \\
 
 Les figures ci-dessous présentent les matrices de confusion obtenues sur un jeu de test de 100 documents (80 non doublons, 20 doublons).
 
