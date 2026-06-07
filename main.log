@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.4)  6 JUN 2026 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.4)  6 JUN 2026 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1030,7 +1030,7 @@ LaTeX Warning: Label `fig:admin_dashboard' multiply defined.
 (C:\Users\ghofr\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 725.
+(babel)             from babel-en.ini. Reported on input line 726.
 )
 \openout1 = `main.aux'.
 
@@ -1137,7 +1137,7 @@ your preamble.
 
 pdfTeX warning: miktex-pdftex.exe (file ./page1.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<page1.pdf, id=637, 597.55246pt x 845.07718pt>
+<page1.pdf, id=633, 597.55246pt x 845.07718pt>
 File: page1.pdf Graphic file (type pdf)
 <use page1.pdf>
 Package pdftex.def Info: page1.pdf  used on input line 139.
@@ -1150,7 +1150,7 @@ version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: miktex-pdftex.exe (file ./page1.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<page1.pdf, id=639, page=1, 597.55246pt x 845.07718pt>
+<page1.pdf, id=635, page=1, 597.55246pt x 845.07718pt>
 File: page1.pdf Graphic file (type pdf)
 <use page1.pdf, page 1>
 Package pdftex.def Info: page1.pdf , page1 used on input line 139.
@@ -1175,7 +1175,7 @@ Package pdftex.def Info: page1.pdf , page1 used on input line 139.
 
 
  <./page1.pdf>]
-<basmala.png, id=669, 1068.99374pt x 533.995pt>
+<basmala.png, id=665, 1068.99374pt x 533.995pt>
 File: basmala.png Graphic file (type png)
 <use basmala.png>
 Package pdftex.def Info: basmala.png  used on input line 146.
@@ -1254,7 +1254,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 
 ] [7]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
-0.
+1.
 
 (C:\Users\ghofr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1318,12 +1318,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
-<coral-io logo.jpg, id=1224, 200.75pt x 200.75pt>
+<coral-io logo.jpg, id=1221, 200.75pt x 200.75pt>
 File: coral-io logo.jpg Graphic file (type jpg)
 <use coral-io logo.jpg>
 Package pdftex.def Info: coral-io logo.jpg  used on input line 440.
 (pdftex.def)             Requested size: 136.57462pt x 136.58476pt.
-<sap.png, id=1225, 542.025pt x 362.35374pt>
+<sap.png, id=1222, 542.025pt x 362.35374pt>
 File: sap.png Graphic file (type png)
 <use sap.png>
 Package pdftex.def Info: sap.png  used on input line 478.
@@ -1336,7 +1336,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [4 <./coral-io logo.jpg>]
-<expensya1.png, id=1230, 1541.76pt x 867.24pt>
+<expensya1.png, id=1227, 1541.76pt x 867.24pt>
 File: expensya1.png Graphic file (type png)
 <use expensya1.png>
 Package pdftex.def Info: expensya1.png  used on input line 494.
@@ -1358,7 +1358,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [6 <./expensya1.png>]
-<rydoo.png, id=1241, 1003.75pt x 552.0625pt>
+<rydoo.png, id=1238, 1003.75pt x 552.0625pt>
 File: rydoo.png Graphic file (type png)
 <use rydoo.png>
 Package pdftex.def Info: rydoo.png  used on input line 514.
@@ -1772,12 +1772,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [11]
-<scrum.png, id=1264, 859.71187pt x 404.26031pt>
+<scrum.png, id=1261, 859.71187pt x 404.26031pt>
 File: scrum.png Graphic file (type png)
 <use scrum.png>
 Package pdftex.def Info: scrum.png  used on input line 844.
 (pdftex.def)             Requested size: 364.19667pt x 171.25627pt.
-<uml.png, id=1265, 225.84375pt x 225.84375pt>
+<uml.png, id=1262, 225.84375pt x 225.84375pt>
 File: uml.png Graphic file (type png)
 <use uml.png>
 Package pdftex.def Info: uml.png  used on input line 862.
@@ -1791,12 +1791,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [12 <./scrum.png>]
-<vs.jpg, id=1271, 225.84375pt x 225.84375pt>
+<vs.jpg, id=1268, 225.84375pt x 225.84375pt>
 File: vs.jpg Graphic file (type jpg)
 <use vs.jpg>
 Package pdftex.def Info: vs.jpg  used on input line 940.
 (pdftex.def)             Requested size: 45.52718pt x 45.52634pt.
-<intellij.png, id=1272, 3854.4pt x 3854.4pt>
+<intellij.png, id=1269, 3854.4pt x 3854.4pt>
 File: intellij.png Graphic file (type png)
 <use intellij.png>
 Package pdftex.def Info: intellij.png  used on input line 958.
@@ -1810,22 +1810,22 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [13 <./uml.png> <./vs.jpg>]
-<pycharm.png, id=1279, 1284.8pt x 1284.8pt>
+<pycharm.png, id=1276, 1284.8pt x 1284.8pt>
 File: pycharm.png Graphic file (type png)
 <use pycharm.png>
 Package pdftex.def Info: pycharm.png  used on input line 976.
 (pdftex.def)             Requested size: 45.52718pt x 45.52151pt.
-<git.png, id=1280, 225.84375pt x 225.84375pt>
+<git.png, id=1277, 225.84375pt x 225.84375pt>
 File: git.png Graphic file (type png)
 <use git.png>
 Package pdftex.def Info: git.png  used on input line 1002.
 (pdftex.def)             Requested size: 54.62706pt x 54.62747pt.
-<github.png, id=1281, 225.84375pt x 225.84375pt>
+<github.png, id=1278, 225.84375pt x 225.84375pt>
 File: github.png Graphic file (type png)
 <use github.png>
 Package pdftex.def Info: github.png  used on input line 1020.
 (pdftex.def)             Requested size: 45.52718pt x 45.52634pt.
-<draw.io.png, id=1282, 225.84375pt x 225.84375pt>
+<draw.io.png, id=1279, 225.84375pt x 225.84375pt>
 File: draw.io.png Graphic file (type png)
 <use draw.io.png>
 Package pdftex.def Info: draw.io.png  used on input line 1046.
@@ -1839,22 +1839,22 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [14 <./intellij.png> <./pycharm.png> <./git.png> <./github.png>]
-<figma2.png, id=1293, 183.68625pt x 276.03125pt>
+<figma2.png, id=1290, 183.68625pt x 276.03125pt>
 File: figma2.png Graphic file (type png)
 <use figma2.png>
 Package pdftex.def Info: figma2.png  used on input line 1064.
 (pdftex.def)             Requested size: 40.97029pt x 61.56522pt.
-<angular.png, id=1294, 247.92625pt x 204.765pt>
+<angular.png, id=1291, 247.92625pt x 204.765pt>
 File: angular.png Graphic file (type png)
 <use angular.png>
 Package pdftex.def Info: angular.png  used on input line 1090.
 (pdftex.def)             Requested size: 68.28383pt x 56.39645pt.
-<ts.png, id=1295, 225.84375pt x 225.84375pt>
+<ts.png, id=1292, 225.84375pt x 225.84375pt>
 File: ts.png Graphic file (type png)
 <use ts.png>
 Package pdftex.def Info: ts.png  used on input line 1108.
 (pdftex.def)             Requested size: 45.52718pt x 45.52634pt.
-<html.png, id=1296, 250.9375pt x 250.9375pt>
+<html.png, id=1293, 250.9375pt x 250.9375pt>
 File: html.png Graphic file (type png)
 <use html.png>
 Package pdftex.def Info: html.png  used on input line 1126.
@@ -1868,27 +1868,27 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [15 <./draw.io.png> <./figma2.png> <./angular.png> <./ts.png> <./html.png>]
-<scss.png, id=1307, 3854.4pt x 2889.79625pt>
+<scss.png, id=1304, 3854.4pt x 2889.79625pt>
 File: scss.png Graphic file (type png)
 <use scss.png>
 Package pdftex.def Info: scss.png  used on input line 1144.
 (pdftex.def)             Requested size: 45.52718pt x 34.12927pt.
-<bootstrap.jpg, id=1308, 252.945pt x 200.75pt>
+<bootstrap.jpg, id=1305, 252.945pt x 200.75pt>
 File: bootstrap.jpg Graphic file (type jpg)
 <use bootstrap.jpg>
 Package pdftex.def Info: bootstrap.jpg  used on input line 1162.
 (pdftex.def)             Requested size: 45.52718pt x 36.13037pt.
-<sb.png, id=1309, 225.84375pt x 224.84pt>
+<sb.png, id=1306, 225.84375pt x 224.84pt>
 File: sb.png Graphic file (type png)
 <use sb.png>
 Package pdftex.def Info: sb.png  used on input line 1188.
 (pdftex.def)             Requested size: 54.62706pt x 54.38467pt.
-<java.png, id=1310, 355.3275pt x 661.47125pt>
+<java.png, id=1307, 355.3275pt x 661.47125pt>
 File: java.png Graphic file (type png)
 <use java.png>
 Package pdftex.def Info: java.png  used on input line 1206.
 (pdftex.def)             Requested size: 45.52718pt x 84.7528pt.
-<python.jpg, id=1311, 225.84375pt x 225.84375pt>
+<python.jpg, id=1308, 225.84375pt x 225.84375pt>
 File: python.jpg Graphic file (type jpg)
 <use python.jpg>
 Package pdftex.def Info: python.jpg  used on input line 1224.
@@ -1902,22 +1902,22 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [16 <./scss.png> <./bootstrap.jpg> <./sb.png> <./java.png>]
-<fapi.png, id=1320, 225.84375pt x 225.84375pt>
+<fapi.png, id=1317, 225.84375pt x 225.84375pt>
 File: fapi.png Graphic file (type png)
 <use fapi.png>
 Package pdftex.def Info: fapi.png  used on input line 1242.
 (pdftex.def)             Requested size: 45.52718pt x 45.52634pt.
-<pgsql.png, id=1321, 221.82875pt x 228.855pt>
+<pgsql.png, id=1318, 221.82875pt x 228.855pt>
 File: pgsql.png Graphic file (type png)
 <use pgsql.png>
 Package pdftex.def Info: pgsql.png  used on input line 1268.
 (pdftex.def)             Requested size: 54.62706pt x 56.35455pt.
-<keycloak.jpg, id=1322, 225.84375pt x 225.84375pt>
+<keycloak.jpg, id=1319, 225.84375pt x 225.84375pt>
 File: keycloak.jpg Graphic file (type jpg)
 <use keycloak.jpg>
 Package pdftex.def Info: keycloak.jpg  used on input line 1294.
 (pdftex.def)             Requested size: 68.28383pt x 68.28433pt.
-<docker1.png, id=1323, 472.76625pt x 107.40125pt>
+<docker1.png, id=1320, 472.76625pt x 107.40125pt>
 File: docker1.png Graphic file (type png)
 <use docker1.png>
 Package pdftex.def Info: docker1.png  used on input line 1320.
@@ -1931,7 +1931,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [17 <./python.jpg> <./fapi.png> <./pgsql.png> <./keycloak.jpg>]
-<postman.png, id=1334, 513.92pt x 513.92pt>
+<postman.png, id=1331, 513.92pt x 513.92pt>
 File: postman.png Graphic file (type png)
 <use postman.png>
 Package pdftex.def Info: postman.png  used on input line 1346.
@@ -2858,7 +2858,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 [51
 
 ]
-<usecasesp1.png, id=1505, 656.4525pt x 289.68225pt>
+<usecasesp1.png, id=1502, 656.4525pt x 289.68225pt>
 File: usecasesp1.png Graphic file (type png)
 <use usecasesp1.png>
 Package pdftex.def Info: usecasesp1.png  used on input line 2993.
@@ -2872,12 +2872,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [52]
-<usecase_raf1.png, id=1510, 718.48425pt x 215.6055pt>
+<usecase_raf1.png, id=1507, 718.48425pt x 215.6055pt>
 File: usecase_raf1.png Graphic file (type png)
 <use usecase_raf1.png>
 Package pdftex.def Info: usecase_raf1.png  used on input line 3015.
 (pdftex.def)             Requested size: 455.24411pt x 136.61188pt.
-<usecase_raf2.png, id=1511, 567.92175pt x 124.66576pt>
+<usecase_raf2.png, id=1508, 567.92175pt x 124.66576pt>
 File: usecase_raf2.png Graphic file (type png)
 <use usecase_raf2.png>
 Package pdftex.def Info: usecase_raf2.png  used on input line 3033.
@@ -2891,7 +2891,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [53 <./usecasesp1.png> <./usecase_raf1.png>]
-<usecase_raf5.png, id=1520, 612.48825pt x 186.6975pt>
+<usecase_raf5.png, id=1517, 612.48825pt x 186.6975pt>
 File: usecase_raf5.png Graphic file (type png)
 <use usecase_raf5.png>
 Package pdftex.def Info: usecase_raf5.png  used on input line 3051.
@@ -2980,7 +2980,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<seq_project2.png, id=1546, 1398.22375pt x 2070.73625pt>
+<seq_project2.png, id=1543, 1398.22375pt x 2070.73625pt>
 File: seq_project2.png Graphic file (type png)
 <use seq_project2.png>
 Package pdftex.def Info: seq_project2.png  used on input line 3527.
@@ -2993,7 +2993,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [58]
-<seq_category.png, id=1552, 1576.89125pt x 1998.46625pt>
+<seq_category.png, id=1549, 1576.89125pt x 1998.46625pt>
 File: seq_category.png Graphic file (type png)
 <use seq_category.png>
 Package pdftex.def Info: seq_category.png  used on input line 3543.
@@ -3018,7 +3018,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [60 <./seq_category.png (PNG copy)>]
-<diagclassesprint1.png, id=1564, 1088.065pt x 1586.92876pt>
+<diagclassesprint1.png, id=1561, 1088.065pt x 1586.92876pt>
 File: diagclassesprint1.png Graphic file (type png)
 <use diagclassesprint1.png>
 Package pdftex.def Info: diagclassesprint1.png  used on input line 3559.
@@ -3032,12 +3032,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [61 <./diagclassesprint1.png (PNG copy)>]
-<home-hero.png, id=1569, 1134.03674pt x 548.64975pt>
+<home-hero.png, id=1566, 1134.03674pt x 548.64975pt>
 File: home-hero.png Graphic file (type png)
 <use home-hero.png>
 Package pdftex.def Info: home-hero.png  used on input line 3613.
 (pdftex.def)             Requested size: 455.24411pt x 220.24295pt.
-<home-about.png, id=1570, 1139.457pt x 545.03625pt>
+<home-about.png, id=1567, 1139.457pt x 545.03625pt>
 File: home-about.png Graphic file (type png)
 <use home-about.png>
 Package pdftex.def Info: home-about.png  used on input line 3627.
@@ -3051,12 +3051,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [62 <./home-hero.png>]
-<home-expertise.png, id=1576, 1139.457pt x 548.64975pt>
+<home-expertise.png, id=1573, 1139.457pt x 548.64975pt>
 File: home-expertise.png Graphic file (type png)
 <use home-expertise.png>
 Package pdftex.def Info: home-expertise.png  used on input line 3639.
 (pdftex.def)             Requested size: 455.24411pt x 219.19649pt.
-<home-services.png, id=1577, 1139.457pt x 548.64975pt>
+<home-services.png, id=1574, 1139.457pt x 548.64975pt>
 File: home-services.png Graphic file (type png)
 <use home-services.png>
 Package pdftex.def Info: home-services.png  used on input line 3651.
@@ -3070,12 +3070,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [63 <./home-about.png> <./home-expertise.png>]
-<home-contact.png, id=1584, 1136.44576pt x 546.24075pt>
+<home-contact.png, id=1581, 1136.44576pt x 546.24075pt>
 File: home-contact.png Graphic file (type png)
 <use home-contact.png>
 Package pdftex.def Info: home-contact.png  used on input line 3665.
 (pdftex.def)             Requested size: 455.24411pt x 218.80916pt.
-<interface_login.png, id=1585, 1137.65025pt x 495.0495pt>
+<interface_login.png, id=1582, 1137.65025pt x 495.0495pt>
 File: interface_login.png Graphic file (type png)
 <use interface_login.png>
 Package pdftex.def Info: interface_login.png  used on input line 3685.
@@ -3089,7 +3089,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [64 <./home-services.png> <./home-contact.png>]
-<interface_reset_password.png, id=1592, 1133.4345pt x 492.03825pt>
+<interface_reset_password.png, id=1589, 1133.4345pt x 492.03825pt>
 File: interface_reset_password.png Graphic file (type png)
 <use interface_reset_password.png>
 Package pdftex.def Info: interface_reset_password.png  used on input line 3705.
@@ -3104,13 +3104,13 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [65 <./interface_login.png> <./interface_reset_password.png>]
-<interface_update_password.png, id=1600, 1141.866pt x 485.4135pt>
+<interface_update_password.png, id=1597, 1141.866pt x 485.4135pt>
 File: interface_update_password.png Graphic file (type png)
 <use interface_update_password.png>
 Package pdftex.def Info: interface_update_password.png  used on input line 3725
 .
 (pdftex.def)             Requested size: 455.24411pt x 193.52496pt.
-<interface_update_profile.png, id=1601, 1428.83812pt x 557.83406pt>
+<interface_update_profile.png, id=1598, 1428.83812pt x 557.83406pt>
 File: interface_update_profile.png Graphic file (type png)
 <use interface_update_profile.png>
 Package pdftex.def Info: interface_update_profile.png  used on input line 3743.
@@ -3125,12 +3125,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [66 <./interface_update_password.png> <./interface_update_profile.png>]
-<modal_logout.png, id=1608, 534.19576pt x 169.8345pt>
+<modal_logout.png, id=1605, 534.19576pt x 169.8345pt>
 File: modal_logout.png Graphic file (type png)
 <use modal_logout.png>
 Package pdftex.def Info: modal_logout.png  used on input line 3763.
 (pdftex.def)             Requested size: 455.24411pt x 144.73317pt.
-<interface_users_list.png, id=1609, 1132.23pt x 548.0475pt>
+<interface_users_list.png, id=1606, 1132.23pt x 548.0475pt>
 File: interface_users_list.png Graphic file (type png)
 <use interface_users_list.png>
 Package pdftex.def Info: interface_users_list.png  used on input line 3785.
@@ -3144,7 +3144,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [67 <./modal_logout.png>]
-<interface_user_add.png, id=1616, 1134.03674pt x 548.64975pt>
+<interface_user_add.png, id=1613, 1134.03674pt x 548.64975pt>
 File: interface_user_add.png Graphic file (type png)
 <use interface_user_add.png>
 Package pdftex.def Info: interface_user_add.png  used on input line 3805.
@@ -3158,12 +3158,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [68 <./interface_users_list.png> <./interface_user_add.png>]
-<interface_user_edit.png, id=1624, 1133.4345pt x 549.252pt>
+<interface_user_edit.png, id=1621, 1133.4345pt x 549.252pt>
 File: interface_user_edit.png Graphic file (type png)
 <use interface_user_edit.png>
 Package pdftex.def Info: interface_user_edit.png  used on input line 3825.
 (pdftex.def)             Requested size: 455.24411pt x 220.61043pt.
-<interface_profile_view.png, id=1625, 1135.24126pt x 537.207pt>
+<interface_profile_view.png, id=1622, 1135.24126pt x 537.207pt>
 File: interface_profile_view.png Graphic file (type png)
 <use interface_profile_view.png>
 Package pdftex.def Info: interface_profile_view.png  used on input line 3849.
@@ -3177,12 +3177,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [69 <./interface_user_edit.png>]
-<modal_change_password.png, id=1633, 1117.17375pt x 508.90125pt>
+<modal_change_password.png, id=1630, 1117.17375pt x 508.90125pt>
 File: modal_change_password.png Graphic file (type png)
 <use modal_change_password.png>
 Package pdftex.def Info: modal_change_password.png  used on input line 3863.
 (pdftex.def)             Requested size: 455.24411pt x 207.37737pt.
-<interface_profile_edit.png, id=1634, 1102.71976pt x 543.83176pt>
+<interface_profile_edit.png, id=1631, 1102.71976pt x 543.83176pt>
 File: interface_profile_edit.png Graphic file (type png)
 <use interface_profile_edit.png>
 Package pdftex.def Info: interface_profile_edit.png  used on input line 3883.
@@ -3196,13 +3196,13 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [70 <./interface_profile_view.png> <./modal_change_password.png>]
-<interface_profile_edit_manager.png, id=1642, 1132.23pt x 540.21825pt>
+<interface_profile_edit_manager.png, id=1639, 1132.23pt x 540.21825pt>
 File: interface_profile_edit_manager.png Graphic file (type png)
 <use interface_profile_edit_manager.png>
 Package pdftex.def Info: interface_profile_edit_manager.png  used on input line
  3897.
 (pdftex.def)             Requested size: 455.24411pt x 217.20451pt.
-<interface_departments_list.png, id=1643, 1136.44576pt x 551.661pt>
+<interface_departments_list.png, id=1640, 1136.44576pt x 551.661pt>
 File: interface_departments_list.png Graphic file (type png)
 <use interface_departments_list.png>
 Package pdftex.def Info: interface_departments_list.png  used on input line 392
@@ -3217,7 +3217,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [71 <./interface_profile_edit.png> <./interface_profile_edit_manager.png>]
-<interface_department_form.png, id=1652, 1259.4553pt x 637.63219pt>
+<interface_department_form.png, id=1649, 1259.4553pt x 637.63219pt>
 File: interface_department_form.png Graphic file (type png)
 <use interface_department_form.png>
 Package pdftex.def Info: interface_department_form.png  used on input line 3941
@@ -3232,12 +3232,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [72 <./interface_departments_list.png> <./interface_department_form.png>]
-<interface_projects_list.png, id=1660, 1427.3325pt x 714.41907pt>
+<interface_projects_list.png, id=1657, 1427.3325pt x 714.41907pt>
 File: interface_projects_list.png Graphic file (type png)
 <use interface_projects_list.png>
 Package pdftex.def Info: interface_projects_list.png  used on input line 3965.
 (pdftex.def)             Requested size: 455.24411pt x 227.85568pt.
-<interface_project_form.png, id=1661, 1391.1975pt x 691.83469pt>
+<interface_project_form.png, id=1658, 1391.1975pt x 691.83469pt>
 File: interface_project_form.png Graphic file (type png)
 <use interface_project_form.png>
 Package pdftex.def Info: interface_project_form.png  used on input line 3985.
@@ -3251,12 +3251,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [73 <./interface_projects_list.png>]
-<my-projects.png, id=1669, 1419.05156pt x 712.91344pt>
+<my-projects.png, id=1666, 1419.05156pt x 712.91344pt>
 File: my-projects.png Graphic file (type png)
 <use my-projects.png>
 Package pdftex.def Info: my-projects.png  used on input line 4005.
 (pdftex.def)             Requested size: 455.24411pt x 228.70262pt.
-<regles-remboursement.png, id=1670, 1426.57968pt x 708.39656pt>
+<regles-remboursement.png, id=1667, 1426.57968pt x 708.39656pt>
 File: regles-remboursement.png Graphic file (type png)
 <use regles-remboursement.png>
 Package pdftex.def Info: regles-remboursement.png  used on input line 4025.
@@ -3270,7 +3270,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [74 <./interface_project_form.png> <./my-projects.png>]
-<interface_categories_list.png, id=1679, 1420.55719pt x 706.89093pt>
+<interface_categories_list.png, id=1676, 1420.55719pt x 706.89093pt>
 File: interface_categories_list.png Graphic file (type png)
 <use interface_categories_list.png>
 Package pdftex.def Info: interface_categories_list.png  used on input line 4051
@@ -3285,12 +3285,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.01344pt}.
 
 [75 <./regles-remboursement.png> <./interface_categories_list.png>]
-<interface_category_form.png, id=1687, 1408.51219pt x 700.86844pt>
+<interface_category_form.png, id=1684, 1408.51219pt x 700.86844pt>
 File: interface_category_form.png Graphic file (type png)
 <use interface_category_form.png>
 Package pdftex.def Info: interface_category_form.png  used on input line 4071.
 (pdftex.def)             Requested size: 455.24411pt x 226.5283pt.
-<interface_category_form_fields.png, id=1688, 1394.20876pt x 685.05937pt>
+<interface_category_form_fields.png, id=1685, 1394.20876pt x 685.05937pt>
 File: interface_category_form_fields.png Graphic file (type png)
 <use interface_category_form_fields.png>
 Package pdftex.def Info: interface_category_form_fields.png  used on input line
@@ -3417,7 +3417,7 @@ ignored error: Infinite glue shrinkage found in box being split [79
 ]
 ignored error: Infinite glue shrinkage found in box being split [80]
 ignored error: Infinite glue shrinkage found in box being split [81]
-<usecasesp2.png, id=1718, 704.6325pt x 353.52075pt>
+<usecasesp2.png, id=1715, 704.6325pt x 353.52075pt>
 File: usecasesp2.png Graphic file (type png)
 <use usecasesp2.png>
 Package pdftex.def Info: usecasesp2.png  used on input line 4441.
@@ -3450,311 +3450,70 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [86] [87]
-Runaway argument?
- 
-! Paragraph ended before \Gin@ii was complete.
-<to be read again> 
-                   \par 
-l.4826 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \scan_stop: 
-l.4828 
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \scan_stop: 
-l.4832 
-       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \scan_stop: 
-l.4832 
-       
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4833 ]{sequence_
-                  submit_note.png}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.4833 ]{sequence_submit_note.png}
-                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4834 
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.4839 \end{figure}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Runaway argument?
- 
-! Paragraph ended before \Gin@ii was complete.
-<to be read again> 
-                   \par 
-l.4871 }
-        
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \scan_stop: 
-l.4871 }
-        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \scan_stop: 
-l.4871 }
-        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4871 }
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...ectratio \par ]{diag_classe_sp2.png}
-                                                   \par 
-l.4871 }
-        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4871 }
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\hrule' here except with leaders.
-\caption@hrule ->\hrule 
-                        \@height \z@ 
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vskip 
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \vskip 
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.4873 \caption{Diagramme de classes du sprint 2}
-                                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.4877 \end{figure}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Undefined control sequence.
-\endfigure ...box \columnwidth \fi \box \@currbox 
-                                                  \vskip \intextsep \relax 
-l.4877 \end{figure}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vskip 
-l.4877 \end{figure}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4877 \end{figure}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.4877 \end{figure}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-<add_note.png, id=1752, 1084.80281pt x 699.36281pt>
+<sequence_submit_note.png, id=1749, 1426.32875pt x 1346.02875pt>
+File: sequence_submit_note.png Graphic file (type png)
+<use sequence_submit_note.png>
+Package pdftex.def Info: sequence_submit_note.png  used on input line 4817.
+(pdftex.def)             Requested size: 455.24411pt x 429.60837pt.
+<diag_classe_sp2.png, id=1750, 2814.515pt x 1179.40625pt>
+File: diag_classe_sp2.png Graphic file (type png)
+<use diag_classe_sp2.png>
+Package pdftex.def Info: diag_classe_sp2.png  used on input line 4837.
+(pdftex.def)             Requested size: 632.46553pt x 265.03102pt.
+ [88 <./sequence_submit_note.png (PNG copy)>] [89 <./diag_classe_sp2.png (PNG c
+opy)>]
+<add_note.png, id=1761, 1084.80281pt x 699.36281pt>
 File: add_note.png Graphic file (type png)
 <use add_note.png>
-Package pdftex.def Info: add_note.png  used on input line 4893.
+Package pdftex.def Info: add_note.png  used on input line 4854.
 (pdftex.def)             Requested size: 455.24992pt x 351.39864pt.
-[88]
-<suite_add_note.png, id=1761, 1059.20718pt x 700.86844pt>
+<suite_add_note.png, id=1762, 1059.20718pt x 700.86844pt>
 File: suite_add_note.png Graphic file (type png)
 <use suite_add_note.png>
-Package pdftex.def Info: suite_add_note.png  used on input line 4905.
+Package pdftex.def Info: suite_add_note.png  used on input line 4866.
 (pdftex.def)             Requested size: 455.24011pt x 351.39586pt.
- [89 <./add_note.png>]
-<my_notes.png, id=1768, 1156.32pt x 554.67226pt>
+ [90 <./add_note.png>]
+<my_notes.png, id=1769, 1156.32pt x 554.67226pt>
 File: my_notes.png Graphic file (type png)
 <use my_notes.png>
-Package pdftex.def Info: my_notes.png  used on input line 4929.
+Package pdftex.def Info: my_notes.png  used on input line 4890.
 (pdftex.def)             Requested size: 455.24411pt x 218.36949pt.
- [90 <./suite_add_note.png>]
-<delete_modal.png, id=1775, 1156.32pt x 620.91975pt>
+ [91 <./suite_add_note.png>]
+<delete_modal.png, id=1776, 1156.32pt x 620.91975pt>
 File: delete_modal.png Graphic file (type png)
 <use delete_modal.png>
-Package pdftex.def Info: delete_modal.png  used on input line 4947.
+Package pdftex.def Info: delete_modal.png  used on input line 4908.
 (pdftex.def)             Requested size: 455.24411pt x 244.45055pt.
- [91 <./my_notes.png> <./delete_modal.png>]
-<manager_notes_list.png, id=1783, 1420.55719pt x 708.39656pt>
+ [92 <./my_notes.png> <./delete_modal.png>]
+<manager_notes_list.png, id=1784, 1420.55719pt x 708.39656pt>
 File: manager_notes_list.png Graphic file (type png)
 <use manager_notes_list.png>
-Package pdftex.def Info: manager_notes_list.png  used on input line 4969.
+Package pdftex.def Info: manager_notes_list.png  used on input line 4930.
 (pdftex.def)             Requested size: 455.24411pt x 227.01581pt.
-<details_note_sprint2.png, id=1784, 1086.30844pt x 688.82344pt>
+<details_note_sprint2.png, id=1785, 1086.30844pt x 688.82344pt>
 File: details_note_sprint2.png Graphic file (type png)
 <use details_note_sprint2.png>
-Package pdftex.def Info: details_note_sprint2.png  used on input line 4987.
+Package pdftex.def Info: details_note_sprint2.png  used on input line 4948.
 (pdftex.def)             Requested size: 455.24411pt x 288.67323pt.
- [92 <./manager_notes_list.png>]
-<consommation_employee_sprint2.png, id=1792, 1429.59094pt x 710.655pt>
+ [93 <./manager_notes_list.png>]
+<consommation_employee_sprint2.png, id=1793, 1429.59094pt x 710.655pt>
 File: consommation_employee_sprint2.png Graphic file (type png)
 <use consommation_employee_sprint2.png>
 Package pdftex.def Info: consommation_employee_sprint2.png  used on input line 
-5007.
+4968.
 (pdftex.def)             Requested size: 409.71692pt x 203.66652pt.
- [93 <./details_note_sprint2.png> <./consommation_employee_sprint2.png>]
-<manager_validate.png, id=1799, 1406.25375pt x 691.83469pt>
+ [94 <./details_note_sprint2.png> <./consommation_employee_sprint2.png>]
+<manager_validate.png, id=1800, 1406.25375pt x 691.83469pt>
 File: manager_validate.png Graphic file (type png)
 <use manager_validate.png>
-Package pdftex.def Info: manager_validate.png  used on input line 5023.
+Package pdftex.def Info: manager_validate.png  used on input line 4984.
 (pdftex.def)             Requested size: 455.24411pt x 223.95685pt.
-<manager_refus.png, id=1800, 1413.02907pt x 694.84593pt>
+<manager_refus.png, id=1801, 1413.02907pt x 694.84593pt>
 File: manager_refus.png Graphic file (type png)
 <use manager_refus.png>
-Package pdftex.def Info: manager_refus.png  used on input line 5041.
+Package pdftex.def Info: manager_refus.png  used on input line 5002.
 (pdftex.def)             Requested size: 455.24411pt x 223.86078pt.
- [94 <./manager_validate.png>]
+ [95 <./manager_validate.png>]
 
 ! LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
@@ -3763,7 +3522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5053 ...ification, ou utiliser les boutons « 
+l.5014 ...ification, ou utiliser les boutons « 
                                                   Tout marquer comme lu »...
 
 You may provide a definition with
@@ -3777,7 +3536,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5053 ...es boutons « Tout marquer comme lu 
+l.5014 ...es boutons « Tout marquer comme lu 
                                                   » et « Effacer tout ...
 
 You may provide a definition with
@@ -3791,7 +3550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5053 ...« Tout marquer comme lu » et « 
+l.5014 ...« Tout marquer comme lu » et « 
                                                   Effacer tout ». Un badg...
 
 You may provide a definition with
@@ -3805,156 +3564,156 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5053 ...er comme lu » et « Effacer tout 
+l.5014 ...er comme lu » et « Effacer tout 
                                                   ». Un badge indique le no...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<notificaton_employee.png, id=1808, 371.88937pt x 443.40656pt>
+<notificaton_employee.png, id=1810, 371.88937pt x 443.40656pt>
 File: notificaton_employee.png Graphic file (type png)
 <use notificaton_employee.png>
-Package pdftex.def Info: notificaton_employee.png  used on input line 5061.
+Package pdftex.def Info: notificaton_employee.png  used on input line 5022.
 (pdftex.def)             Requested size: 227.62206pt x 271.40453pt.
-[95 <./manager_refus.png>]
-<notification manager.jpeg, id=1815, 533.995pt x 736.7525pt>
+[96 <./manager_refus.png>]
+<notification manager.jpeg, id=1816, 533.995pt x 736.7525pt>
 File: notification manager.jpeg Graphic file (type jpg)
 <use notification manager.jpeg>
-Package pdftex.def Info: notification manager.jpeg  used on input line 5073.
+Package pdftex.def Info: notification manager.jpeg  used on input line 5034.
 (pdftex.def)             Requested size: 182.09486pt x 251.2345pt.
-<admin_notification.png, id=1816, 328.97906pt x 410.2828pt>
+<admin_notification.png, id=1817, 328.97906pt x 410.2828pt>
 File: admin_notification.png Graphic file (type png)
 <use admin_notification.png>
-Package pdftex.def Info: admin_notification.png  used on input line 5085.
+Package pdftex.def Info: admin_notification.png  used on input line 5046.
 (pdftex.def)             Requested size: 182.09486pt x 227.10239pt.
- [96 <./notificaton_employee.png> <./notification manager.jpeg>]
-<notification_history.png, id=1822, 1421.31pt x 711.4078pt>
+ [97 <./notificaton_employee.png> <./notification manager.jpeg>]
+<notification_history.png, id=1823, 1421.31pt x 711.4078pt>
 File: notification_history.png Graphic file (type png)
 <use notification_history.png>
-Package pdftex.def Info: notification_history.png  used on input line 5101.
+Package pdftex.def Info: notification_history.png  used on input line 5062.
 (pdftex.def)             Requested size: 455.24411pt x 227.86139pt.
- [97 <./admin_notification.png>] [98 <./notification_history.png>]
+ [98 <./admin_notification.png>] [99 <./notification_history.png>]
 Chapitre 6.
-[99
+[100
 
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5147.
+(caption)                particular \caption on input line 5103.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 5203--5203
+Underfull \hbox (badness 2126) in paragraph at lines 5159--5159
 \T1/ptm/m/n/12 que-ment par l'autre par-tie,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5217
+Underfull \hbox (badness 10000) in paragraph at lines 5173--5173
 []|\T1/ptm/m/n/12 En tant qu'ad-mi-nis-tra-teur,
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 5223--5224
+Underfull \hbox (badness 2790) in paragraph at lines 5179--5180
 []|\T1/ptm/m/n/12 - Fron-tend : page Va-li-da-ted-
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 5223--5224
+Underfull \hbox (badness 1024) in paragraph at lines 5179--5180
 \T1/ptm/m/n/12 No-tes-List-Com-ponent (liste des
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 5237--5238
+Underfull \hbox (badness 4518) in paragraph at lines 5193--5194
 []|\T1/ptm/m/n/12 - Fron-tend : page Reim-bur-
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 5245--5245
+Underfull \hbox (badness 2671) in paragraph at lines 5201--5201
 \T1/ptm/m/n/12 veux re-je-ter le rem-bour-se-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 5245--5245
+Underfull \hbox (badness 4036) in paragraph at lines 5201--5201
 \T1/ptm/m/n/12 ment d'une note avec un
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 5249--5250
+Underfull \hbox (badness 1533) in paragraph at lines 5205--5206
 \T1/ptm/m/n/12 rem-bour-se-ment avec com-men-
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 5253--5254
+Underfull \hbox (badness 2359) in paragraph at lines 5209--5210
 []|\T1/ptm/m/n/12 - In-t�-gra-tion des no-ti-fi-ca-tions
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 5259--5259
+Underfull \hbox (badness 6876) in paragraph at lines 5215--5215
 \T1/ptm/m/n/12 veux consul-ter l'ordre de
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 5259--5259
+Underfull \hbox (badness 6252) in paragraph at lines 5215--5215
 \T1/ptm/m/n/12 paie-ment g�-n�r� au-to-ma-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5277--5278
+Underfull \hbox (badness 10000) in paragraph at lines 5233--5234
 []|\T1/ptm/m/n/12 - Ba-ckend : end-points
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5277--5278
+Underfull \hbox (badness 10000) in paragraph at lines 5233--5234
 \T1/ptm/m/n/12 pour ordres de paie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5277--5278
+Underfull \hbox (badness 10000) in paragraph at lines 5233--5234
 \T1/ptm/m/n/12 ment (CRUD, sta-tut
  []
 
 
-Overfull \hbox (7.11713pt too wide) in paragraph at lines 5277--5278
+Overfull \hbox (7.11713pt too wide) in paragraph at lines 5233--5234
 \T1/ptm/m/n/12 EN_ATTENTE/PAYE/ANNULE)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5315--5315
+Underfull \hbox (badness 10000) in paragraph at lines 5271--5271
 []|\T1/ptm/m/n/12 En tant qu'ad-mi-nis-tra-teur,
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 5315--5315
+Underfull \hbox (badness 1360) in paragraph at lines 5271--5271
 \T1/ptm/m/n/12 le bud-get res-tant du pro-jet
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 5321--5322
+Underfull \hbox (badness 3179) in paragraph at lines 5277--5278
 []|\T1/ptm/m/n/12 - Fron-tend : af-fi-chage d'une
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 5329--5329
+Underfull \hbox (badness 1715) in paragraph at lines 5285--5285
 \T1/ptm/m/n/12 gets et consom-ma-tions des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5333--5334
+Underfull \hbox (badness 10000) in paragraph at lines 5289--5290
 []|\T1/ptm/m/n/12 - Com-po-sant An-gu-lar
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 5343--5343
+Underfull \hbox (badness 1052) in paragraph at lines 5299--5299
 \T1/ptm/m/n/12 veux fil-trer les don-n�es du
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 5355--5355
+Underfull \hbox (badness 3029) in paragraph at lines 5311--5311
 \T1/ptm/m/n/12 ligne ou des ana-lyses ex-
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 5367--5367
+Underfull \hbox (badness 4779) in paragraph at lines 5323--5323
 \T1/ptm/m/n/12 Ex-cel afin d'ef-fec-tuer des
  []
 
@@ -3966,7 +3725,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[100
+[101
 
 ]
 ignored error: Infinite glue shrinkage found in box being split
@@ -3977,7 +3736,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[101]
+[102]
 ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -3986,11 +3745,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[102]
-<usecasesp3.png, id=1852, 1475.5125pt x 703.62875pt>
+[103]
+<usecasesp3.png, id=1853, 1475.5125pt x 703.62875pt>
 File: usecasesp3.png Graphic file (type png)
 <use usecasesp3.png>
-Package pdftex.def Info: usecasesp3.png  used on input line 5421.
+Package pdftex.def Info: usecasesp3.png  used on input line 5377.
 (pdftex.def)             Requested size: 455.24277pt x 281.10294pt.
 
 
@@ -4000,10 +3759,10 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[103]
+[104]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5441.
+(caption)                particular \caption on input line 5397.
 See the caption package documentation for explanation.
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -4014,24 +3773,10 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[104 <./usecasesp3.png (PNG copy)>]
+[105 <./usecasesp3.png (PNG copy)>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5519.
-See the caption package documentation for explanation.
-
-ignored error: Infinite glue shrinkage found in box being split
-
-Package fancyhdr Warning: \headheight is too small (14.61858pt): 
-(fancyhdr)                Make it at least 15.13202pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.13202pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
-
-[105]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 5615.
+(caption)                particular \caption on input line 5475.
 See the caption package documentation for explanation.
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -4043,10 +3788,24 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [106]
-<sequence_reimbursement.png, id=1875, 2002.48125pt x 2323.68124pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 5571.
+See the caption package documentation for explanation.
+
+ignored error: Infinite glue shrinkage found in box being split
+
+Package fancyhdr Warning: \headheight is too small (14.61858pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
+
+[107]
+<sequence_reimbursement.png, id=1877, 2002.48125pt x 2323.68124pt>
 File: sequence_reimbursement.png Graphic file (type png)
 <use sequence_reimbursement.png>
-Package pdftex.def Info: sequence_reimbursement.png  used on input line 5721.
+Package pdftex.def Info: sequence_reimbursement.png  used on input line 5677.
 (pdftex.def)             Requested size: 455.24437pt x 604.39108pt.
 
 
@@ -4056,11 +3815,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[107]
-<seq_rejection.png, id=1881, 1948.27875pt x 1526.70375pt>
+[108]
+<seq_rejection.png, id=1882, 1948.27875pt x 1526.70375pt>
 File: seq_rejection.png Graphic file (type png)
 <use seq_rejection.png>
-Package pdftex.def Info: seq_rejection.png  used on input line 5737.
+Package pdftex.def Info: seq_rejection.png  used on input line 5693.
 (pdftex.def)             Requested size: 455.22949pt x 491.93304pt.
 
 
@@ -4070,11 +3829,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[108 <./sequence_reimbursement.png (PNG copy)>]
-<deploiement_sp3.png, id=1887, 8222.72pt x 4545.98375pt>
+[109 <./sequence_reimbursement.png (PNG copy)>]
+<deploiement_sp3.png, id=1888, 8222.72pt x 4545.98375pt>
 File: deploiement_sp3.png Graphic file (type png)
 <use deploiement_sp3.png>
-Package pdftex.def Info: deploiement_sp3.png  used on input line 5753.
+Package pdftex.def Info: deploiement_sp3.png  used on input line 5709.
 (pdftex.def)             Requested size: 546.28961pt x 302.01973pt.
 
 
@@ -4084,11 +3843,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[109 <./seq_rejection.png (PNG copy)>]
-<class_diagram_sprint3.png, id=1893, 1743.51375pt x 1214.5375pt>
+[110 <./seq_rejection.png (PNG copy)>]
+<class_diagram_sprint3.png, id=1894, 1743.51375pt x 1214.5375pt>
 File: class_diagram_sprint3.png Graphic file (type png)
 <use class_diagram_sprint3.png>
-Package pdftex.def Info: class_diagram_sprint3.png  used on input line 5771.
+Package pdftex.def Info: class_diagram_sprint3.png  used on input line 5727.
 (pdftex.def)             Requested size: 455.24496pt x 456.80331pt.
 
 
@@ -4098,11 +3857,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[110 <./deploiement_sp3.png (PNG copy)>]
-<validated_notes.png, id=1899, 1419.80438pt x 681.29532pt>
+[111 <./deploiement_sp3.png (PNG copy)>]
+<validated_notes.png, id=1900, 1419.80438pt x 681.29532pt>
 File: validated_notes.png Graphic file (type png)
 <use validated_notes.png>
-Package pdftex.def Info: validated_notes.png  used on input line 5799.
+Package pdftex.def Info: validated_notes.png  used on input line 5755.
 (pdftex.def)             Requested size: 455.24411pt x 218.44518pt.
 
 
@@ -4112,11 +3871,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[111 <./class_diagram_sprint3.png (PNG copy)>]
-<reimbursement_form.png, id=1904, 1422.0628pt x 633.86812pt>
+[112 <./class_diagram_sprint3.png (PNG copy)>]
+<reimbursement_form.png, id=1905, 1422.0628pt x 633.86812pt>
 File: reimbursement_form.png Graphic file (type png)
 <use reimbursement_form.png>
-Package pdftex.def Info: reimbursement_form.png  used on input line 5819.
+Package pdftex.def Info: reimbursement_form.png  used on input line 5775.
 (pdftex.def)             Requested size: 455.24411pt x 202.91931pt.
 
 
@@ -4126,16 +3885,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[112 <./validated_notes.png> <./reimbursement_form.png>]
-<reimbursement_list.png, id=1911, 1423.56844pt x 694.84593pt>
+[113 <./validated_notes.png> <./reimbursement_form.png>]
+<reimbursement_list.png, id=1913, 1423.56844pt x 694.84593pt>
 File: reimbursement_list.png Graphic file (type png)
 <use reimbursement_list.png>
-Package pdftex.def Info: reimbursement_list.png  used on input line 5839.
+Package pdftex.def Info: reimbursement_list.png  used on input line 5795.
 (pdftex.def)             Requested size: 455.24411pt x 222.1962pt.
-<order_details.png, id=1912, 1420.55719pt x 536.0025pt>
+<order_details.png, id=1914, 1420.55719pt x 536.0025pt>
 File: order_details.png Graphic file (type png)
 <use order_details.png>
-Package pdftex.def Info: order_details.png  used on input line 5873.
+Package pdftex.def Info: order_details.png  used on input line 5829.
 (pdftex.def)             Requested size: 455.24411pt x 171.76965pt.
 
 
@@ -4145,12 +3904,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[113 <./reimbursement_list.png>]
-<payment_confirmation_modal.png, id=1919, 957.5775pt x 450.9347pt>
+[114 <./reimbursement_list.png>]
+<payment_confirmation_modal.png, id=1920, 957.5775pt x 450.9347pt>
 File: payment_confirmation_modal.png Graphic file (type png)
 <use payment_confirmation_modal.png>
-Package pdftex.def Info: payment_confirmation_modal.png  used on input line 589
-3.
+Package pdftex.def Info: payment_confirmation_modal.png  used on input line 584
+9.
 (pdftex.def)             Requested size: 455.24411pt x 214.38197pt.
 
 
@@ -4160,16 +3919,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[114 <./order_details.png> <./payment_confirmation_modal.png>]
-<reject_modal.png, id=1926, 1139.75812pt x 651.93562pt>
+[115 <./order_details.png> <./payment_confirmation_modal.png>]
+<reject_modal.png, id=1927, 1139.75812pt x 651.93562pt>
 File: reject_modal.png Graphic file (type png)
 <use reject_modal.png>
-Package pdftex.def Info: reject_modal.png  used on input line 5913.
+Package pdftex.def Info: reject_modal.png  used on input line 5869.
 (pdftex.def)             Requested size: 455.24411pt x 260.3916pt.
-<archive_page.png, id=1927, 1425.82687pt x 681.29532pt>
+<archive_page.png, id=1928, 1425.82687pt x 681.29532pt>
 File: archive_page.png Graphic file (type png)
 <use archive_page.png>
-Package pdftex.def Info: archive_page.png  used on input line 5943.
+Package pdftex.def Info: archive_page.png  used on input line 5899.
 (pdftex.def)             Requested size: 455.24411pt x 217.51996pt.
 
 
@@ -4179,11 +3938,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[115 <./reject_modal.png>]
-<noteinterne.jpeg, id=1933, 1606.0pt x 876.27374pt>
+[116 <./reject_modal.png>]
+<noteinterne.jpeg, id=1934, 1606.0pt x 876.27374pt>
 File: noteinterne.jpeg Graphic file (type jpg)
 <use noteinterne.jpeg>
-Package pdftex.def Info: noteinterne.jpeg  used on input line 5973.
+Package pdftex.def Info: noteinterne.jpeg  used on input line 5929.
 (pdftex.def)             Requested size: 455.24411pt x 248.39015pt.
 
 
@@ -4193,16 +3952,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[116 <./archive_page.png>]
-<mesagerie_note_interne.jpeg, id=1939, 1606.0pt x 882.29625pt>
+[117 <./archive_page.png>]
+<mesagerie_note_interne.jpeg, id=1940, 1606.0pt x 882.29625pt>
 File: mesagerie_note_interne.jpeg Graphic file (type jpg)
 <use mesagerie_note_interne.jpeg>
-Package pdftex.def Info: mesagerie_note_interne.jpeg  used on input line 5985.
+Package pdftex.def Info: mesagerie_note_interne.jpeg  used on input line 5941.
 (pdftex.def)             Requested size: 455.24411pt x 250.0973pt.
-<discussion_note_interne.jpeg, id=1940, 1606.0pt x 876.27374pt>
+<discussion_note_interne.jpeg, id=1941, 1606.0pt x 876.27374pt>
 File: discussion_note_interne.jpeg Graphic file (type jpg)
 <use discussion_note_interne.jpeg>
-Package pdftex.def Info: discussion_note_interne.jpeg  used on input line 5997.
+Package pdftex.def Info: discussion_note_interne.jpeg  used on input line 5953.
 
 (pdftex.def)             Requested size: 455.24411pt x 248.39015pt.
 
@@ -4213,11 +3972,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[117 <./noteinterne.jpeg> <./mesagerie_note_interne.jpeg>]
-<dashboard_projet.jpeg, id=1945, 1769.61125pt x 2398.9625pt>
+[118 <./noteinterne.jpeg> <./mesagerie_note_interne.jpeg>]
+<dashboard_projet.jpeg, id=1946, 1769.61125pt x 2398.9625pt>
 File: dashboard_projet.jpeg Graphic file (type jpg)
 <use dashboard_projet.jpeg>
-Package pdftex.def Info: dashboard_projet.jpeg  used on input line 6029.
+Package pdftex.def Info: dashboard_projet.jpeg  used on input line 5985.
 (pdftex.def)             Requested size: 455.24411pt x 617.12662pt.
 
 
@@ -4227,7 +3986,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[118 <./discussion_note_interne.jpeg>]
+[119 <./discussion_note_interne.jpeg>]
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4235,16 +3994,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[119 <./dashboard_projet.jpeg>]
-<exported_data.png, id=1955, 1156.32pt x 648.62325pt>
+[120 <./dashboard_projet.jpeg>]
+<exported_data.png, id=1956, 1156.32pt x 648.62325pt>
 File: exported_data.png Graphic file (type png)
 <use exported_data.png>
-Package pdftex.def Info: exported_data.png  used on input line 6049.
+Package pdftex.def Info: exported_data.png  used on input line 6005.
 (pdftex.def)             Requested size: 455.24411pt x 255.35716pt.
-<docker_interface.png, id=1956, 1445.4pt x 867.24pt>
+<docker_interface.png, id=1957, 1445.4pt x 867.24pt>
 File: docker_interface.png Graphic file (type png)
 <use docker_interface.png>
-Package pdftex.def Info: docker_interface.png  used on input line 6093.
+Package pdftex.def Info: docker_interface.png  used on input line 6049.
 (pdftex.def)             Requested size: 409.71692pt x 245.82944pt.
 
 
@@ -4254,7 +4013,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[120 <./exported_data.png>]
+[121 <./exported_data.png>]
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4262,163 +4021,163 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[121 <./docker_interface.png>]
+[122 <./docker_interface.png>]
 Chapitre 7.
-[122
+[123
 
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 6145.
+(caption)                particular \caption on input line 6101.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 6179--6179
+Underfull \hbox (badness 6268) in paragraph at lines 6135--6135
 \T1/ptm/m/n/12 ma-na-ger, je veux que le
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 6183--6184
+Underfull \hbox (badness 1205) in paragraph at lines 6139--6140
 \T1/ptm/m/n/12 thon (OCR, FAISS, Sen-ten-ce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6185--6186
+Underfull \hbox (badness 10000) in paragraph at lines 6141--6142
 []|\T1/ptm/m/n/12 - End-point Java : /check-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 6187--6188
+Underfull \hbox (badness 1102) in paragraph at lines 6143--6144
 []|\T1/ptm/m/n/12 - In-dexa-tion des fi-chiers dans
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6201--6202
+Underfull \hbox (badness 10000) in paragraph at lines 6157--6158
 []|\T1/ptm/m/n/12 - End-point Java : /detect-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 6203--6204
+Underfull \hbox (badness 4266) in paragraph at lines 6159--6160
 []|\T1/ptm/m/n/12 - Ser-vice Py-thon : Iso-la-tion
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 6203--6204
+Underfull \hbox (badness 6445) in paragraph at lines 6159--6160
 \T1/ptm/m/n/12 Fo-rest sur his-to-rique uti-li-sa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6205--6206
+Underfull \hbox (badness 10000) in paragraph at lines 6161--6162
 []|\T1/ptm/m/n/12 - Ajout des champs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6205--6206
+Underfull \hbox (badness 10000) in paragraph at lines 6161--6162
 \T1/pcr/m/n/12 isAnomalyDepense\T1/ptm/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 6219--6220
+Underfull \hbox (badness 2452) in paragraph at lines 6175--6176
 []|\T1/ptm/m/n/12 - Ser-vice Py-thon d'ex-trac-tion
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 6235--6235
+Underfull \hbox (badness 1221) in paragraph at lines 6191--6191
 \T1/ptm/m/n/12 t�me com-pare au-to-ma-ti-que-
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 6235--6235
+Underfull \hbox (badness 1052) in paragraph at lines 6191--6191
 \T1/ptm/m/n/12 laire de note de frais avec
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 6239--6240
+Underfull \hbox (badness 1762) in paragraph at lines 6195--6196
 []|\T1/ptm/m/n/12 - End-point /analyze-full (Java
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 6239--6240
+Underfull \hbox (badness 2698) in paragraph at lines 6195--6196
 \T1/ptm/m/n/12 ap-pel-lera le mi-cro-ser-vice Py-
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 6241--6242
+Underfull \hbox (badness 1939) in paragraph at lines 6197--6198
 []|\T1/ptm/m/n/12 - Ser-vice Py-thon : ex-trac-tion
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 6245--6246
+Underfull \hbox (badness 2302) in paragraph at lines 6201--6202
 []|\T1/ptm/m/n/12 - Sto-ckage du r�-sul-tat JSON
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 6255--6255
+Underfull \hbox (badness 6220) in paragraph at lines 6211--6211
 \T1/ptm/m/n/12 to-ma-ti-que-ment les champs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6261--6262
+Underfull \hbox (badness 10000) in paragraph at lines 6217--6218
 []|\T1/ptm/m/n/12 - Fron-tend : af-fi-chage des
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 6261--6262
+Underfull \hbox (badness 1629) in paragraph at lines 6217--6218
 \T1/ptm/m/n/12 champs ex-traits et ap-pli-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6273--6274
+Underfull \hbox (badness 10000) in paragraph at lines 6229--6230
 []|\T1/ptm/m/n/12 - Cr�a-tion du com-po-sant
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 6275--6276
+Underfull \hbox (badness 4048) in paragraph at lines 6231--6232
 []|\T1/ptm/m/n/12 - Gra-phiques : �vo-lu-tion du
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 6279--6280
+Underfull \hbox (badness 1354) in paragraph at lines 6235--6236
 []|\T1/ptm/m/n/12 - In-t�-gra-tion du filtre p�-riode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6279--6280
+Underfull \hbox (badness 10000) in paragraph at lines 6235--6236
 \T1/ptm/m/n/12 (au-jour-d'hui, se-maine, mois,
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 6287--6287
+Underfull \hbox (badness 1603) in paragraph at lines 6243--6243
 \T1/ptm/m/n/12 de mon d�-par-te-ment, l'�tat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6291--6292
+Underfull \hbox (badness 10000) in paragraph at lines 6247--6248
 []|\T1/ptm/m/n/12 - Com-po-sant
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 6305--6305
+Underfull \hbox (badness 1365) in paragraph at lines 6261--6261
 \T1/ptm/m/n/12 notes, mon-tants rem-bour-s�s
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 6305--6305
+Underfull \hbox (badness 1603) in paragraph at lines 6261--6261
 \T1/ptm/m/n/12 par mois, ano-ma-lies d�-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6309--6310
+Underfull \hbox (badness 10000) in paragraph at lines 6265--6266
 []|\T1/ptm/m/n/12 - Com-po-sant
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 6311--6312
+Underfull \hbox (badness 1590) in paragraph at lines 6267--6268
 []|\T1/ptm/m/n/12 - KPIs : notes en at-tente de
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 6313--6314
+Underfull \hbox (badness 1253) in paragraph at lines 6269--6270
 \T1/ptm/m/n/12 fraudes par type, per-for-mance
  []
 
@@ -4430,7 +4189,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[123
+[124
 
 ]
 ignored error: Infinite glue shrinkage found in box being split
@@ -4441,7 +4200,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[124]
+[125]
 ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -4450,11 +4209,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[125]
-<usecase_sprint4.png, id=1985, 5163.29pt x 4123.405pt>
+[126]
+<usecase_sprint4.png, id=1986, 5163.29pt x 4123.405pt>
 File: usecase_sprint4.png Graphic file (type png)
 <use usecase_sprint4.png>
-Package pdftex.def Info: usecase_sprint4.png  used on input line 6363.
+Package pdftex.def Info: usecase_sprint4.png  used on input line 6319.
 (pdftex.def)             Requested size: 455.22182pt x 421.6136pt.
 
 
@@ -4464,14 +4223,14 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[126]
+[127]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 6379.
+(caption)                particular \caption on input line 6335.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.94847pt too wide) in paragraph at lines 6455--6455
+Overfull \hbox (2.94847pt too wide) in paragraph at lines 6411--6411
 []|[]| 
  []
 
@@ -4483,7 +4242,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[127 <./usecase_sprint4.png>]
+[128 <./usecase_sprint4.png>]
 ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -4492,10 +4251,10 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[128]
+[129]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 6479.
+(caption)                particular \caption on input line 6435.
 See the caption package documentation for explanation.
 
 
@@ -4505,11 +4264,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[129]
-<cycle_modif.png, id=2007, 7720.845pt x 10977.01pt>
+[130]
+<cycle_modif.png, id=2008, 7720.845pt x 10977.01pt>
 File: cycle_modif.png Graphic file (type png)
 <use cycle_modif.png>
-Package pdftex.def Info: cycle_modif.png  used on input line 6597.
+Package pdftex.def Info: cycle_modif.png  used on input line 6553.
 (pdftex.def)             Requested size: 409.71692pt x 582.38176pt.
 
 
@@ -4519,11 +4278,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[130]
-<class_diagram_sprint4.png, id=2012, 1206.5075pt x 1038.88126pt>
+[131]
+<class_diagram_sprint4.png, id=2014, 1206.5075pt x 1038.88126pt>
 File: class_diagram_sprint4.png Graphic file (type png)
 <use class_diagram_sprint4.png>
-Package pdftex.def Info: class_diagram_sprint4.png  used on input line 6617.
+Package pdftex.def Info: class_diagram_sprint4.png  used on input line 6573.
 (pdftex.def)             Requested size: 409.71007pt x 527.08003pt.
 
 
@@ -4533,11 +4292,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[131 <./cycle_modif.png>]
-<deploiement_sp4.png, id=2019, 8221.71625pt x 5661.15pt>
+[132 <./cycle_modif.png>]
+<deploiement_sp4.png, id=2020, 8221.71625pt x 5661.15pt>
 File: deploiement_sp4.png Graphic file (type png)
 <use deploiement_sp4.png>
-Package pdftex.def Info: deploiement_sp4.png  used on input line 6637.
+Package pdftex.def Info: deploiement_sp4.png  used on input line 6593.
 (pdftex.def)             Requested size: 546.22292pt x 376.10759pt.
 
 
@@ -4547,7 +4306,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[132 <./class_diagram_sprint4.png (PNG copy)>]
+[133 <./class_diagram_sprint4.png (PNG copy)>]
 
 ! LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
@@ -4556,7 +4315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6647 ...à l’implémentation d’un modèle 
+l.6603 ...à l’implémentation d’un modèle 
                                                   : elle nécessite une appr...
 
 You may provide a definition with
@@ -4570,7 +4329,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6647 ...données. CRISP-DM a été retenu car 
+l.6603 ...données. CRISP-DM a été retenu car 
                                                   :
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -4582,7 +4341,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[133 <./deploiement_sp4.png (PNG copy)>]
+[134 <./deploiement_sp4.png (PNG copy)>]
 
 ! LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
@@ -4591,7 +4350,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6655 ...elle pour définir ce qu’est une « 
+l.6611 ...elle pour définir ce qu’est une « 
                                                   anomalie ».
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -4604,7 +4363,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6655 ...éfinir ce qu’est une « anomalie 
+l.6611 ...éfinir ce qu’est une « anomalie 
                                                   ».
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -4617,100 +4376,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6661 ...e sur les objectifs métier du sprint 
+l.6617 ...e sur les objectifs métier du sprint 
                                                   4.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6709--6710
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (14.61858pt): 
-(fancyhdr)                Make it at least 15.13202pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.13202pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
-
-[134]
-Underfull \hbox (badness 10000) in paragraph at lines 6725--6726
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6749--6749
-[]|\T1/ptm/m/n/12 Facilit�
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6749--6749
-\T1/ptm/m/n/12 site confi-gu-ra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6749--6749
-[]|\T1/ptm/m/n/12 Facile (ins-tal-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6753--6753
-\T1/ptm/m/n/12 multi-langues
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6753--6753
-[]|\T1/ptm/m/n/12 Bonne, mais
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 6753--6753
-\T1/ptm/m/n/12 moins fiable sur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6753--6754
-[]|\T1/ptm/m/n/12 Parfaite pour
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6753--6754
-\T1/ptm/m/n/12 PDF tex-tuels
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6753--6754
-\T1/ptm/m/n/12 (ex-trac-tion du
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 6753--6754
-\T1/ptm/m/n/12 texte na-tif sans
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6765--6765
-[]|\T1/ptm/m/n/12 Lourd en m�-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6765--6765
-\T1/ptm/m/n/12 moire, n�-ces-site
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6765--6766
-[]|\T1/ptm/m/n/12 Ne fonc-tionne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6765--6766
-\T1/ptm/m/n/12 pas sur PDF
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6779--6780
+Underfull \hbox (badness 10000) in paragraph at lines 6665--6666
 
  []
 
@@ -4722,27 +4394,85 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [135]
-Underfull \hbox (badness 1342) in paragraph at lines 6793--6794
-[]\T1/ptm/b/n/12 Stockage \T1/ptm/m/n/12 : les r�-sul-tats d'ex-trac-tion et d'
-ana-lyse sont conser-v�s dans les tables
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 6793--6794
-\T1/pcr/m/n/12 expense_extractions\T1/ptm/m/n/12 , \T1/pcr/m/n/12 expense_note_
-extractions \T1/ptm/m/n/12 ainsi que dans le
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6797--6798
+Underfull \hbox (badness 10000) in paragraph at lines 6681--6682
 
  []
 
-<paddle_ocr.png, id=2036, 770.88pt x 1027.84pt>
-File: paddle_ocr.png Graphic file (type png)
-<use paddle_ocr.png>
-Package pdftex.def Info: paddle_ocr.png  used on input line 6813.
-(pdftex.def)             Requested size: 318.66948pt x 424.8832pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6705--6705
+[]|\T1/ptm/m/n/12 Facilit�
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6705--6705
+\T1/ptm/m/n/12 site confi-gu-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6705--6705
+[]|\T1/ptm/m/n/12 Facile (ins-tal-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6709--6709
+\T1/ptm/m/n/12 multi-langues
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6709--6709
+[]|\T1/ptm/m/n/12 Bonne, mais
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 6709--6709
+\T1/ptm/m/n/12 moins fiable sur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6709--6710
+[]|\T1/ptm/m/n/12 Parfaite pour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6709--6710
+\T1/ptm/m/n/12 PDF tex-tuels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6709--6710
+\T1/ptm/m/n/12 (ex-trac-tion du
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 6709--6710
+\T1/ptm/m/n/12 texte na-tif sans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6721--6721
+[]|\T1/ptm/m/n/12 Lourd en m�-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6721--6721
+\T1/ptm/m/n/12 moire, n�-ces-site
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6721--6722
+[]|\T1/ptm/m/n/12 Ne fonc-tionne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6721--6722
+\T1/ptm/m/n/12 pas sur PDF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6735--6736
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4751,10 +4481,39 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
 [136]
-<paddle_ocr2.png, id=2041, 464.73625pt x 932.48375pt>
+Underfull \hbox (badness 1342) in paragraph at lines 6749--6750
+[]\T1/ptm/b/n/12 Stockage \T1/ptm/m/n/12 : les r�-sul-tats d'ex-trac-tion et d'
+ana-lyse sont conser-v�s dans les tables
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 6749--6750
+\T1/pcr/m/n/12 expense_extractions\T1/ptm/m/n/12 , \T1/pcr/m/n/12 expense_note_
+extractions \T1/ptm/m/n/12 ainsi que dans le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6753--6754
+
+ []
+
+<paddle_ocr.png, id=2037, 770.88pt x 1027.84pt>
+File: paddle_ocr.png Graphic file (type png)
+<use paddle_ocr.png>
+Package pdftex.def Info: paddle_ocr.png  used on input line 6769.
+(pdftex.def)             Requested size: 318.66948pt x 424.8832pt.
+
+Package fancyhdr Warning: \headheight is too small (14.61858pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
+
+[137]
+<paddle_ocr2.png, id=2043, 464.73625pt x 932.48375pt>
 File: paddle_ocr2.png Graphic file (type png)
 <use paddle_ocr2.png>
-Package pdftex.def Info: paddle_ocr2.png  used on input line 6827.
+Package pdftex.def Info: paddle_ocr2.png  used on input line 6783.
 (pdftex.def)             Requested size: 318.67569pt x 351.38797pt.
 
 
@@ -4764,7 +4523,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[137 <./paddle_ocr.png (PNG copy)>]
+[138 <./paddle_ocr.png (PNG copy)>]
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4772,11 +4531,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[138 <./paddle_ocr2.png (PNG copy)>]
-<tesseract.png, id=2051, 1135.24126pt x 1606.0pt>
+[139 <./paddle_ocr2.png (PNG copy)>]
+<tesseract.png, id=2052, 1135.24126pt x 1606.0pt>
 File: tesseract.png Graphic file (type png)
 <use tesseract.png>
-Package pdftex.def Info: tesseract.png  used on input line 6845.
+Package pdftex.def Info: tesseract.png  used on input line 6801.
 (pdftex.def)             Requested size: 318.66948pt x 450.8042pt.
 
 
@@ -4786,11 +4545,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[139 <./tesseract.png (PNG copy)>]
-<anomaly_distribution.png, id=2056, 1118.37825pt x 549.252pt>
+[140 <./tesseract.png (PNG copy)>]
+<anomaly_distribution.png, id=2057, 1118.37825pt x 549.252pt>
 File: anomaly_distribution.png Graphic file (type png)
 <use anomaly_distribution.png>
-Package pdftex.def Info: anomaly_distribution.png  used on input line 6935.
+Package pdftex.def Info: anomaly_distribution.png  used on input line 6891.
 (pdftex.def)             Requested size: 418.81061pt x 281.10376pt.
 
 
@@ -4800,18 +4559,23 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[140 <./anomaly_distribution.png>]
-<text_cleaner.png, id=2062, 809.424pt x 301.125pt>
-File: text_cleaner.png Graphic file (type png)
-<use text_cleaner.png>
-Package pdftex.def Info: text_cleaner.png  used on input line 6985.
-(pdftex.def)             Requested size: 364.19667pt x 135.4912pt.
+[141 <./anomaly_distribution.png>]
+<text_cleaner1.png, id=2063, 632.3625pt x 133.09724pt>
+File: text_cleaner1.png Graphic file (type png)
+<use text_cleaner1.png>
+Package pdftex.def Info: text_cleaner1.png  used on input line 6941.
+(pdftex.def)             Requested size: 364.19667pt x 76.65622pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 6997--6998
+Underfull \hbox (badness 1502) in paragraph at lines 6953--6954
 []\T1/ptm/m/n/12 Pour chaque jus-ti-fi-ca-tif, le texte net-toy� est en-cod� en
  vec-teur de 384 di-men-sions �
  []
 
+<add_to_index1.png, id=2064, 855.79726pt x 323.40825pt>
+File: add_to_index1.png Graphic file (type png)
+<use add_to_index1.png>
+Package pdftex.def Info: add_to_index1.png  used on input line 6965.
+(pdftex.def)             Requested size: 364.19667pt x 137.63173pt.
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4819,21 +4583,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[141 <./text_cleaner.png>]
-<add_to_index.png, id=2068, 858.20625pt x 335.45325pt>
-File: add_to_index.png Graphic file (type png)
-<use add_to_index.png>
-Package pdftex.def Info: add_to_index.png  used on input line 7009.
-(pdftex.def)             Requested size: 364.19667pt x 142.35843pt.
-<get_user_category.png, id=2069, 844.3545pt x 340.27126pt>
-File: get_user_category.png Graphic file (type png)
-<use get_user_category.png>
-Package pdftex.def Info: get_user_category.png  used on input line 7029.
-(pdftex.def)             Requested size: 318.66948pt x 128.42175pt.
-<accord_json.png, id=2070, 597.432pt x 389.65575pt>
+[142 <./text_cleaner1.png>]
+<get_user_category1.png, id=2070, 860.61525pt x 331.83975pt>
+File: get_user_category1.png Graphic file (type png)
+<use get_user_category1.png>
+Package pdftex.def Info: get_user_category1.png  used on input line 6985.
+(pdftex.def)             Requested size: 318.66948pt x 122.87498pt.
+<accord_json.png, id=2071, 597.432pt x 389.65575pt>
 File: accord_json.png Graphic file (type png)
 <use accord_json.png>
-Package pdftex.def Info: accord_json.png  used on input line 7057.
+Package pdftex.def Info: accord_json.png  used on input line 7013.
 (pdftex.def)             Requested size: 409.71692pt x 267.23363pt.
 
 
@@ -4843,17 +4602,17 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[142 <./add_to_index.png> <./get_user_category.png>]
-Underfull \hbox (badness 1199) in paragraph at lines 7069--7070
+[143 <./add_to_index1.png> <./get_user_category1.png>]
+Underfull \hbox (badness 1199) in paragraph at lines 7025--7026
 []\T1/ptm/m/n/12 Le for-mu-laire An-gu-lar contient des champs cor-res-pon-dant
  � l'ac-cord. Dans le ser-vice
  []
 
-<compare.png, id=2077, 852.786pt x 331.83975pt>
-File: compare.png Graphic file (type png)
-<use compare.png>
-Package pdftex.def Info: compare.png  used on input line 7087.
-(pdftex.def)             Requested size: 386.96027pt x 150.57211pt.
+<compare1.png, id=2079, 857.604pt x 310.761pt>
+File: compare1.png Graphic file (type png)
+<use compare1.png>
+Package pdftex.def Info: compare1.png  used on input line 7043.
+(pdftex.def)             Requested size: 386.96027pt x 140.21576pt.
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -4861,16 +4620,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[143 <./accord_json.png> <./compare.png>]
-<logo_hash.png, id=2088, 256.96pt x 256.96pt>
+[144 <./accord_json.png> <./compare1.png>]
+<logo_hash.png, id=2089, 256.96pt x 256.96pt>
 File: logo_hash.png Graphic file (type png)
 <use logo_hash.png>
-Package pdftex.def Info: logo_hash.png  used on input line 7122.
+Package pdftex.def Info: logo_hash.png  used on input line 7099.
 (pdftex.def)             Requested size: 109.2601pt x 109.25948pt.
-<logo_bert.png, id=2089, 1027.84pt x 1027.84pt>
+<logo_bert.png, id=2090, 1027.84pt x 1027.84pt>
 File: logo_bert.png Graphic file (type png)
 <use logo_bert.png>
-Package pdftex.def Info: logo_bert.png  used on input line 7133.
+Package pdftex.def Info: logo_bert.png  used on input line 7111.
 (pdftex.def)             Requested size: 109.2601pt x 109.25163pt.
 
 
@@ -4880,26 +4639,26 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[144 <./logo_hash.png>]
-<logo_faiss.png, id=2096, 1027.84pt x 513.92pt>
+[145 <./logo_hash.png>]
+<logo_faiss.png, id=2097, 1027.84pt x 513.92pt>
 File: logo_faiss.png Graphic file (type png)
 <use logo_faiss.png>
-Package pdftex.def Info: logo_faiss.png  used on input line 7144.
+Package pdftex.def Info: logo_faiss.png  used on input line 7123.
 (pdftex.def)             Requested size: 109.2601pt x 54.62581pt.
-<cm_hash.png, id=2097, 432.4155pt x 326.4195pt>
+<cm_hash.png, id=2098, 432.4155pt x 326.4195pt>
 File: cm_hash.png Graphic file (type png)
 <use cm_hash.png>
-Package pdftex.def Info: cm_hash.png  used on input line 7159.
+Package pdftex.def Info: cm_hash.png  used on input line 7139.
 (pdftex.def)             Requested size: 204.85844pt x 175.70107pt.
-<cm_bert.png, id=2098, 432.4155pt x 320.99925pt>
+<cm_bert.png, id=2099, 432.4155pt x 320.99925pt>
 File: cm_bert.png Graphic file (type png)
 <use cm_bert.png>
-Package pdftex.def Info: cm_bert.png  used on input line 7166.
+Package pdftex.def Info: cm_bert.png  used on input line 7146.
 (pdftex.def)             Requested size: 204.85844pt x 175.70276pt.
-<cm_faiss.png, id=2099, 431.81325pt x 322.806pt>
+<cm_faiss.png, id=2100, 431.81325pt x 322.806pt>
 File: cm_faiss.png Graphic file (type png)
 <use cm_faiss.png>
-Package pdftex.def Info: cm_faiss.png  used on input line 7174.
+Package pdftex.def Info: cm_faiss.png  used on input line 7155.
 (pdftex.def)             Requested size: 227.62779pt x 175.69673pt.
 
 
@@ -4909,17 +4668,17 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[145 <./logo_bert.png> <./logo_faiss.png (PNG copy)> <./cm_hash.png> <./cm_bert
+[146 <./logo_bert.png> <./logo_faiss.png (PNG copy)> <./cm_hash.png> <./cm_bert
 .png>]
-<f1_score_doublons.png, id=2109, 514.92375pt x 325.81725pt>
+<f1_score_doublons.png, id=2110, 514.92375pt x 325.81725pt>
 File: f1_score_doublons.png Graphic file (type png)
 <use f1_score_doublons.png>
-Package pdftex.def Info: f1_score_doublons.png  used on input line 7198.
+Package pdftex.def Info: f1_score_doublons.png  used on input line 7183.
 (pdftex.def)             Requested size: 318.66948pt x 201.64166pt.
-<logo_mistral.png, id=2110, 282.05376pt x 180.675pt>
+<logo_mistral.png, id=2111, 282.05376pt x 180.675pt>
 File: logo_mistral.png Graphic file (type png)
 <use logo_mistral.png>
-Package pdftex.def Info: logo_mistral.png  used on input line 7208.
+Package pdftex.def Info: logo_mistral.png  used on input line 7196.
 (pdftex.def)             Requested size: 109.2601pt x 69.98877pt.
 
 
@@ -4929,31 +4688,31 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[146 <./cm_faiss.png> <./f1_score_doublons.png>]
-<logo_gemma.png, id=2118, 602.25pt x 602.25pt>
+[147 <./cm_faiss.png> <./f1_score_doublons.png>]
+<logo_gemma.png, id=2119, 602.25pt x 602.25pt>
 File: logo_gemma.png Graphic file (type png)
 <use logo_gemma.png>
-Package pdftex.def Info: logo_gemma.png  used on input line 7219.
+Package pdftex.def Info: logo_gemma.png  used on input line 7208.
 (pdftex.def)             Requested size: 109.2601pt x 109.25494pt.
-<logo_llama.png, id=2119, 301.125pt x 168.63pt>
+<logo_llama.png, id=2120, 301.125pt x 168.63pt>
 File: logo_llama.png Graphic file (type png)
 <use logo_llama.png>
-Package pdftex.def Info: logo_llama.png  used on input line 7230.
+Package pdftex.def Info: logo_llama.png  used on input line 7220.
 (pdftex.def)             Requested size: 109.2601pt x 61.18533pt.
-<cm_mistral.png, id=2120, 434.8245pt x 336.0555pt>
+<cm_mistral.png, id=2121, 434.8245pt x 336.0555pt>
 File: cm_mistral.png Graphic file (type png)
 <use cm_mistral.png>
-Package pdftex.def Info: cm_mistral.png  used on input line 7246.
+Package pdftex.def Info: cm_mistral.png  used on input line 7236.
 (pdftex.def)             Requested size: 204.8585pt x 175.6985pt.
-<cm_gemma.png, id=2121, 431.81325pt x 337.86224pt>
+<cm_gemma.png, id=2122, 431.81325pt x 337.86224pt>
 File: cm_gemma.png Graphic file (type png)
 <use cm_gemma.png>
-Package pdftex.def Info: cm_gemma.png  used on input line 7253.
+Package pdftex.def Info: cm_gemma.png  used on input line 7243.
 (pdftex.def)             Requested size: 204.86304pt x 175.69452pt.
-<cm_llama.png, id=2122, 429.40425pt x 336.0555pt>
+<cm_llama.png, id=2123, 429.40425pt x 336.0555pt>
 File: cm_llama.png Graphic file (type png)
 <use cm_llama.png>
-Package pdftex.def Info: cm_llama.png  used on input line 7261.
+Package pdftex.def Info: cm_llama.png  used on input line 7252.
 (pdftex.def)             Requested size: 227.62247pt x 175.6985pt.
 
 
@@ -4963,12 +4722,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[147 <./logo_mistral.png (PNG copy)> <./logo_gemma.png (PNG copy)> <./logo_llam
+[148 <./logo_mistral.png (PNG copy)> <./logo_gemma.png (PNG copy)> <./logo_llam
 a.png (PNG copy)> <./cm_mistral.png> <./cm_gemma.png>]
-<radar_llm.png, id=2130, 582.37575pt x 534.19576pt>
+<radar_llm.png, id=2131, 582.37575pt x 534.19576pt>
 File: radar_llm.png Graphic file (type png)
 <use radar_llm.png>
-Package pdftex.def Info: radar_llm.png  used on input line 7285.
+Package pdftex.def Info: radar_llm.png  used on input line 7280.
 (pdftex.def)             Requested size: 318.66948pt x 292.31691pt.
 
 
@@ -4978,12 +4737,25 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[148 <./cm_llama.png> <./radar_llm.png>]
-<architecture_ia.png, id=2138, 8222.72pt x 4559.0325pt>
+[149 <./cm_llama.png>]
+
+Package fancyhdr Warning: \headheight is too small (14.61858pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
+
+[150 <./radar_llm.png>]
+<architecture_ia.png, id=2146, 8222.72pt x 4559.0325pt>
 File: architecture_ia.png Graphic file (type png)
 <use architecture_ia.png>
-Package pdftex.def Info: architecture_ia.png  used on input line 7319.
+Package pdftex.def Info: architecture_ia.png  used on input line 7344.
 (pdftex.def)             Requested size: 409.71692pt x 227.1302pt.
+<code_sauvegarde_faiss1.png, id=2147, 855.195pt x 69.861pt>
+File: code_sauvegarde_faiss1.png Graphic file (type png)
+<use code_sauvegarde_faiss1.png>
+Package pdftex.def Info: code_sauvegarde_faiss1.png  used on input line 7386.
+(pdftex.def)             Requested size: 455.24411pt x 37.18817pt.
 
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -4992,30 +4764,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[149]
-<code_sauvegarde_faiss.png, id=2145, 719.68875pt x 108.405pt>
-File: code_sauvegarde_faiss.png Graphic file (type png)
-<use code_sauvegarde_faiss.png>
-Package pdftex.def Info: code_sauvegarde_faiss.png  used on input line 7340.
-(pdftex.def)             Requested size: 455.24411pt x 68.57504pt.
-
-
-Package fancyhdr Warning: \headheight is too small (14.61858pt): 
-(fancyhdr)                Make it at least 15.13202pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.13202pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
-
-[150 <./architecture_ia.png (PNG copy)> <./code_sauvegarde_faiss.png>]
-<duplicate_alert.png, id=2151, 1445.4pt x 772.38562pt>
+[151 <./architecture_ia.png (PNG copy)>]
+<duplicate_alert.png, id=2152, 1445.4pt x 772.38562pt>
 File: duplicate_alert.png Graphic file (type png)
 <use duplicate_alert.png>
-Package pdftex.def Info: duplicate_alert.png  used on input line 7352.
+Package pdftex.def Info: duplicate_alert.png  used on input line 7410.
 (pdftex.def)             Requested size: 455.24411pt x 243.2674pt.
-<anomaly_detection_line.png, id=2152, 1156.32pt x 620.91975pt>
+<anomaly_detection_line.png, id=2153, 1156.32pt x 620.91975pt>
 File: anomaly_detection_line.png Graphic file (type png)
 <use anomaly_detection_line.png>
-Package pdftex.def Info: anomaly_detection_line.png  used on input line 7362.
+Package pdftex.def Info: anomaly_detection_line.png  used on input line 7430.
 (pdftex.def)             Requested size: 455.24411pt x 244.45055pt.
 
 
@@ -5025,16 +4783,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[151 <./duplicate_alert.png>]
-<auto_fill_fields_avant.png, id=2160, 1445.4pt x 777.65532pt>
+[152 <./code_sauvegarde_faiss1.png> <./duplicate_alert.png>]
+<auto_fill_fields_avant.png, id=2162, 1445.4pt x 777.65532pt>
 File: auto_fill_fields_avant.png Graphic file (type png)
 <use auto_fill_fields_avant.png>
-Package pdftex.def Info: auto_fill_fields_avant.png  used on input line 7372.
+Package pdftex.def Info: auto_fill_fields_avant.png  used on input line 7450.
 (pdftex.def)             Requested size: 455.24411pt x 244.92712pt.
-<auto_fill_fields_aprés.png, id=2161, 1445.4pt x 776.9025pt>
+<auto_fill_fields_aprés.png, id=2163, 1445.4pt x 776.9025pt>
 File: auto_fill_fields_aprés.png Graphic file (type png)
 <use auto_fill_fields_aprés.png>
-Package pdftex.def Info: auto_fill_fields_aprés.png  used on input line 7378.
+Package pdftex.def Info: auto_fill_fields_aprés.png  used on input line 7462.
 (pdftex.def)             Requested size: 455.24411pt x 244.69002pt.
 
 
@@ -5044,11 +4802,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[152 <./anomaly_detection_line.png> <./auto_fill_fields_avant.png>]
-<accord_analysis.png, id=2169, 1445.4pt x 776.9025pt>
+[153 <./anomaly_detection_line.png> <./auto_fill_fields_avant.png>]
+<accord_analysis.png, id=2171, 1445.4pt x 776.9025pt>
 File: accord_analysis.png Graphic file (type png)
 <use accord_analysis.png>
-Package pdftex.def Info: accord_analysis.png  used on input line 7393.
+Package pdftex.def Info: accord_analysis.png  used on input line 7492.
 (pdftex.def)             Requested size: 455.24411pt x 244.69002pt.
 
 
@@ -5058,11 +4816,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[153 <./auto_fill_fields_aprés.png>]
-<receipt_validation.png, id=2176, 1156.32pt x 620.3175pt>
+[154 <./auto_fill_fields_aprés.png>]
+<receipt_validation.png, id=2178, 1156.32pt x 620.3175pt>
 File: receipt_validation.png Graphic file (type png)
 <use receipt_validation.png>
-Package pdftex.def Info: receipt_validation.png  used on input line 7404.
+Package pdftex.def Info: receipt_validation.png  used on input line 7514.
 (pdftex.def)             Requested size: 455.24411pt x 244.21344pt.
 
 
@@ -5072,27 +4830,13 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[154 <./accord_analysis.png> <./receipt_validation.png>]
-<chatbot/chatbot_patterns.png, id=2184, 1044.15094pt x 576.65437pt>
-File: chatbot/chatbot_patterns.png Graphic file (type png)
-<use chatbot/chatbot_patterns.png>
-Package pdftex.def Info: chatbot/chatbot_patterns.png  used on input line 7451.
-
-(pdftex.def)             Requested size: 455.24411pt x 251.42336pt.
-
-
-Package fancyhdr Warning: \headheight is too small (14.61858pt): 
-(fancyhdr)                Make it at least 15.13202pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.13202pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
-
-[155]
-<chatbot/chatbot_prompt.png, id=2190, 1041.8925pt x 657.2053pt>
-File: chatbot/chatbot_prompt.png Graphic file (type png)
-<use chatbot/chatbot_prompt.png>
-Package pdftex.def Info: chatbot/chatbot_prompt.png  used on input line 7483.
-(pdftex.def)             Requested size: 455.24411pt x 287.15556pt.
+[155 <./accord_analysis.png> <./receipt_validation.png>]
+<chatbot/chatbot_patterns1.png, id=2187, 836.52525pt x 483.0045pt>
+File: chatbot/chatbot_patterns1.png Graphic file (type png)
+<use chatbot/chatbot_patterns1.png>
+Package pdftex.def Info: chatbot/chatbot_patterns1.png  used on input line 7568
+.
+(pdftex.def)             Requested size: 455.24411pt x 262.86005pt.
 
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -5101,12 +4845,12 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[156 <./chatbot/chatbot_patterns.png>]
-<chatbot/chatbot_session.png, id=2196, 1032.10594pt x 462.22687pt>
-File: chatbot/chatbot_session.png Graphic file (type png)
-<use chatbot/chatbot_session.png>
-Package pdftex.def Info: chatbot/chatbot_session.png  used on input line 7541.
-(pdftex.def)             Requested size: 455.24411pt x 203.88121pt.
+[156]
+<chatbot/chatbot_prompt1.png, id=2192, 834.11626pt x 516.12825pt>
+File: chatbot/chatbot_prompt1.png Graphic file (type png)
+<use chatbot/chatbot_prompt1.png>
+Package pdftex.def Info: chatbot/chatbot_prompt1.png  used on input line 7600.
+(pdftex.def)             Requested size: 455.24411pt x 281.69778pt.
 
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -5115,18 +4859,13 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[157 <./chatbot/chatbot_prompt.png>]
-<chatbot/chatbot_routing.png, id=2202, 1038.12843pt x 743.77875pt>
-File: chatbot/chatbot_routing.png Graphic file (type png)
-<use chatbot/chatbot_routing.png>
-Package pdftex.def Info: chatbot/chatbot_routing.png  used on input line 7563.
-(pdftex.def)             Requested size: 455.24411pt x 326.1628pt.
-LaTeX Info: Symbol \textrightarrow not provided by
-            font family ptm in TS1 encoding.
-            Default family used instead on input line 7575.
-LaTeX Info: Symbol \textrightarrow not provided by
-            font family ptm in TS1 encoding.
-            Default family used instead on input line 7577.
+[157 <./chatbot/chatbot_patterns1.png>]
+<chatbot/chatbot_session1.png, id=2198, 835.32076pt x 335.45325pt>
+File: chatbot/chatbot_session1.png Graphic file (type png)
+<use chatbot/chatbot_session1.png>
+Package pdftex.def Info: chatbot/chatbot_session1.png  used on input line 7658.
+
+(pdftex.def)             Requested size: 455.24411pt x 182.82094pt.
 
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
@@ -5135,17 +4874,38 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[158 <./chatbot/chatbot_session.png> <./chatbot/chatbot_routing.png>]
+[158 <./chatbot/chatbot_prompt1.png>]
+<chatbot/chatbot_routing1.png, id=2204, 838.93425pt x 578.76225pt>
+File: chatbot/chatbot_routing1.png Graphic file (type png)
+<use chatbot/chatbot_routing1.png>
+Package pdftex.def Info: chatbot/chatbot_routing1.png  used on input line 7680.
+
+(pdftex.def)             Requested size: 455.24411pt x 314.07242pt.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 7579.
+            Default family used instead on input line 7692.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 7581.
-<chatbot.png, id=2210, 1607.00375pt x 2050.66125pt>
+            Default family used instead on input line 7694.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 7696.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 7698.
+
+
+Package fancyhdr Warning: \headheight is too small (14.61858pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
+
+[159 <./chatbot/chatbot_session1.png> <./chatbot/chatbot_routing1.png>]
+<chatbot.png, id=2214, 1607.00375pt x 2050.66125pt>
 File: chatbot.png Graphic file (type png)
 <use chatbot.png>
-Package pdftex.def Info: chatbot.png  used on input line 7595.
+Package pdftex.def Info: chatbot.png  used on input line 7712.
 (pdftex.def)             Requested size: 409.71924pt x 562.22826pt.
 
 
@@ -5155,16 +4915,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[159 <./chatbot.png (PNG copy)>]
-<chatbot_interface.png, id=2218, 1156.32pt x 621.522pt>
+[160 <./chatbot.png (PNG copy)>]
+<chatbot_interface.png, id=2220, 1156.32pt x 621.522pt>
 File: chatbot_interface.png Graphic file (type png)
 <use chatbot_interface.png>
-Package pdftex.def Info: chatbot_interface.png  used on input line 7613.
+Package pdftex.def Info: chatbot_interface.png  used on input line 7730.
 (pdftex.def)             Requested size: 455.24411pt x 244.68765pt.
-<dashboard-emp/Suite_1.png, id=2219, 1445.4pt x 766.36313pt>
+<dashboard-emp/Suite_1.png, id=2221, 1445.4pt x 766.36313pt>
 File: dashboard-emp/Suite_1.png Graphic file (type png)
 <use dashboard-emp/Suite_1.png>
-Package pdftex.def Info: dashboard-emp/Suite_1.png  used on input line 7653.
+Package pdftex.def Info: dashboard-emp/Suite_1.png  used on input line 7770.
 (pdftex.def)             Requested size: 455.24411pt x 241.37057pt.
 
 
@@ -5174,16 +4934,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[160 <./chatbot_interface.png>]
-<dashboard-emp/Suite_2.png, id=2225, 1445.4pt x 772.38562pt>
+[161 <./chatbot_interface.png>]
+<dashboard-emp/Suite_2.png, id=2228, 1445.4pt x 772.38562pt>
 File: dashboard-emp/Suite_2.png Graphic file (type png)
 <use dashboard-emp/Suite_2.png>
-Package pdftex.def Info: dashboard-emp/Suite_2.png  used on input line 7665.
+Package pdftex.def Info: dashboard-emp/Suite_2.png  used on input line 7782.
 (pdftex.def)             Requested size: 455.24411pt x 243.2674pt.
-<dashboard-emp/Suite_3.png, id=2226, 1445.4pt x 779.16093pt>
+<dashboard-emp/Suite_3.png, id=2229, 1445.4pt x 779.16093pt>
 File: dashboard-emp/Suite_3.png Graphic file (type png)
 <use dashboard-emp/Suite_3.png>
-Package pdftex.def Info: dashboard-emp/Suite_3.png  used on input line 7677.
+Package pdftex.def Info: dashboard-emp/Suite_3.png  used on input line 7794.
 (pdftex.def)             Requested size: 455.24411pt x 245.40132pt.
 
 
@@ -5193,11 +4953,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[161 <./dashboard-emp/Suite_1.png> <./dashboard-emp/Suite_2.png>]
-<dashboard-emp/Suite_4.png, id=2234, 1445.4pt x 770.12718pt>
+[162 <./dashboard-emp/Suite_1.png> <./dashboard-emp/Suite_2.png>]
+<dashboard-emp/Suite_4.png, id=2236, 1445.4pt x 770.12718pt>
 File: dashboard-emp/Suite_4.png Graphic file (type png)
 <use dashboard-emp/Suite_4.png>
-Package pdftex.def Info: dashboard-emp/Suite_4.png  used on input line 7689.
+Package pdftex.def Info: dashboard-emp/Suite_4.png  used on input line 7806.
 (pdftex.def)             Requested size: 455.24411pt x 242.55609pt.
 
 
@@ -5207,17 +4967,17 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[162 <./dashboard-emp/Suite_3.png> <./dashboard-emp/Suite_4.png>]
-<dashboard-manager/Suite_1.png, id=2241, 1445.4pt x 772.38562pt>
+[163 <./dashboard-emp/Suite_3.png> <./dashboard-emp/Suite_4.png>]
+<dashboard-manager/Suite_1.png, id=2243, 1445.4pt x 772.38562pt>
 File: dashboard-manager/Suite_1.png Graphic file (type png)
 <use dashboard-manager/Suite_1.png>
-Package pdftex.def Info: dashboard-manager/Suite_1.png  used on input line 7727
+Package pdftex.def Info: dashboard-manager/Suite_1.png  used on input line 7844
 .
 (pdftex.def)             Requested size: 455.24411pt x 243.2674pt.
-<dashboard-manager/Suite_2.png, id=2242, 1445.4pt x 768.62157pt>
+<dashboard-manager/Suite_2.png, id=2244, 1445.4pt x 768.62157pt>
 File: dashboard-manager/Suite_2.png Graphic file (type png)
 <use dashboard-manager/Suite_2.png>
-Package pdftex.def Info: dashboard-manager/Suite_2.png  used on input line 7739
+Package pdftex.def Info: dashboard-manager/Suite_2.png  used on input line 7856
 .
 (pdftex.def)             Requested size: 455.24411pt x 242.0819pt.
 
@@ -5228,17 +4988,17 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[163 <./dashboard-manager/Suite_1.png>]
-<dashboard-manager/Suite_3.png, id=2248, 1445.4pt x 770.12718pt>
+[164 <./dashboard-manager/Suite_1.png>]
+<dashboard-manager/Suite_3.png, id=2250, 1445.4pt x 770.12718pt>
 File: dashboard-manager/Suite_3.png Graphic file (type png)
 <use dashboard-manager/Suite_3.png>
-Package pdftex.def Info: dashboard-manager/Suite_3.png  used on input line 7751
+Package pdftex.def Info: dashboard-manager/Suite_3.png  used on input line 7868
 .
 (pdftex.def)             Requested size: 455.24411pt x 242.55609pt.
-<dashboard-manager/Suite_4.png, id=2249, 1445.4pt x 772.38562pt>
+<dashboard-manager/Suite_4.png, id=2251, 1445.4pt x 772.38562pt>
 File: dashboard-manager/Suite_4.png Graphic file (type png)
 <use dashboard-manager/Suite_4.png>
-Package pdftex.def Info: dashboard-manager/Suite_4.png  used on input line 7763
+Package pdftex.def Info: dashboard-manager/Suite_4.png  used on input line 7880
 .
 (pdftex.def)             Requested size: 455.24411pt x 243.2674pt.
 
@@ -5249,17 +5009,17 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[164 <./dashboard-manager/Suite_2.png> <./dashboard-manager/Suite_3.png>]
-<dashboard-manager/Suite_5.png, id=2256, 1445.4pt x 768.62157pt>
+[165 <./dashboard-manager/Suite_2.png> <./dashboard-manager/Suite_3.png>]
+<dashboard-manager/Suite_5.png, id=2258, 1445.4pt x 768.62157pt>
 File: dashboard-manager/Suite_5.png Graphic file (type png)
 <use dashboard-manager/Suite_5.png>
-Package pdftex.def Info: dashboard-manager/Suite_5.png  used on input line 7775
+Package pdftex.def Info: dashboard-manager/Suite_5.png  used on input line 7892
 .
 (pdftex.def)             Requested size: 455.24411pt x 242.0819pt.
-<dashboard-manager/Suite_6.png, id=2257, 1445.4pt x 766.36313pt>
+<dashboard-manager/Suite_6.png, id=2259, 1445.4pt x 766.36313pt>
 File: dashboard-manager/Suite_6.png Graphic file (type png)
 <use dashboard-manager/Suite_6.png>
-Package pdftex.def Info: dashboard-manager/Suite_6.png  used on input line 7787
+Package pdftex.def Info: dashboard-manager/Suite_6.png  used on input line 7904
 .
 (pdftex.def)             Requested size: 455.24411pt x 241.37057pt.
 
@@ -5270,11 +5030,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[165 <./dashboard-manager/Suite_4.png> <./dashboard-manager/Suite_5.png>]
-<dashboard-admin/Suite_1.png, id=2264, 1445.4pt x 774.64406pt>
+[166 <./dashboard-manager/Suite_4.png> <./dashboard-manager/Suite_5.png>]
+<dashboard-admin/Suite_1.png, id=2266, 1445.4pt x 774.64406pt>
 File: dashboard-admin/Suite_1.png Graphic file (type png)
 <use dashboard-admin/Suite_1.png>
-Package pdftex.def Info: dashboard-admin/Suite_1.png  used on input line 7833.
+Package pdftex.def Info: dashboard-admin/Suite_1.png  used on input line 7950.
 (pdftex.def)             Requested size: 455.24411pt x 243.9787pt.
 
 
@@ -5284,16 +5044,16 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[166 <./dashboard-manager/Suite_6.png>]
-<dashboard-admin/Suite_2.png, id=2270, 1445.4pt x 772.38562pt>
+[167 <./dashboard-manager/Suite_6.png>]
+<dashboard-admin/Suite_2.png, id=2273, 1445.4pt x 772.38562pt>
 File: dashboard-admin/Suite_2.png Graphic file (type png)
 <use dashboard-admin/Suite_2.png>
-Package pdftex.def Info: dashboard-admin/Suite_2.png  used on input line 7845.
+Package pdftex.def Info: dashboard-admin/Suite_2.png  used on input line 7962.
 (pdftex.def)             Requested size: 455.24411pt x 243.2674pt.
-<dashboard-admin/Suite_3.png, id=2271, 1445.4pt x 774.64406pt>
+<dashboard-admin/Suite_3.png, id=2274, 1445.4pt x 774.64406pt>
 File: dashboard-admin/Suite_3.png Graphic file (type png)
 <use dashboard-admin/Suite_3.png>
-Package pdftex.def Info: dashboard-admin/Suite_3.png  used on input line 7857.
+Package pdftex.def Info: dashboard-admin/Suite_3.png  used on input line 7974.
 (pdftex.def)             Requested size: 455.24411pt x 243.9787pt.
 
 
@@ -5303,11 +5063,11 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[167 <./dashboard-admin/Suite_1.png> <./dashboard-admin/Suite_2.png>]
-<dashboard-admin/Suite_4.png, id=2279, 1445.4pt x 773.89125pt>
+[168 <./dashboard-admin/Suite_1.png> <./dashboard-admin/Suite_2.png>]
+<dashboard-admin/Suite_4.png, id=2281, 1445.4pt x 773.89125pt>
 File: dashboard-admin/Suite_4.png Graphic file (type png)
 <use dashboard-admin/Suite_4.png>
-Package pdftex.def Info: dashboard-admin/Suite_4.png  used on input line 7869.
+Package pdftex.def Info: dashboard-admin/Suite_4.png  used on input line 7986.
 (pdftex.def)             Requested size: 455.24411pt x 243.74161pt.
 
 
@@ -5317,7 +5077,7 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[168 <./dashboard-admin/Suite_3.png> <./dashboard-admin/Suite_4.png>]
+[169 <./dashboard-admin/Suite_3.png> <./dashboard-admin/Suite_4.png>]
 
 Package fancyhdr Warning: \headheight is too small (14.61858pt): 
 (fancyhdr)                Make it at least 15.13202pt, for example:
@@ -5325,59 +5085,59 @@ Package fancyhdr Warning: \headheight is too small (14.61858pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.51344pt}.
 
-[169] [170
+[170] [171
 
 ]
-Underfull \hbox (badness 2269) in paragraph at lines 7950--7951
+Underfull \hbox (badness 2269) in paragraph at lines 8067--8068
 \T1/ptm/m/it/12 ning\T1/ptm/m/n/12 , [En ligne], Dis-po-nible : []$\T1/pcr/m/n/
 12 https : / / www . the-[]modeling-[]agency . com /
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 7969--7970
+Underfull \hbox (badness 2181) in paragraph at lines 8086--8087
 []\T1/ptm/m/n/12 Facebook Re-search, \T1/ptm/m/it/12 FAISS - Bi-blio-th�que de 
 re-cherche de si-mi-la-rit� vec-to-rielle\T1/ptm/m/n/12 ,
  []
 
-[171
+[172
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7973--7974
+Underfull \hbox (badness 10000) in paragraph at lines 8090--8091
 []\T1/ptm/m/n/12 Hugging Face, \T1/ptm/m/it/12 all-MiniLM-L6-v2 - Mo-d�le d'em-
 bed-ding\T1/ptm/m/n/12 , [En ligne], Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7973--7974
+Underfull \hbox (badness 10000) in paragraph at lines 8090--8091
 \T1/ptm/m/n/12 po-nible : []$\T1/pcr/m/n/12 https : / / huggingface . co / sent
 ence-[]transformers /
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 7979--7980
+Underfull \hbox (badness 3646) in paragraph at lines 8096--8097
 []\T1/ptm/m/n/12 Scikit-learn, \T1/ptm/m/it/12 Iso-la-tion Fo-rest - D�-tec-tio
 n d'ano-ma-lies\T1/ptm/m/n/12 , [En ligne], Dis-po-nible :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7979--7980
+Underfull \hbox (badness 10000) in paragraph at lines 8096--8097
 []$\T1/pcr/m/n/12 https : / / scikit-[]learn . org / stable / modules / generat
 ed / sklearn .
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 7990--7991
+Underfull \hbox (badness 3942) in paragraph at lines 8107--8108
 \T1/ptm/m/n/12 po-nible : []$\T1/pcr/m/n/12 https : / / github . com / PaddlePa
 ddle / PaddleOCR$[]\T1/ptm/m/n/12 , (Consult� le
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 7992--7993
+Underfull \hbox (badness 1270) in paragraph at lines 8109--8110
 \T1/ptm/m/n/12 po-nible : []$\T1/pcr/m/n/12 https : / / github . com / tesserac
 t-[]ocr / tesseract$[]\T1/ptm/m/n/12 , (Consult� le
  []
 
-[172] [173] [174
+[173] [174] [175
 
 ] (main.aux)
  ***********
@@ -5389,31 +5149,30 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 04A2CADF080C7ED6775F0A979490B366;32772.
+(rerunfilecheck)             Checksum: C0AE56F47F2506F173A8DA1EF810AD8F;32564.
  ) 
 Here is how much of TeX's memory you used:
- 37469 strings out of 467871
- 859977 string characters out of 5418377
+ 37484 strings out of 467871
+ 860448 string characters out of 5418377
  1446638 words of memory out of 5000000
- 65117 multiletter control sequences out of 15000+600000
+ 65131 multiletter control sequences out of 15000+600000
  663521 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,104p,946b,769s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ghofr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/ghofr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmmi12.pfb><C:/Users/ghofr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Users/ghofr/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/ghofr/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ghofr/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ghofr/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ghofr/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ghofr/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ghofr/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ghofr/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (188 pages, 27743250 bytes).
+ic/amsfonts/cm/cmr12.pfb><C:/Users/ghofr/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ghofr/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ghofr/AppData/Local/Program
+s/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/ghofr/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ghofr/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ghofr/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ghofr/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (189 pages, 28480165 bytes).
 PDF statistics:
- 2612 PDF objects out of 2984 (max. 8388607)
- 666 named destinations out of 1000 (max. 500000)
- 2027 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2611 PDF objects out of 2984 (max. 8388607)
+ 667 named destinations out of 1000 (max. 500000)
+ 2029 words of extra memory for PDF output out of 10000 (max. 10000000)
 

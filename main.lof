@@ -66,87 +66,88 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 2}}{83}{figure.caption.126}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de séquence – Soumission d'une note et décision du manager}}{88}{figure.caption.132}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Formulaire d’ajout de note de frais}}{89}{figure.caption.135}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Suite du formulaire d’ajout de note de frais}}{90}{figure.caption.136}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Liste des notes de l’employé avec filtres et actions}}{91}{figure.caption.138}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Modal de confirmation de suppression d’une note}}{91}{figure.caption.140}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Liste des notes du département }}{92}{figure.caption.142}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Détails d'une note de frais }}{93}{figure.caption.144}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Interface de consultation de la consommation par employé}}{93}{figure.caption.145}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Modal de validation }}{94}{figure.caption.147}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Modal de refus }}{95}{figure.caption.149}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Liste déroulante des notifications pour un employé}}{96}{figure.caption.150}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Liste déroulante des notifications pour un manager}}{96}{figure.caption.151}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Liste déroulante des notifications pour un administrateur}}{97}{figure.caption.152}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Interface historique des notifications }}{98}{figure.caption.154}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagramme de classes du sprint 2}}{89}{figure.caption.133}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Formulaire d’ajout de note de frais}}{90}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Suite du formulaire d’ajout de note de frais}}{91}{figure.caption.136}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Liste des notes de l’employé avec filtres et actions}}{92}{figure.caption.138}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Modal de confirmation de suppression d’une note}}{92}{figure.caption.140}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Liste des notes du département }}{93}{figure.caption.142}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Détails d'une note de frais }}{94}{figure.caption.144}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interface de consultation de la consommation par employé}}{94}{figure.caption.145}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Modal de validation }}{95}{figure.caption.147}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Modal de refus }}{96}{figure.caption.149}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Liste déroulante des notifications pour un employé}}{97}{figure.caption.150}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Liste déroulante des notifications pour un manager}}{97}{figure.caption.151}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Liste déroulante des notifications pour un administrateur}}{98}{figure.caption.152}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Interface historique des notifications }}{99}{figure.caption.154}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 3}}{104}{figure.caption.157}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de séquence – Remboursement partiel et création d'ordre}}{108}{figure.caption.162}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence – Rejeter une note de frais}}{109}{figure.caption.164}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de déploiement - Docker}}{110}{figure.caption.166}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagramme de classes du sprint 3}}{111}{figure.caption.167}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Liste des notes validées en attente de remboursement}}{112}{figure.caption.168}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Formulaire de remboursement (total ou partiel)}}{112}{figure.caption.169}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Liste des ordres de paiement en attente}}{113}{figure.caption.170}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Détail d’un ordre de paiement}}{114}{figure.caption.171}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Modal de confirmation de paiement}}{114}{figure.caption.172}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Modal de confirmation de refus de remboursement}}{115}{figure.caption.173}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Archive administrative consolidée}}{116}{figure.caption.174}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Notes internes confidentielles dans le popup de détail}}{117}{figure.caption.175}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Liste des conversations pour messagerie des notes internes}}{117}{figure.caption.176}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Panneau de discussion pour messagerie des notes internes}}{118}{figure.caption.177}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Dashboard projets administrateur}}{119}{figure.caption.178}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Exemple de données exportées au format Excel}}{120}{figure.caption.179}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Conteneurs Docker en cours d'exécution}}{121}{figure.caption.180}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme de cas d'utilisation global du sprint 3}}{105}{figure.caption.157}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme de séquence – Remboursement partiel et création d'ordre}}{109}{figure.caption.162}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagramme de séquence – Rejeter une note de frais}}{110}{figure.caption.164}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme de déploiement - Docker}}{111}{figure.caption.166}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagramme de classes du sprint 3}}{112}{figure.caption.167}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Liste des notes validées en attente de remboursement}}{113}{figure.caption.168}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Formulaire de remboursement (total ou partiel)}}{113}{figure.caption.169}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Liste des ordres de paiement en attente}}{114}{figure.caption.170}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Détail d’un ordre de paiement}}{115}{figure.caption.171}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Modal de confirmation de paiement}}{115}{figure.caption.172}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Modal de confirmation de refus de remboursement}}{116}{figure.caption.173}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Archive administrative consolidée}}{117}{figure.caption.174}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Notes internes confidentielles dans le popup de détail}}{118}{figure.caption.175}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Liste des conversations pour messagerie des notes internes}}{118}{figure.caption.176}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Panneau de discussion pour messagerie des notes internes}}{119}{figure.caption.177}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Dashboard projets administrateur}}{120}{figure.caption.178}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Exemple de données exportées au format Excel}}{121}{figure.caption.179}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Conteneurs Docker en cours d'exécution}}{122}{figure.caption.180}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagramme des cas d'utilisation du sprint 4}}{127}{figure.caption.183}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Cycle de vie de soumission d'une note de frais avec les contrôles automatiques}}{131}{figure.caption.186}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagramme de classes du sprint 4 (extrait)}}{132}{figure.caption.187}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagramme de déploiement du sprint 4}}{133}{figure.caption.188}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Extraction par PaddleOCR pour un PDF}}{137}{figure.caption.190}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Extraction par PaddleOCR pour un PNG}}{138}{figure.caption.191}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Extraction par Tesseract}}{139}{figure.caption.192}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{140}{figure.caption.194}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Extrait de la fonction \texttt {TextCleaner.clean()}}}{141}{figure.caption.195}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Extrait de la fonction \texttt {add\_to\_index()}}}{142}{figure.caption.196}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Requête \texttt {get\_user\_category\_expenses()}}}{142}{figure.caption.197}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Exemple de données structurées extraites d'un accord de mission}}{143}{figure.caption.198}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Extrait de \texttt {AccordFormComparator.compare()}}}{143}{figure.caption.199}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Hash MD5}}{145}{figure.caption.202}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces BERT}}{145}{figure.caption.202}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces FAISS + SentenceTransformer}}{146}{figure.caption.203}%
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Comparaison des F1-scores pour la détection des doublons}}{146}{figure.caption.205}%
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Mistral 7B}}{147}{figure.caption.208}%
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Gemma3:4b}}{147}{figure.caption.208}%
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Llama 3 8B}}{148}{figure.caption.209}%
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparaison multicritères des modèles LLM}}{148}{figure.caption.211}%
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Architecture de déploiement des microservices}}{150}{figure.caption.213}%
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Sauvegarde de l'index FAISS et des métadonnées}}{150}{figure.caption.214}%
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Alerte de doublon dans le popup de détail}}{151}{figure.caption.216}%
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Détection des montants suspects par ligne de frais}}{152}{figure.caption.218}%
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Avant remplissage automatique des champs depuis une facture}}{152}{figure.caption.220}%
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Après remplissage automatique des champs depuis une facture}}{153}{figure.caption.221}%
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Analyse IA de cohérence accord / note de frais}}{154}{figure.caption.223}%
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Validation de la facture}}{154}{figure.caption.225}%
-\contentsline {figure}{\numberline {7.30}{\ignorespaces Extrait des patterns de classification d'intention}}{156}{figure.caption.226}%
-\contentsline {figure}{\numberline {7.31}{\ignorespaces Construction dynamique du prompt pour le LLM}}{157}{figure.caption.227}%
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Extrait du service de gestion de session}}{158}{figure.caption.228}%
-\contentsline {figure}{\numberline {7.33}{\ignorespaces Logique de routage du chatbot hybride}}{158}{figure.caption.229}%
-\contentsline {figure}{\numberline {7.34}{\ignorespaces Diagramme d'activité du chatbot hybride}}{159}{figure.caption.230}%
-\contentsline {figure}{\numberline {7.35}{\ignorespaces Interface du chatbot hybride intégré}}{160}{figure.caption.231}%
-\contentsline {figure}{\numberline {7.36}{\ignorespaces Tableau de bord employé}}{161}{figure.caption.232}%
-\contentsline {figure}{\numberline {7.37}{\ignorespaces Suite 1 du tableau de bord employé}}{161}{figure.caption.233}%
-\contentsline {figure}{\numberline {7.38}{\ignorespaces Suite 2 du tableau de bord employé}}{162}{figure.caption.234}%
-\contentsline {figure}{\numberline {7.39}{\ignorespaces Suite 3 du tableau de bord employé}}{162}{figure.caption.235}%
-\contentsline {figure}{\numberline {7.40}{\ignorespaces Tableau de bord manager}}{163}{figure.caption.236}%
-\contentsline {figure}{\numberline {7.41}{\ignorespaces Suite 1 du tableau de bord manager}}{164}{figure.caption.237}%
-\contentsline {figure}{\numberline {7.42}{\ignorespaces Suite 2 du tableau de bord manager}}{164}{figure.caption.238}%
-\contentsline {figure}{\numberline {7.43}{\ignorespaces Suite 3 du tableau de bord manager}}{165}{figure.caption.239}%
-\contentsline {figure}{\numberline {7.44}{\ignorespaces Suite 4 du tableau de bord manager}}{165}{figure.caption.240}%
-\contentsline {figure}{\numberline {7.45}{\ignorespaces Suite 5 du tableau de bord manager}}{166}{figure.caption.241}%
-\contentsline {figure}{\numberline {7.46}{\ignorespaces Tableau de bord administrateur}}{167}{figure.caption.242}%
-\contentsline {figure}{\numberline {7.47}{\ignorespaces Suite 1 du tableau de bord administrateur}}{167}{figure.caption.243}%
-\contentsline {figure}{\numberline {7.48}{\ignorespaces Suite 2 du tableau de bord administrateur}}{168}{figure.caption.244}%
-\contentsline {figure}{\numberline {7.49}{\ignorespaces Suite 3 du tableau de bord administrateur}}{168}{figure.caption.245}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagramme des cas d'utilisation du sprint 4}}{128}{figure.caption.183}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Cycle de vie de soumission d'une note de frais avec les contrôles automatiques}}{132}{figure.caption.186}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Diagramme de classes du sprint 4 (extrait)}}{133}{figure.caption.187}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Diagramme de déploiement du sprint 4}}{134}{figure.caption.188}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Extraction par PaddleOCR pour un PDF}}{138}{figure.caption.190}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Extraction par PaddleOCR pour un PNG}}{139}{figure.caption.191}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Extraction par Tesseract}}{140}{figure.caption.192}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{141}{figure.caption.194}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Extrait de la fonction \texttt {TextCleaner.clean()}}}{142}{figure.caption.195}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Extrait de la fonction \texttt {add\_to\_index()}}}{143}{figure.caption.196}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Requête \texttt {get\_user\_category\_expenses()}}}{143}{figure.caption.197}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Exemple de données structurées extraites d'un accord de mission}}{144}{figure.caption.198}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Extrait de \texttt {AccordFormComparator.compare()}}}{144}{figure.caption.199}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Hash MD5}}{146}{figure.caption.202}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces BERT}}{146}{figure.caption.202}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces FAISS + SentenceTransformer}}{147}{figure.caption.203}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Comparaison des F1-scores pour la détection des doublons}}{147}{figure.caption.205}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Mistral 7B}}{148}{figure.caption.208}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Gemma3:4b}}{148}{figure.caption.208}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Llama 3 8B}}{149}{figure.caption.209}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparaison multicritères des modèles LLM}}{150}{figure.caption.211}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Architecture de déploiement des microservices}}{151}{figure.caption.213}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Sauvegarde de l'index FAISS et des métadonnées}}{152}{figure.caption.214}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Alerte de doublon dans le popup de détail}}{152}{figure.caption.216}%
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Détection des montants suspects par ligne de frais}}{153}{figure.caption.218}%
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Avant remplissage automatique des champs depuis une facture}}{153}{figure.caption.220}%
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Après remplissage automatique des champs depuis une facture}}{154}{figure.caption.221}%
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Analyse IA de cohérence accord / note de frais}}{155}{figure.caption.223}%
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Validation de la facture}}{155}{figure.caption.225}%
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Extrait des patterns de classification d'intention}}{157}{figure.caption.226}%
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Construction dynamique du prompt pour le LLM}}{158}{figure.caption.227}%
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Extrait du service de gestion de session}}{159}{figure.caption.228}%
+\contentsline {figure}{\numberline {7.33}{\ignorespaces Logique de routage du chatbot hybride}}{159}{figure.caption.229}%
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Diagramme d'activité du chatbot hybride}}{160}{figure.caption.230}%
+\contentsline {figure}{\numberline {7.35}{\ignorespaces Interface du chatbot hybride intégré}}{161}{figure.caption.231}%
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Tableau de bord employé}}{162}{figure.caption.232}%
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Suite 1 du tableau de bord employé}}{162}{figure.caption.233}%
+\contentsline {figure}{\numberline {7.38}{\ignorespaces Suite 2 du tableau de bord employé}}{163}{figure.caption.234}%
+\contentsline {figure}{\numberline {7.39}{\ignorespaces Suite 3 du tableau de bord employé}}{163}{figure.caption.235}%
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Tableau de bord manager}}{164}{figure.caption.236}%
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Suite 1 du tableau de bord manager}}{165}{figure.caption.237}%
+\contentsline {figure}{\numberline {7.42}{\ignorespaces Suite 2 du tableau de bord manager}}{165}{figure.caption.238}%
+\contentsline {figure}{\numberline {7.43}{\ignorespaces Suite 3 du tableau de bord manager}}{166}{figure.caption.239}%
+\contentsline {figure}{\numberline {7.44}{\ignorespaces Suite 4 du tableau de bord manager}}{166}{figure.caption.240}%
+\contentsline {figure}{\numberline {7.45}{\ignorespaces Suite 5 du tableau de bord manager}}{167}{figure.caption.241}%
+\contentsline {figure}{\numberline {7.46}{\ignorespaces Tableau de bord administrateur}}{168}{figure.caption.242}%
+\contentsline {figure}{\numberline {7.47}{\ignorespaces Suite 1 du tableau de bord administrateur}}{168}{figure.caption.243}%
+\contentsline {figure}{\numberline {7.48}{\ignorespaces Suite 2 du tableau de bord administrateur}}{169}{figure.caption.244}%
+\contentsline {figure}{\numberline {7.49}{\ignorespaces Suite 3 du tableau de bord administrateur}}{169}{figure.caption.245}%
 \babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 

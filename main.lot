@@ -22,17 +22,17 @@
 \contentsline {table}{\numberline {5.7}{\ignorespaces Description textuelle – Valider ou refuser une note (Manager)}}{86}{table.5.7}%
 \contentsline {table}{\numberline {5.9}{\ignorespaces Description textuelle – Changer la devise d’affichage}}{87}{table.5.9}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Backlog Sprint 3}}{100}{table.6.1}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Description textuelle – Consulter les notes validées}}{104}{table.6.3}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Description textuelle – Rejeter le remboursement d'une note}}{105}{table.6.5}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces Description textuelle – Confirmer le paiement d'un ordre}}{106}{table.6.7}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Backlog Sprint 3}}{101}{table.6.1}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Description textuelle – Consulter les notes validées}}{105}{table.6.3}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Description textuelle – Rejeter le remboursement d'une note}}{106}{table.6.5}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces Description textuelle – Confirmer le paiement d'un ordre}}{107}{table.6.7}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Sprint 4 – User stories et tâches techniques associées}}{123}{table.7.1}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Description textuelle – Téléverser un justificatif et déclencher les analyses automatiques}}{127}{table.7.3}%
-\contentsline {table}{\numberline {7.5}{\ignorespaces Description textuelle – Consulter les anomalies IA}}{129}{table.7.5}%
-\contentsline {table}{\numberline {7.7}{\ignorespaces Comparaison des outils OCR utilisés}}{135}{table.caption.189}%
-\contentsline {table}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{140}{table.caption.193}%
-\contentsline {table}{\numberline {7.9}{\ignorespaces Performances comparées des modèles de détection de doublons}}{146}{table.caption.204}%
-\contentsline {table}{\numberline {7.10}{\ignorespaces Performances comparées des LLM pour l'extraction de champs}}{148}{table.caption.210}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Backlog sprint 4}}{124}{table.7.1}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Description textuelle – Téléverser un justificatif et déclencher les analyses automatiques}}{128}{table.7.3}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Description textuelle – Consulter les anomalies IA}}{130}{table.7.5}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Comparaison des outils OCR utilisés}}{136}{table.caption.189}%
+\contentsline {table}{\numberline {7.8}{\ignorespaces Répartition des anomalies détectées dans les données historiques}}{141}{table.caption.193}%
+\contentsline {table}{\numberline {7.9}{\ignorespaces Performances comparées des modèles de détection de doublons}}{147}{table.caption.204}%
+\contentsline {table}{\numberline {7.10}{\ignorespaces Performances comparées des LLM pour l'extraction de champs}}{149}{table.caption.210}%
 \babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 

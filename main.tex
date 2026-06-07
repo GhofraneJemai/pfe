@@ -4803,84 +4803,45 @@ Post-condition & La devise d'affichage est changée pour toute l'application. \\
 % Diagramme de séquence
 
 % =========================
-
 \section{Conception}
 
 \subsection{Diagrammes de séquence}
 
-
-
 \subsubsection{Soumission d'une note avec décision du manager}
 
-
-
-
-
-
-
 \begin{figure}[H]
-
 \centering
-
 \includegraphics[
-
- width=\textwidth,
-
- keepaspectratio,
-
- height=0.9\textheight % Réduit à 45% de la page
-
+    width=\textwidth,
+    keepaspectratio
 ]{sequence_submit_note.png}
-
 \caption{Diagramme de séquence – Soumission d'une note et décision du manager}
-
 \label{fig:seq_submit}
-
 \end{figure}
 
 \noindent
-
 % =========================
-
 % Diagramme de classes
-
 % =========================
-
-
 
 \subsection{Diagramme de classes du sprint 2}
 
-
-
 \begin{figure}[H]
-
 \centering
-
 \rotatebox{90}{
-
 \includegraphics[
-
- width=0.9\textheight,
-
- height=1.3\textwidth,
-
- keepaspectratio
-
+    width=0.9\textheight,
+    height=1.3\textwidth,
+    keepaspectratio
 ]{diag_classe_sp2.png}
-
 }
-
 \caption{Diagramme de classes du sprint 2}
-
 \label{fig:class_sprint2}
-
 \end{figure}
 
 \section{Interfaces développées}
 
-
-
-\subsection{Page « Ajouter une note de frais » }
+\subsection{Page « Ajouter une note de frais »}
 
 \subsubsection{Interface d'ajout d'une note de frais}
 
@@ -5135,11 +5096,6 @@ L'objectif de ce sprint est de finaliser le cycle de vie d'une note de frais et 
 
 
 \section{Backlog du sprint 3}
-
-
-
-\subsection{Décomposition du sprint 3}
-
 
 
 Le tableau ci-dessous illustre la décomposition du sprint 3. La durée totale du sprint 3 est de 20 jours ouvrables (du 31/03 au 27/04).
@@ -6142,7 +6098,7 @@ L'objectif de ce sprint est de doter la plateforme Coral.io Expense de capacité
 
 Le tableau ci-dessous illustre la décomposition du sprint 4. La durée totale du sprint 4 est de 20 jours ouvrables (du 28/04 au 30/05).
 
-\captionof{table}{Sprint 4 – User stories et tâches techniques associées}
+\captionof{table}{Backlog sprint 4}
 
 \label{tab:sprint4_combined}
 
@@ -6982,7 +6938,7 @@ Nous avons mis en place une chaîne de traitement modulaire :
 
  \centering
 
- \includegraphics[width=0.8\textwidth]{text_cleaner.png}
+ \includegraphics[width=0.8\textwidth]{text_cleaner1.png}
 
  \caption{Extrait de la fonction \texttt{TextCleaner.clean()}}
 
@@ -7006,7 +6962,7 @@ Lors de l'upload d'un nouveau document, nous calculons son embedding et recherch
 
  \centering
 
- \includegraphics[width=0.8\textwidth]{add_to_index.png}
+ \includegraphics[width=0.8\textwidth]{add_to_index1.png}
 
  \caption{Extrait de la fonction \texttt{add\_to\_index()}}
 
@@ -7026,7 +6982,7 @@ Pour chaque employé et chaque catégorie, nous avons agrégé les montants hist
 
  \centering
 
- \includegraphics[width=0.7\textwidth]{get_user_category.png}
+ \includegraphics[width=0.7\textwidth]{get_user_category1.png}
 
  \caption{Requête \texttt{get\_user\_category\_expenses()}}
 
@@ -7084,7 +7040,7 @@ Le formulaire Angular contient des champs correspondant à l'accord. Dans le ser
 
  \centering
 
- \includegraphics[width=0.85\textwidth]{compare.png}
+ \includegraphics[width=0.85\textwidth]{compare1.png}
 
  \caption{Extrait de \texttt{AccordFormComparator.compare()}}
 
@@ -7095,28 +7051,49 @@ Le formulaire Angular contient des champs correspondant à l'accord. Dans le ser
 
 
 \subsection{Modélisation}
+
 \setcounter{secnumdepth}{3}
+
 \setcounter{tocdepth}{3}
+
 \renewcommand{\thesubsubsection}{\alph{subsubsection})}
 
+
+
 \subsubsection{Définitions des technologies d'IA utilisées}
+
 Avant de détailler les modèles, nous définissons brièvement les concepts clés :
 
+
+
 \begin{itemize}
-    \item \textbf{OCR (Optical Character Recognition)} : technologie de reconnaissance de caractères permettant de convertir des images de texte (scannées, photographiées) en texte exploitable par une machine. Nous utilisons PaddleOCR (léger, multilingue) et Tesseract (fallback).
-    \item \textbf{LLM (Large Language Model)} : modèle de langage de grande taille entraîné sur des textes massifs. Nous utilisons \textbf{Gemma3:4b}, \textbf{Mistral 7B} et \textbf{Llama 3 8B} via le serveur \textbf{Ollama}.
-    \item \textbf{FAISS (Facebook AI Similarity Search)} : bibliothèque de recherche de similarité vectorielle. Elle permet d'indexer des embeddings (représentations numériques du texte) et de trouver rapidement les documents les plus proches.
-    \item \textbf{SentenceTransformer} : modèle qui transforme un texte en vecteur (embedding) de 384 dimensions. Nous utilisons \texttt{all-MiniLM-L6-v2}, un modèle léger et efficace.
-    \item \textbf{Isolation Forest} : algorithme non supervisé de détection d'anomalies pour les montants suspects.
-    \item \textbf{Embedding} : représentation vectorielle d'un texte dans un espace continu. La distance entre deux embeddings mesure la similarité sémantique.
+
+ \item \textbf{OCR (Optical Character Recognition)} : technologie de reconnaissance de caractères permettant de convertir des images de texte (scannées, photographiées) en texte exploitable par une machine. Nous utilisons PaddleOCR (léger, multilingue) et Tesseract (fallback).
+
+ \item \textbf{LLM (Large Language Model)} : modèle de langage de grande taille entraîné sur des textes massifs. Nous utilisons \textbf{Gemma3:4b}, \textbf{Mistral 7B} et \textbf{Llama 3 8B} via le serveur \textbf{Ollama}.
+
+ \item \textbf{FAISS (Facebook AI Similarity Search)} : bibliothèque de recherche de similarité vectorielle. Elle permet d'indexer des embeddings (représentations numériques du texte) et de trouver rapidement les documents les plus proches.
+
+ \item \textbf{SentenceTransformer} : modèle qui transforme un texte en vecteur (embedding) de 384 dimensions. Nous utilisons \texttt{all-MiniLM-L6-v2}, un modèle léger et efficace.
+
+ \item \textbf{Isolation Forest} : algorithme non supervisé de détection d'anomalies pour les montants suspects.
+
+ \item \textbf{Embedding} : représentation vectorielle d'un texte dans un espace continu. La distance entre deux embeddings mesure la similarité sémantique.
+
 \end{itemize}
 
+
+
 \subsubsection{Modèles testés pour la détection des anomalies}
+
 Nous avons exploré plusieurs approches pour chaque type d'anomalie. Dans ce chapitre, nous détaillons particulièrement les modèles évalués pour la détection des doublons et le remplissage automatique du formulaire. Pour les autres anomalies (montants suspects, incohérences accord/note), les modèles retenus sont présentés synthétiquement en fin de section.
 
 \paragraph{1. Détection des doublons de justificatifs}
+
 Nous avons comparé trois approches distinctes :
 
+\vspace{0.3cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_hash.png}}
@@ -7128,6 +7105,7 @@ Nous avons comparé trois approches distinctes :
 \end{minipage}
 
 \vspace{0.5cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_bert.png}}
@@ -7139,6 +7117,7 @@ Nous avons comparé trois approches distinctes :
 \end{minipage}
 
 \vspace{0.5cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_faiss.png}}
@@ -7150,6 +7129,7 @@ Nous avons comparé trois approches distinctes :
 \end{minipage}
 
 \subparagraph{$\bullet$ Matrices de confusion – Détection des doublons}
+
 Les figures ci-dessous présentent les matrices de confusion obtenues sur un jeu de test de 100 documents (80 non doublons, 20 doublons).
 
 \begin{figure}[H]
@@ -7169,12 +7149,15 @@ Les figures ci-dessous présentent les matrices de confusion obtenues sur un jeu
 \end{minipage}
 \vspace{0.5cm}
 \end{figure}
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth,height=0.25\textheight]{cm_faiss.png}
 \caption{FAISS + SentenceTransformer}
 \label{fig:cm_faiss}
 \end{figure}
+
+Le tableau suivant compare les performances des trois modèles testés. FAISS + SentenceTransformer obtient le meilleur compromis avec un F1-score de 0,97 et un temps de réponse de 120 ms.
 
 \begin{table}[H]
 \centering
@@ -7193,16 +7176,21 @@ BERT (CamemBERT-base) & 0,94 & 0,96 & 0,95 & 2400 \\
 \end{tabular}
 \end{table}
 
+La figure suivante visualise ces écarts de performance.
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{f1_score_doublons.png}
-    \caption{Comparaison des F1-scores pour la détection des doublons}
-    \label{fig:f1_duplicate}
+\centering
+\includegraphics[width=0.7\textwidth]{f1_score_doublons.png}
+\caption{Comparaison des F1-scores pour la détection des doublons}
+\label{fig:f1_duplicate}
 \end{figure}
 
 \paragraph{2. Remplissage automatique des champs du formulaire}
+
 Nous avons testé trois grands modèles de langage (LLM) pour extraire les informations clés (montant, date, description, commerçant) depuis une facture scannée.
 
+\vspace{0.3cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_mistral.png}}
@@ -7214,6 +7202,7 @@ Nous avons testé trois grands modèles de langage (LLM) pour extraire les infor
 \end{minipage}
 
 \vspace{0.5cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_gemma.png}}
@@ -7225,6 +7214,7 @@ Nous avons testé trois grands modèles de langage (LLM) pour extraire les infor
 \end{minipage}
 
 \vspace{0.5cm}
+\noindent
 \begin{minipage}{0.3\textwidth}
 \centering
 \fbox{\includegraphics[width=0.8\textwidth]{logo_llama.png}}
@@ -7235,8 +7225,8 @@ Nous avons testé trois grands modèles de langage (LLM) pour extraire les infor
 \textbf{Llama 3 8B} : Modèle 8 milliards de paramètres, très performant en compréhension du langage naturel. Plus lent que Gemma, mais excellente qualité d'extraction.
 \end{minipage}
 
-
 \subparagraph{$\bullet$ Matrices de confusion – Extraction de champs}
+
 Les figures ci-dessous présentent les matrices de confusion (moyennées sur les 4 champs) pour chaque LLM, sur un corpus de 150 factures (600 champs analysés).
 
 \begin{figure}[H]
@@ -7256,12 +7246,15 @@ Les figures ci-dessous présentent les matrices de confusion (moyennées sur les
 \end{minipage}
 \vspace{0.5cm}
 \end{figure}
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth,height=0.25\textheight]{cm_llama.png}
 \caption{Llama 3 8B}
 \label{fig:cm_llama}
 \end{figure}
+
+Le tableau suivant compare les performances des trois LLM testés pour l'extraction automatique des champs. Gemma3:4b surpasse les deux autres avec un F1-score de 0,94 et un temps de réponse de 450 ms.
 
 \begin{table}[H]
 \centering
@@ -7280,134 +7273,258 @@ Llama 3 8B & 0,93 & 0,91 & 0,92 & 1200 \\
 \end{tabular}
 \end{table}
 
+La figure suivante confirme visuellement la supériorité de Gemma3:4b sur l'ensemble des critères (précision, rappel, F1-score, vitesse).
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{radar_llm.png}
-    \caption{Comparaison multicritères des modèles LLM}
-    \label{fig:radar_llm}
+\centering
+\includegraphics[width=0.7\textwidth]{radar_llm.png}
+\caption{Comparaison multicritères des modèles LLM}
+\label{fig:radar_llm}
 \end{figure}
 
+
 \paragraph{3. Autres anomalies (synthèse)}
+
 Pour la détection des montants suspects, nous avons conservé l'Isolation Forest (F1 de 0,84). Pour la comparaison accord/note, la combinaison règles métier + LLM (Gemma3:4b) donne un F1 de 0,90.
 
 
 
+
+
+
+
 \subsubsection{Ajustements post-évaluation (améliorations)}
+
 \begin{itemize}
-    \item \textbf{Doublons} : seuil réduit de 0,98 à 0,95 pour augmenter le rappel.
-    \item \textbf{Anomalies de montant} : ajout de la vérification statistique \(2\sigma\) pour capturer les valeurs extrêmes non isolées par Isolation Forest.
-    \item \textbf{Comparaison accord/formulaire} : les anomalies détectées par LLM sont systématiquement relues par un humain pendant la phase de test ; le prompt a été affiné pour éviter les redondances avec les règles.
+
+ \item \textbf{Doublons} : seuil réduit de 0,98 à 0,95 pour augmenter le rappel.
+
+ \item \textbf{Anomalies de montant} : ajout de la vérification statistique \(2\sigma\) pour capturer les valeurs extrêmes non isolées par Isolation Forest.
+
+ \item \textbf{Comparaison accord/formulaire} : les anomalies détectées par LLM sont systématiquement relues par un humain pendant la phase de test ; le prompt a été affiné pour éviter les redondances avec les règles.
+
 \end{itemize}
+
 Ces ajustements ont permis de réduire le taux de faux positifs de la détection de doublons pour les accords de 11\% à 1\%, et d'améliorer le rappel des anomalies de montant de 0,78 à 0,82.
+
+
 
 \subsection{Déploiement}
 
+
+
 \subsubsection{Architecture globale de déploiement}
+
 Lors de la transition de l'expérimentation vers l'industrialisation, plusieurs facteurs clés entrent en jeu :
 
+
+
 \begin{itemize}
-    \item L'objectif principal de l'application finale est de faciliter le processus de prise de décision pour les managers et administrateurs.
-    \item Les données à analyser (justificatifs et accords) sont téléchargées par les utilisateurs via l'interface web.
-    \item Les modèles doivent être capables de détecter des anomalies et des doublons en temps réel.
-    \item Il est possible que nos modèles deviennent obsolètes avec le temps, nécessitant des sauvegardes persistantes.
+
+ \item L'objectif principal de l'application finale est de faciliter le processus de prise de décision pour les managers et administrateurs.
+
+ \item Les données à analyser (justificatifs et accords) sont téléchargées par les utilisateurs via l'interface web.
+
+ \item Les modèles doivent être capables de détecter des anomalies et des doublons en temps réel.
+
+ \item Il est possible que nos modèles deviennent obsolètes avec le temps, nécessitant des sauvegardes persistantes.
+
 \end{itemize}
+
+
 
 Afin de répondre aux besoins cités ci-dessus, nous avons mis en place un pipeline de déploiement qui comporte les étapes suivantes :
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{architecture_ia.png}
-    \caption{Architecture de déploiement des microservices}
-    \label{fig:architecture_deploiement}
+
+ \centering
+
+ \includegraphics[width=0.9\textwidth]{architecture_ia.png}
+
+ \caption{Architecture de déploiement des microservices}
+
+ \label{fig:architecture_deploiement}
+
 \end{figure}
 
+
+
 \begin{itemize}
-    \item \textbf{Étape 1} : Sauvegarder les modèles optimaux choisis après la phase d'évaluation (index FAISS, modèle Isolation Forest).
-    \item \textbf{Étape 2} : Déployer les microservices Python (ports 9000 et 8000) et le backend Java (port 8888).
-    \item \textbf{Étape 3} : Intégrer les résultats d'analyse dans l'interface web via une popup de détail et des dashboards.
+
+ \item \textbf{Étape 1} : Sauvegarder les modèles optimaux choisis après la phase d'évaluation (index FAISS, modèle Isolation Forest).
+
+ \item \textbf{Étape 2} : Déployer les microservices Python (ports 9000 et 8000) et le backend Java (port 8888).
+
+ \item \textbf{Étape 3} : Intégrer les résultats d'analyse dans l'interface web via une popup de détail et des dashboards.
+
 \end{itemize}
+
+
 
 \subsubsection{Sauvegarde des modèles}
+
 Nous avons sauvegardé :
+
 \begin{itemize}
-    \item L'index FAISS (fichier \texttt{faiss.index})
-    \item Les métadonnées associées (fichier \texttt{metadata.pkl})
-    \item Le modèle Isolation Forest (sérialisé)
+
+ \item L'index FAISS (fichier \texttt{faiss.index})
+
+ \item Les métadonnées associées (fichier \texttt{metadata.pkl})
+
+ \item Le modèle Isolation Forest (sérialisé)
+
 \end{itemize}
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{code_sauvegarde_faiss.png}
-    \caption{Sauvegarde de l'index FAISS et des métadonnées}
+
+ \centering
+
+ \includegraphics[width=1\textwidth]{code_sauvegarde_faiss1.png}
+
+ \caption{Sauvegarde de l'index FAISS et des métadonnées}
+
 \end{figure}
+
 \subsubsection{Intégration dans l'interface web}
+
+
 
 L'utilisateur (employé, manager ou administrateur) interagit avec les fonctionnalités d'analyse via l'interface web Angular. Les sections suivantes présentent les principales interfaces développées.
 
+
+
 \subparagraph{$\bullet$Détection des doublons (popup de détail)}
+
 En cas de doublon, une alerte s’affiche dans le popup de détail de la note, indiquant le fichier en double, l’employé qui l’a précédemment soumis et le score de similarité. L’utilisateur (manager ou administrateur) peut consulter le fichier original ou le télécharger. Cette interface aide à prévenir les soumissions frauduleuses ou les erreurs de duplication.
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{duplicate_alert.png}
-    \caption{Alerte de doublon dans le popup de détail}
-    \label{fig:duplicate_alert}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{duplicate_alert.png}
+
+ \caption{Alerte de doublon dans le popup de détail}
+
+ \label{fig:duplicate_alert}
+
 \end{figure}
+
+
 
 \subparagraph{$\bullet$Analyse des montants suspects (popup de détail)}
+
 Chaque ligne de frais est analysée par un modèle Isolation Forest qui compare le montant déclaré à l’historique de l’employé pour la catégorie concernée. Si le montant est anormalement élevé, la ligne est marquée d’un badge « Anomalie » avec un message explicatif (moyenne historique, écart-type, score IA). Le manager ou l’administrateur peut visualiser ces anomalies directement dans le tableau des lignes de frais.
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{anomaly_detection_line.png}
-    \caption{Détection des montants suspects par ligne de frais}
-    \label{fig:anomaly_detection_line}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{anomaly_detection_line.png}
+
+ \caption{Détection des montants suspects par ligne de frais}
+
+ \label{fig:anomaly_detection_line}
+
 \end{figure}
+
+
 
 \subparagraph{$\bullet$Analyse des factures et extraction automatique des champs}
+
 Lors du dépôt d’une facture, le système utilise PaddleOCR pour extraire le texte, puis un LLM (Gemma3:4b) structure les informations (montant, date, description, commerçant, etc.). Les champs extraits sont automatiquement pré‑remplis dans le formulaire de création de note, réduisant ainsi les erreurs de saisie.
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{auto_fill_fields_avant.png}
-    \caption{Avant remplissage automatique des champs depuis une facture}
-    \label{fig:auto_fill_fields}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{auto_fill_fields_avant.png}
+
+ \caption{Avant remplissage automatique des champs depuis une facture}
+
+ \label{fig:auto_fill_fields}
+
 \end{figure}
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{auto_fill_fields_aprés.png}
-    \caption{Après remplissage automatique des champs depuis une facture}
-    \label{fig:auto_fill_fields}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{auto_fill_fields_aprés.png}
+
+ \caption{Après remplissage automatique des champs depuis une facture}
+
+ \label{fig:auto_fill_fields}
+
 \end{figure}
+
+
 
 \subparagraph{$\bullet$Analyse de cohérence Accord / Note de frais (popup de détail)}
+
 L’administrateur ou le manager peut déclencher une analyse IA qui compare l’accord de mission (PDF signé) avec les données du formulaire de la note. Les résultats sont présentés dans un bloc dédié au sein du popup de détail, organisé en trois onglets :
+
 \begin{itemize}
-    \item \textbf{Anomalies} : liste des anomalies détectées par le moteur de règles et par le LLM
-    \item \textbf{Données extraites} : affichage des champs lus dans l’accord
-    \item \textbf{Conclusion} : score de confiance global, niveau de risque et résumé de l’analyse
+
+ \item \textbf{Anomalies} : liste des anomalies détectées par le moteur de règles et par le LLM
+
+ \item \textbf{Données extraites} : affichage des champs lus dans l’accord
+
+ \item \textbf{Conclusion} : score de confiance global, niveau de risque et résumé de l’analyse
+
 \end{itemize}
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{accord_analysis.png}
-    \caption{Analyse IA de cohérence accord / note de frais}
-    \label{fig:accord_analysis}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{accord_analysis.png}
+
+ \caption{Analyse IA de cohérence accord / note de frais}
+
+ \label{fig:accord_analysis}
+
 \end{figure}
+
 \subparagraph{$\bullet$Validation de la facture (popup de détail)}
+
 Lors de l'analyse d'une facture, le système utilise PaddleOCR pour extraire le texte du justificatif, puis un LLM (Gemma3:4b) détermine si celle-ci est valide. Le résultat est un booléen \texttt{is\_accurate} accompagné d'un score de confiance et d'une liste des anomalies détectées.
+
+
 
 En cas de facture jugée non valide, une alerte s'affiche dans le popup de détail. L'utilisateur (manager ou administrateur) peut consulter le justificatif et décider de valider la note ou de la rejeter.
 
+
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{receipt_validation.png}
-    \caption{Validation de la facture}
-    \label{fig:receipt_validation}
+
+ \centering
+
+ \includegraphics[width=\textwidth]{receipt_validation.png}
+
+ \caption{Validation de la facture}
+
+ \label{fig:receipt_validation}
+
 \end{figure}
+
 \subsubsection{Conclusion du déploiement}
 
+
+
 La phase de déploiement a consisté à sauvegarder les modèles entraînés (FAISS, Isolation Forest) et à déployer l'architecture microservices. L'intégration dans l'interface web s'est traduite par la création d'une popup de détail (trois onglets : anomalies, données extraites, conclusion), de dashboards personnalisés (employé, manager, administrateur), d'un chatbot hybride et de notifications enrichies. L'objectif de ces démarches est de garantir une prise de décision optimale pour tous les acteurs.
+
 
 
 \section{Chatbot hybride}
@@ -7448,7 +7565,7 @@ Le chatbot combine trois moteurs :
 
  \centering
 
- \includegraphics[width=1\textwidth]{chatbot/chatbot_patterns.png}
+ \includegraphics[width=1\textwidth]{chatbot/chatbot_patterns1.png}
 
  \caption{Extrait des patterns de classification d'intention}
 
@@ -7480,7 +7597,7 @@ Le prompt envoyé au modèle Gemma3:4b est construit dynamiquement. La figure su
 
  \centering
 
- \includegraphics[width=1\textwidth]{chatbot/chatbot_prompt.png}
+ \includegraphics[width=1\textwidth]{chatbot/chatbot_prompt1.png}
 
  \caption{Construction dynamique du prompt pour le LLM}
 
@@ -7538,7 +7655,7 @@ La figure ci-dessous montre un extrait du service de gestion de session.
 
  \centering
 
- \includegraphics[width=1\textwidth]{chatbot/chatbot_session.png}
+ \includegraphics[width=1\textwidth]{chatbot/chatbot_session1.png}
 
  \caption{Extrait du service de gestion de session}
 
@@ -7560,7 +7677,7 @@ Le routage suit la logique illustrée dans la figure ci-après.
 
  \centering
 
- \includegraphics[width=1\textwidth]{chatbot/chatbot_routing.png}
+ \includegraphics[width=1\textwidth]{chatbot/chatbot_routing1.png}
 
  \caption{Logique de routage du chatbot hybride}
 
