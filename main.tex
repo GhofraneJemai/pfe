@@ -25,6 +25,7 @@
 \usepackage{pgfplots}
 \usepackage{pdfpages}
 \usepackage{titlesec}
+\setlist[itemize]{leftmargin=3.5cm}
 
 % ============================================================
 % INDENTATION DES TITRES DANS LE CORPS DU DOCUMENT
@@ -63,7 +64,24 @@
   {0pt}
   {}
   [\vspace{0.3\baselineskip}]
+% ============================================================
+% CRÉATION D'UN NOUVEAU NIVEAU a.1, a.2, a.3...
+% QUI S'ALIGNE CORRECTEMENT SOUS \subsubsection
+% ============================================================
 
+\newcounter{subsubsubcounter}[subsubsection]
+\renewcommand{\thesubsubsubcounter}{\arabic{subsubsubcounter}}
+
+\makeatletter
+\newcommand{\subsubsubsection}[1]{%
+  \stepcounter{subsubsubcounter}%
+  \vspace{0.2\baselineskip}%
+  \noindent
+  \hspace*{8em}\textbf{\alph{subsubsection}.\thesubsubsubcounter) #1}%
+  \par
+  \vspace{0.1\baselineskip}%
+}
+\makeatother
 % ============================================================
 % CORRECTION NUMEROTATION : Section = 1, Sous-section = 1.1
 % ============================================================
@@ -187,106 +205,11 @@
 
 % ============================================================
 
-\remerciement{Remerciements}
-
-
-
-\thispagestyle{empty}
-
-\begin{center}
-
-\itshape
-
-
-
-Derrière chaque réussite se cachent des mains qui ont soutenu et des cœurs qui ont cru. À ma famille, mes grands-parents, mes tantes, mes oncles, mes frères et sœurs, vous êtes mon premier refuge et ma plus grande force. 
-
-
-
-\vspace{0.3cm}
-
-
-
-À mes parents, \textbf{Afifa} et \textbf{Hosni}, je dédie ma plus profonde gratitude. Merci pour votre amour inconditionnel, vos sacrifices silencieux et votre volonté de me voir réussir. Cette réussite porte mon nom, mais elle raconte avant tout votre histoire. Je serai éternellement fière d’être votre fille.
-
-
-
-\vspace{0.3cm}
-
-
-
-À mes parents de cœur, \textbf{Raja} et \textbf{Habib}, vous m’avez offert un sentiment d’appartenance, de sécurité et d’amour que je porterai toute ma vie. Votre place dans mon cœur est unique.
-
-
-
-\vspace{0.3cm}
-
-
-
-À ma sœur \textbf{Feriel}, merci d'être plus qu’une sœur, une amie fidèle, une confidente, un cadeau précieux. Peu importe où la vie nous mènera, tu resteras l’un des plus beaux dons que Dieu m’ait accordés.
-
-
-
-\vspace{0.3cm}
-
-
-
-À \textbf{Dr Chokri Terzi}, depuis mon plus jeune âge, vous avez accompagné mon parcours avec une bienveillance rare. Vous avez cru en moi, nourri ma curiosité et contribué à construire la personne que je suis devenue, merci.
-
-
-
-\vspace{0.3cm}
-
-
-
-À mon encadrante, \textbf{Mme Safa}, merci pour votre disponibilité, vos conseils précieux et la confiance que vous m’avez accordée.
-
-
-
-\vspace{0.3cm}
-
-
-
-À ma binôme, \textbf{Ghofrane}, plus qu’une partenaire de projet, une amie, une sœur de cœur. Merci pour les moments de doute surmontés ensemble et les souvenirs construits.
-
-
-
-\vspace{0.3cm}
-
-
-
-À la mémoire de mon oncle \textbf{Mohamed}, parti trop tôt. Au milieu de cette joie, une pensée particulière t’est destinée. Où que tu sois, j’espère que tu sais combien tu continueras à occuper une place irremplaçable dans mon cœur. Que Dieu t’accueille dans son vaste Paradis.
-
-
-
-\vspace{0.3cm}
-
-
-
-Et enfin, à ma mère, \textbf{Afifa}…
-
-
-
-Aucune phrase ne pourra traduire ce que je ressens. Derrière chacune de mes réussites se trouvent tes nuits d’inquiétude, tes prières silencieuses, ta force inépuisable. Je te dois bien plus qu’un remerciement, je te dois une partie de ce que je suis.
-
-
-
-\vspace{0.3cm}
-
-
-
-\textbf{À vous, je dédie cette réussite avec tout mon amour et ma reconnaissance éternelle.} ❤️
-
-
-
-\end{center}
-
-
 
 % === PAGE 1 : TON PDF ===
 \includepdf[pages=1]{Remerciements.pdf}
-
-
+\includepdf[pages=1]{Dédicaces_Manel.pdf}
+\includepdf[pages=1]{Dédicaces_Ghofrane.pdf}
 
 \tableofcontents
 
@@ -421,8 +344,7 @@ Créée en 2018, Coral-io est une Entreprise de Services du Numérique (ESN) qui
 
 
 \vspace{0.2cm}
-
-\noindent\textbf{Domaines d'expertise}\\
+\subsubsection{Domaines d'expertise}
 
 Coral-io capitalise sur un savoir-faire technique transverse pour accompagner ses clients sur plusieurs leviers :
 
@@ -444,7 +366,7 @@ Coral-io capitalise sur un savoir-faire technique transverse pour accompagner se
 
 \vspace{0.2cm}
 
-\noindent\textbf{Positionnement client}\\
+\subsubsection{Positionnement client}\\
 
 L’entreprise propose des services de conseil et d’accompagnement sur mesure, de la R\&D à la mise en production, en passant par le financement et l’assurance. Elle s’adresse à une clientèle variée (établissements financiers, industries, opérateurs télécoms) et collabore avec un réseau de partenaires technologiques.
 
@@ -452,7 +374,7 @@ L’entreprise propose des services de conseil et d’accompagnement sur mesure,
 
 \vspace{0.2cm}
 
-\noindent\textbf{Valeurs et organisation}\\
+\subsubsection{Valeurs et organisation}\\
 
 Coral-io se veut un acteur agile, fondé par des experts du domaine, avec une équipe de 11 à 50 personnes. Elle participe régulièrement à des événements professionnels (salons, conférences) pour partager son retour d’expérience et nouer des relations de confiance.
 
@@ -554,7 +476,7 @@ Les solutions actuelles présentent des forces et des faiblesses. Pour éclairer
 
 
 
-\textbf{Définition des critères :}
+\subsubsection{Définition des critères :}
 
 \begin{itemize}
 
@@ -938,213 +860,447 @@ Ce tableau décrit l'environnement matériel en listant les composants technique
 
 \end{table}
 
+
+
 \subsection{Choix technologiques}
+
+
+
 Les choix technologiques retenus pour le développement sont détaillés ci-dessous.
 
-\subsubsection*{a) Environnements de développement}
+
+
+\subsubsection{Environnements de développement}
+
 \addcontentsline{toc}{subsubsection}{a) Environnements de développement}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Visual Studio Code} : éditeur de code open-source de Microsoft, utilisé pour le développement rapide du front-end Angular et des scripts annexes. Sa légèreté et son riche écosystème d'extensions permettent un développement front-end efficace.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{vs.jpg}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Visual Studio Code}
-\vspace{0.5\baselineskip}
+ \item \textbf{Visual Studio Code} : éditeur de code open-source de Microsoft, utilisé pour le développement rapide du front-end Angular et des scripts annexes. Sa légèreté et son riche écosystème d'extensions permettent un développement front-end efficace.
 
-\item \textbf{IntelliJ IDEA} : IDE Java puissant développé par JetBrains, utilisé pour le développement des microservices Spring Boot. Sa compréhension avancée du code Spring et ses outils intégrés accélèrent le développement back-end.
+ 
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{intellij.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo IntelliJ IDEA}
-\vspace{0.5\baselineskip}
+ \begin{figure}[H]
 
-\item \textbf{PyCharm} : IDE dédié au développement du service IA de détection des anomalies avec FastAPI. Ses fonctionnalités spécifiques à Python (débogueur, environnement virtuel) sont indispensables pour le service IA.
+ \centering
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{pycharm.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo PyCharm}
-\vspace{0.5\baselineskip}
+ \includegraphics[width=0.1\textwidth]{vs.jpg}
+
+ \caption{Logo Visual Studio Code}
+
+ \label{fig:vscode}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{IntelliJ IDEA} : IDE Java puissant développé par JetBrains, utilisé pour le développement des microservices Spring Boot. Sa compréhension avancée du code Spring et ses outils intégrés accélèrent le développement back-end.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{intellij.png}
+
+ \caption{Logo IntelliJ IDEA}
+
+ \label{fig:intellij}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{PyCharm} : IDE dédié au développement du service IA de détection d'anomalies avec FastAPI. Ses fonctionnalités spécifiques à Python (débogueur, environnement virtuel) sont indispensables pour le service IA.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{pycharm.png}
+
+ \caption{Logo PyCharm}
+
+ \label{fig:pycharm}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{b) Versionnement et collaboration}
+
+
+\subsubsection{ Versionnement et collaboration}
+
 \addcontentsline{toc}{subsubsection}{b) Versionnement et collaboration}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Git} : outil de versionnement qui permet de suivre l'évolution du code source. Le versionnement est essentiel pour gérer les évolutions concurrentes sur les différents microservices.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.12\textwidth]{git.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Git}
-\vspace{0.5\baselineskip}
+ \item \textbf{Git} : outil de versionnement qui permet de suivre l'évolution du code source. Le versionnement est essentiel pour gérer les évolutions concurrentes sur les différents microservices.
 
-\item \textbf{GitHub} : plateforme d'hébergement de code source qui facilite la collaboration entre les membres de l'équipe. Elle centralise le code et offre les fonctionnalités de revue et de suivi des tâches.
+ 
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{github.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo GitHub}
-\vspace{0.5\baselineskip}
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.12\textwidth]{git.png}
+
+ \caption{Logo Git}
+
+ \label{fig:git}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{GitHub} : plateforme d'hébergement de code source qui facilite la collaboration entre les membres de l'équipe. Elle centralise le code et offre les fonctionnalités de revue et de suivi des tâches.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{github.png}
+
+ \caption{Logo GitHub}
+
+ \label{fig:github}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{c) Design et maquettage}
+
+
+\subsubsection{ Design et maquettage}
+
 \addcontentsline{toc}{subsubsection}{c) Design et maquettage}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{draw.io} : outil de conception de diagrammes d'architecture et de schémas de workflow. Cet outil gratuit et intégré au navigateur facilite la conception visuelle de l'architecture système.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{draw.io.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo draw.io}
-\vspace{0.5\baselineskip}
+ \item \textbf{draw.io} : outil de conception de diagrammes d'architecture et de schémas de workflow. Cet outil gratuit et intégré au navigateur facilite la conception visuelle de l'architecture système.
 
-\item \textbf{Figma} : outil de conception d'interfaces utilisé pour réaliser les maquettes de l'application. Le maquettage préalable évite les allers-retours coûteux lors du développement front-end.
+ 
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.09\textwidth]{figma2.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Figma}
-\vspace{0.5\baselineskip}
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{draw.io.png}
+
+ \caption{Logo draw.io}
+
+ \label{fig:drawio}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{Figma} : outil de conception d'interfaces utilisé pour réaliser les maquettes de l'application. Le maquettage préalable évite les allers-retours coûteux lors du développement front-end.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.09\textwidth]{figma2.png}
+
+ \caption{Logo Figma}
+
+ \label{fig:figma}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{d) Frameworks et langages front-end}
+
+
+\subsubsection{ Frameworks et langages front-end}
+
 \addcontentsline{toc}{subsubsection}{d) Frameworks et langages front-end}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Angular} : framework front-end qui construit l'interface web dynamique de Coral.io Expense. Angular structure le code en composants réutilisables, indispensable pour une application métier évolutive.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.15\textwidth]{angular.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Angular}
-\vspace{0.5\baselineskip}
+ \item \textbf{Angular} : framework front-end qui construit l'interface web dynamique de Coral.io Expense. Angular structure le code en composants réutilisables, indispensable pour une application métier évolutive.
 
-\item \textbf{TypeScript} : langage qui apporte la typisation statique au code Angular pour plus de robustesse. Le typage statique détecte les erreurs à la compilation, indispensable dans une équipe de plusieurs développeurs.
+ 
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{ts.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo TypeScript}
-\vspace{0.5\baselineskip}
+ \begin{figure}[H]
 
-\item \textbf{HTML} : langage de balisage structurant le contenu des pages web de l'application. Il sert de socle à l'interface utilisateur générée par Angular.
+ \centering
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{html.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo HTML}
-\vspace{0.5\baselineskip}
+ \includegraphics[width=0.15\textwidth]{angular.png}
 
-\item \textbf{SCSS} : extension du CSS permettant d'écrire des feuilles de style plus maintenables avec des variables et du code imbriqué. Il est utilisé pour personnaliser l'apparence des composants Angular au-delà de Bootstrap.
+ \caption{Logo Angular}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{scss.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo SCSS}
-\vspace{0.5\baselineskip}
+ \label{fig:angular}
 
-\item \textbf{Bootstrap} : bibliothèque CSS accélérant la construction de l'interface utilisateur responsive. Ses composants pré-stylisés permettent de livrer une interface professionnelle sans écrire tout le CSS manuellement.
+ \end{figure}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{bootstrap.jpg}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Bootstrap}
-\vspace{0.5\baselineskip}
+ 
+
+ \item \textbf{TypeScript} : langage qui apporte la typisation statique au code Angular pour plus de robustesse. Le typage statique détecte les erreurs à la compilation, indispensable dans une équipe de plusieurs développeurs.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{ts.png}
+
+ \caption{Logo TypeScript}
+
+ \label{fig:typescript}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{HTML} : langage de balisage structurant le contenu des pages web de l'application. Il sert de socle à l'interface utilisateur générée par Angular.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{html.png}
+
+ \caption{Logo HTML}
+
+ \label{fig:html}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{SCSS} : extension du CSS permettant d'écrire des feuilles de style plus maintenables avec des variables et du code imbriqué. Il est utilisé pour personnaliser l'apparence des composants Angular au-delà de Bootstrap.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{scss.png}
+
+ \caption{Logo SCSS}
+
+ \label{fig:scss}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{Bootstrap} : bibliothèque CSS accélérant la construction de l'interface utilisateur responsive. Ses composants pré-stylisés permettent de livrer une interface professionnelle sans écrire tout le CSS manuellement.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{bootstrap.jpg}
+
+ \caption{Logo Bootstrap}
+
+ \label{fig:bootstrap}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{e) Frameworks et langages back-end}
+
+
+\subsubsection{ Frameworks et langages back-end}
+
 \addcontentsline{toc}{subsubsection}{e) Frameworks et langages back-end}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Spring Boot} : framework Java qui implémente les microservices métier et l'API Gateway. Son auto-configuration et son intégration avec l'écosystème Spring simplifient la création des microservices.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.12\textwidth]{sb.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Spring Boot}
-\vspace{0.5\baselineskip}
+ \item \textbf{Spring Boot} : framework Java qui implémente les microservices métier et l'API Gateway. Son auto-configuration et son intégration avec l'écosystème Spring simplifient la création des microservices.
 
-\item \textbf{Java} : langage orienté objet utilisé pour implémenter les microservices Spring Boot. Sa robustesse et son écosystème mature garantissent la fiabilité du back-end.
+ 
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{java.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Java}
-\vspace{0.5\baselineskip}
+ \begin{figure}[H]
 
-\item \textbf{Python} : langage utilisé pour écrire le service IA de détection des anomalies. La richesse de ses bibliothèques scientifiques (pandas, scikit-learn) est nécessaire pour le traitement des données financières.
+ \centering
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{python.jpg}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Python}
-\vspace{0.5\baselineskip}
+ \includegraphics[width=0.12\textwidth]{sb.png}
 
-\item \textbf{FastAPI} : framework Python qui expose les endpoints du service IA pour les autres microservices. Sa rapidité et sa génération automatique de documentation OpenAPI facilitent l'intégration avec les autres services.
+ \caption{Logo Spring Boot}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{fapi.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo FastAPI}
-\vspace{0.5\baselineskip}
+ \label{fig:springboot}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{Java} : langage orienté objet utilisé pour implémenter les microservices Spring Boot. Sa robustesse et son écosystème mature garantissent la fiabilité du back-end.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{java.png}
+
+ \caption{Logo Java}
+
+ \label{fig:java}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{Python} : langage utilisé pour écrire le service IA de détection des anomalies. La richesse de ses bibliothèques scientifiques (pandas, scikit-learn) est nécessaire pour le traitement des données financières.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{python.jpg}
+
+ \caption{Logo Python}
+
+ \label{fig:python}
+
+ \end{figure}
+
+ 
+
+ \item \textbf{FastAPI} : framework Python qui expose les endpoints du service IA pour les autres microservices. Sa rapidité et sa génération automatique de documentation OpenAPI facilitent l'intégration avec les autres services.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{fapi.png}
+
+ \caption{Logo FastAPI}
+
+ \label{fig:fastapi}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{f) Base de données}
+
+
+\subsubsection{Base de données}
+
 \addcontentsline{toc}{subsubsection}{f) Base de données}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{PostgreSQL} : base de données relationnelle stockant toutes les données de l'application. La fiabilité et le respect des standards SQL de PostgreSQL garantissent l'intégrité des données financières.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.12\textwidth]{pgsql.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo PostgreSQL}
-\vspace{0.5\baselineskip}
+ \item \textbf{PostgreSQL} : base de données relationnelle stockant toutes les données de l'application. La fiabilité et le respect des standards SQL de PostgreSQL garantissent l'intégrité des données financières.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.12\textwidth]{pgsql.png}
+
+ \caption{Logo PostgreSQL}
+
+ \label{fig:postgresql}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{g) Sécurité}
+
+
+\subsubsection{ Sécurité}
+
 \addcontentsline{toc}{subsubsection}{g) Sécurité}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Keycloak} : solution de gestion d'authentification et des rôles (Employé, Manager, Administrateur). Déléguer la gestion des utilisateurs à Keycloak sécurise l'application sans réinventer la roue.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.15\textwidth]{keycloak.jpg}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Keycloak}
-\vspace{0.5\baselineskip}
+ \item \textbf{Keycloak} : solution de gestion d'authentification et des rôles (Employé, Manager, Administrateur). Déléguer la gestion des utilisateurs à Keycloak sécurise l'application sans réinventer la roue.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.15\textwidth]{keycloak.jpg}
+
+ \caption{Logo Keycloak}
+
+ \label{fig:keycloak}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{h) Conteneurisation}
+
+
+\subsubsection{ Conteneurisation}
+
 \addcontentsline{toc}{subsubsection}{h) Conteneurisation}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Docker} : plateforme de conteneurisation qui isole chaque microservice pour un déploiement cohérent. Les conteneurs garantissent un environnement d'exécution identique entre le développement et la production.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.25\textwidth]{docker1.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Docker}
-\vspace{0.5\baselineskip}
+ \item \textbf{Docker} : plateforme de conteneurisation qui isole chaque microservice pour un déploiement cohérent. Les conteneurs garantissent un environnement d'exécution identique entre le développement et la production.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.25\textwidth]{docker1.png}
+
+ \caption{Logo Docker}
+
+ \label{fig:docker}
+
+ \end{figure}
+
 \end{itemize}
 
-\subsubsection*{i) Tests et documentation d'API}
+
+
+\subsubsection{Tests et documentation d'API}
+
 \addcontentsline{toc}{subsubsection}{i) Tests et documentation d'API}
 
-\begin{itemize}[leftmargin=3.5cm]
-\item \textbf{Postman} : outil de test et de documentation d'API REST. Il permet de valider les endpoints des microservices Spring Boot et FastAPI avant l'intégration avec le front-end.
+\begin{itemize}
 
-\noindent
-\hspace*{5cm}\includegraphics[width=0.1\textwidth]{postman.png}
-\par\noindent
-\hspace*{3.5cm}{\small\textbf{Figure:} Logo Postman}
-\vspace{0.5\baselineskip}
+ \item \textbf{Postman} : outil de test et de documentation d'API REST. Il permet de valider les endpoints des microservices Spring Boot et FastAPI avant l'intégration avec le front-end.
+
+ 
+
+ \begin{figure}[H]
+
+ \centering
+
+ \includegraphics[width=0.1\textwidth]{postman.png}
+
+ \caption{Logo Postman}
+
+ \label{fig:postman}
+
+ \end{figure}
+
 \end{itemize}
+
+
 
 \newpage
 
@@ -3287,7 +3443,7 @@ Post-condition & La catégorie est créée et ses champs sont disponibles dans l
 
  \centering
 
- \includegraphics[width=1\textwidth,height=0.92\textheight]{seq_category.png}
+ \includegraphics[width=1\textwidth,height=0.9\textheight]{seq_category.png}
 
  \caption{Diagramme de séquence - Ajouter une catégorie}
 
@@ -6048,12 +6204,12 @@ US-72 & En tant qu'utilisateur, je veux poser des questions au chatbot hybride a
 
 
 
-
+\newpage
 \section{Analyse}
 
 
 
-\subsection{Diagramme des cas d'utilisation}
+\subsection{Diagramme des cas d'utilisation global du sprint 2}
 
 Le diagramme des cas d'utilisation ci-dessous illustre les interactions entre les acteurs (Employé, Manager, Administrateur) et les fonctionnalités introduites lors du sprint 4.
 
@@ -6072,7 +6228,7 @@ Le diagramme des cas d'utilisation ci-dessous illustre les interactions entre le
 \end{figure}
 
 
-
+\newpage
 \subsection{Description textuelle des cas d'utilisation}
 
 
@@ -6286,7 +6442,7 @@ Afin d'automatiser les contrôles de conformité et de détecter les fraudes pot
 \end{itemize}
 
 
-
+\newpage
 \subsection{Cycle de vie d'une note de frais avec les contrôles automatiques}
 
 Le schéma ci-dessous illustre l'enchaînement des vérifications effectuées lors de la soumission d'une note de frais.
@@ -6317,7 +6473,7 @@ Le diagramme de classes ci-dessous présente les principales entités et leurs a
 
 \centering
 
-\includegraphics[width=0.9\textwidth,height=0.75\textheight]{class_diagram_sprint4.png}
+\includegraphics[width=0.9\textwidth,height=0.8\textheight]{class_diagram_sprint4.png}
 
 \caption{Diagramme de classes du sprint 4 (extrait)}
 
@@ -6409,7 +6565,7 @@ Avant toute modélisation, il est indispensable d'identifier et de centraliser l
 
 
 
-\textbf{a.1. Sources des données}\\
+\subsubsubsection{Sources des données}\\
 
 Les données mobilisées dans ce projet proviennent de trois sources complémentaires :
 
@@ -6425,7 +6581,7 @@ Les données mobilisées dans ce projet proviennent de trois sources complément
 
 
 
-\textbf{a.2. Présentation et évaluation des outils OCR}\\
+\subsubsubsection{Présentation et évaluation des outils OCR}\\
 
 Avant de décrire le processus de collecte, nous présentons les outils retenus pour l'extraction du texte, ce choix conditionnant directement les étapes du pipeline.
 
@@ -6479,7 +6635,7 @@ Points faibles & Lourd en mémoire, nécessite GPU pour performance & Moins pré
 
 
 
-\textbf{a.3. Processus de collecte}\\
+\subsubsubsection{ Processus de collecte}\\
 
 Fort de ces choix techniques, le pipeline de collecte suit les étapes suivantes :
 
@@ -6496,8 +6652,8 @@ Fort de ces choix techniques, le pipeline de collecte suit les étapes suivantes
  \item \textbf{Stockage} : les résultats d’extraction et d’analyse sont conservés dans les tables \texttt{expense\_extractions}, \texttt{expense\_note\_extractions} ainsi que dans le champ \texttt{ai\_analysis\_result} de la note de frais.
 
 \end{itemize}
-
-\textbf{a.4. Exemples d’extraction par PaddleOCR et Tesseract}\\
+\newpage
+\subsubsubsection{ Exemples d’extraction par PaddleOCR et Tesseract}\\
 
 Les figures ci-dessous montrent la détection des zones de textes depuis les fichiers via OCR :
 
@@ -6513,7 +6669,7 @@ Les figures ci-dessous montrent la détection des zones de textes depuis les fic
 
  \centering
 
- \includegraphics[width=0.7\textwidth]{paddle_ocr.png}
+ \includegraphics[width=0.9\textwidth,height=0.8\textheight]{paddle_ocr.png}
 
  \caption{Extraction par PaddleOCR pour un PDF}
 
@@ -6522,12 +6678,12 @@ Les figures ci-dessous montrent la détection des zones de textes depuis les fic
  \end{figure}
 
  \item Extraction par PaddleOCR depuis une image PNG :
-
+\newline
  \begin{figure}[H]
 
  \centering
 
- \includegraphics[width=0.7\textwidth,height=0.5\textheight]{paddle_ocr2.png}
+ \includegraphics[width=0.7\textwidth,height=0.7\textheight]{paddle_ocr2.png}
 
  \caption{Extraction par PaddleOCR pour un PNG}
 
@@ -6545,7 +6701,7 @@ Les figures ci-dessous montrent la détection des zones de textes depuis les fic
 
  \centering
 
- \includegraphics[width=0.7\textwidth]{tesseract.png}
+ \includegraphics[width=0.9\textwidth,height=0.8\textheight]{tesseract.png}
 
  \caption{Extraction par Tesseract}
 
@@ -6644,7 +6800,7 @@ Les anomalies les plus critiques concernent les doublons de justificatifs (15\%)
 \end{figure}
 
 
-
+\newpage
 \subsection{Préparation des données}
 
 Cette étape consiste à transformer les données brutes (fichiers scannés, historiques des notes de frais) en un ensemble final exploitable par les modèles de détection d'anomalies et de comparaison documentaire.
@@ -6835,7 +6991,7 @@ Avant de détailler les modèles, nous définissons brièvement les concepts cl�
 
 Nous avons exploré plusieurs approches pour chaque type d'anomalie. Dans ce chapitre, nous détaillons particulièrement les modèles évalués pour la détection des doublons et le remplissage automatique du formulaire. Pour les autres anomalies (montants suspects, incohérences accord/note), les modèles retenus sont présentés synthétiquement en fin de section.
 
-\paragraph{1. Détection des doublons de justificatifs} \\
+\subsubsubsection{Détection des doublons de justificatifs} \\
 
 Nous avons comparé trois approches distinctes :
 
@@ -6932,7 +7088,7 @@ La figure suivante visualise ces écarts de performance.
 \label{fig:f1_duplicate}
 \end{figure}
 
-\paragraph{2. Remplissage automatique des champs du formulaire}
+\subsubsubsection{Remplissage automatique des champs du formulaire}
 
 Nous avons testé trois grands modèles de langage (LLM) pour extraire les informations clés (montant, date, description, commerçant) depuis une facture scannée.
 
@@ -7019,7 +7175,7 @@ Llama 3 8B & 0,93 & 0,91 & 0,92 & 1200 \\
 \hline
 \end{tabular}
 \end{table}
-
+\newpage
 La figure suivante confirme visuellement la supériorité de Gemma3:4b sur l'ensemble des critères (précision, rappel, F1-score, vitesse).
 
 \begin{figure}[H]
@@ -7030,7 +7186,7 @@ La figure suivante confirme visuellement la supériorité de Gemma3:4b sur l'ens
 \end{figure}
 
 
-\paragraph{3. Autres anomalies (synthèse)}
+\subsubsubsection{Autres anomalies (synthèse)}
 
 Pour la détection des montants suspects, nous avons conservé l'Isolation Forest (F1 de 0,84). Pour la comparaison accord/note, la combinaison règles métier + LLM (Gemma3:4b) donne un F1 de 0,90.
 
@@ -7055,7 +7211,7 @@ Pour la détection des montants suspects, nous avons conservé l'Isolation Fores
 Ces ajustements ont permis de réduire le taux de faux positifs de la détection de doublons pour les accords de 11\% à 1\%, et d'améliorer le rappel des anomalies de montant de 0,78 à 0,82.
 
 
-
+\newpage
 \subsection{Déploiement}
 
 
