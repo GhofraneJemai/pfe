@@ -51,9 +51,99 @@
 \usepackage{pgfplots}
 
 \usepackage{tikz}
-
+\usepackage{enumitem}
 \usepackage{caption}
 \usepackage{pdfpages}
+\usepackage{titlesec}
+% ============================================================
+% INDENTATION DES TITRES DANS LE CORPS DU DOCUMENT
+% ============================================================
+
+% Pour les sous-sections (1.1, 1.2...) - LES INDENTER PAR RAPPORT AUX SECTIONS
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+  [\vspace{0.3\baselineskip}]
+
+% CECI EST CE QUI MANQUE : l'indentation de la sous-section
+\titlespacing*{\subsection}
+  {2.5em}     
+  {0.5\baselineskip}
+  {0pt}
+
+% Pour les sous-sous-sections (1.1.1...) - ENCORE PLUS INDENTÉES
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}
+  {\thesubsubsection}
+  {1em}
+  {}
+  [\vspace{0.3\baselineskip}]
+
+\titlespacing*{\subsubsection}
+  {5em}       
+  {0.5\baselineskip}
+  {0pt}
+% ============================================================
+% INDENTATION UNIFORMISÉE POUR LES SOUS-SOUS-SECTIONS NON NUMÉROTÉES
+% ============================================================
+
+% Pour les subsubsection numerotes (1.1.1)
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}
+  {\thesubsubsection}
+  {1em}
+  {}
+  [\vspace{0.3\baselineskip}]
+
+\titlespacing*{\subsubsection}
+  {5em}      % Indentation de 5em
+  {0.5\baselineskip}
+  {0pt}
+
+% Pour les subsubsection NON numerotes (a), b), c)...)
+\titleformat{name=\subsubsection, numberless}
+  {\normalfont\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.3\baselineskip}]
+
+\titlespacing*{\subsubsection}
+  {5em}      % MÊME indentation que les numerotes
+  {0.5\baselineskip}
+  {0pt}
+
+
+
+% ============================================================
+% CORRECTION NUMEROTATION : Section = 1, Sous-section = 1.1
+% ============================================================
+
+\makeatletter
+
+% Changer le format de numérotation
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+% Réinitialiser section à chaque chapitre
+\@addtoreset{section}{chapter}
+
+% Forcer le compteur section à 0 au début de chaque chapitre
+\let\oldchapter\chapter
+\def\chapter{\clearpage\setcounter{section}{0}\oldchapter}
+
+\makeatother
+\titleformat{name=\subsubsection, numberless}
+  {\normalfont\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.3\baselineskip}]
+  
+
 \usetikzlibrary{matrix, positioning}
 
 % Personnalisation des puces
@@ -160,9 +250,46 @@
 % REMERCIEMENTS
 
 % ============================================================
+% ============================================================
+% PAGE DE REMERCIEMENTS (CORRIGÉE & COMPLÈTE)
+% ============================================================
 
 \remerciement{Remerciements}
 
+\thispagestyle{empty}
+
+\begin{center}
+\itshape
+
+Nous tenons tout d'abord à exprimer notre profonde gratitude envers Allah, qui nous a accordé la santé, la patience et la force nécessaires pour mener à bien ce projet.
+
+\vspace{0.3cm}
+
+Nous adressons nos plus sincères remerciements à Madame \textbf{Safa Majdoub}, notre encadrante académique, pour son accompagnement précieux, la qualité de ses conseils et sa disponibilité. Son engagement à nos côtés a été une source de motivation tout au long de ce travail.
+
+\vspace{0.3cm}
+
+Nous remercions chaleureusement Madame \textbf{Oumaima Aounallah}, notre encadrante professionnelle, pour son accueil, sa confiance et le temps qu'elle nous a consacré. Ses remarques pertinentes ont largement facilité notre progression.
+
+\vspace{0.3cm}
+
+Nous tenons également à remercier l'ensemble des professeurs de l'ISET Nabeul, et plus particulièrement ceux du département des Sciences de l'Informatique, pour la qualité de leur enseignement et pour nous avoir transmis les compétences nécessaires à la réalisation de ce projet.
+
+\vspace{0.3cm}
+
+Enfin, nous exprimons notre reconnaissance aux membres du jury pour l'intérêt qu'ils portent à notre travail. Nous sommes honorés de pouvoir leur présenter le fruit de nos efforts.
+
+\vspace{0.5cm}
+\textbf{Merci à tous ceux qui ont cru en nous.}
+
+\end{center}
+
+\clearpage
+% ============================================================
+% DÉDICACES
+% ============================================================
+
+\remerciement{Dédicaces}
 
 
 \thispagestyle{empty}
@@ -259,7 +386,8 @@ Aucune phrase ne pourra traduire ce que je ressens. Derrière chacune de mes ré
 
 \clearpage
 
-
+% === PAGE 1 : TON PDF ===
+\includepdf[pages=1]{Remerciements.pdf}
 
 \tableofcontents
 
@@ -914,451 +1042,235 @@ Ce tableau décrit l'environnement matériel en listant les composants technique
 \end{table}
 
 
-
 \subsection{Choix technologiques}
-
-
-
 Les choix technologiques retenus pour le développement sont détaillés ci-dessous.
 
-
-
 \subsubsection*{a) Environnements de développement}
-
 \addcontentsline{toc}{subsubsection}{a) Environnements de développement}
 
-\begin{itemize}
+\begin{itemize}[leftmargin=3.5cm]
+\item \textbf{Visual Studio Code} : éditeur de code open-source de Microsoft, utilisé pour le développement rapide du front-end Angular et des scripts annexes. Sa légèreté et son riche écosystème d'extensions permettent un développement front-end efficace.
 
- \item \textbf{Visual Studio Code} : éditeur de code open-source de Microsoft, utilisé pour le développement rapide du front-end Angular et des scripts annexes. Sa légèreté et son riche écosystème d'extensions permettent un développement front-end efficace.
-
- 
-
- \begin{figure}[H]
-
- \centering
-
- \includegraphics[width=0.1\textwidth]{vs.jpg}
-
- \caption{Logo Visual Studio Code}
-
- \label{fig:vscode}
-
- \end{figure}
-
- 
-
+\noindent
+\hspace*{5cm}\includegraphics[width=0.1\textwidth]{vs.jpg}
+\par\noindent
+\hspace*{3.5cm}{\small\textbf{Figure:} Logo Visual Studio Code}
+\vspace{0.5\baselineskip}
  \item \textbf{IntelliJ IDEA} : IDE Java puissant développé par JetBrains, utilisé pour le développement des microservices Spring Boot. Sa compréhension avancée du code Spring et ses outils intégrés accélèrent le développement back-end.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{intellij.png}
-
  \caption{Logo IntelliJ IDEA}
-
  \label{fig:intellij}
-
  \end{figure}
-
  
-
  \item \textbf{PyCharm} : IDE dédié au développement du service IA de détection d'anomalies avec FastAPI. Ses fonctionnalités spécifiques à Python (débogueur, environnement virtuel) sont indispensables pour le service IA.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{pycharm.png}
-
  \caption{Logo PyCharm}
-
  \label{fig:pycharm}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{b) Versionnement et collaboration}
-
 \addcontentsline{toc}{subsubsection}{b) Versionnement et collaboration}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Git} : outil de versionnement qui permet de suivre l'évolution du code source. Le versionnement est essentiel pour gérer les évolutions concurrentes sur les différents microservices.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.12\textwidth]{git.png}
-
  \caption{Logo Git}
-
  \label{fig:git}
-
  \end{figure}
-
  
-
  \item \textbf{GitHub} : plateforme d'hébergement de code source qui facilite la collaboration entre les membres de l'équipe. Elle centralise le code et offre les fonctionnalités de revue et de suivi des tâches.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{github.png}
-
  \caption{Logo GitHub}
-
  \label{fig:github}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{c) Design et maquettage}
-
 \addcontentsline{toc}{subsubsection}{c) Design et maquettage}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{draw.io} : outil de conception de diagrammes d'architecture et de schémas de workflow. Cet outil gratuit et intégré au navigateur facilite la conception visuelle de l'architecture système.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{draw.io.png}
-
  \caption{Logo draw.io}
-
  \label{fig:drawio}
-
  \end{figure}
-
  
-
  \item \textbf{Figma} : outil de conception d'interfaces utilisé pour réaliser les maquettes de l'application. Le maquettage préalable évite les allers-retours coûteux lors du développement front-end.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.09\textwidth]{figma2.png}
-
  \caption{Logo Figma}
-
  \label{fig:figma}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{d) Frameworks et langages front-end}
-
 \addcontentsline{toc}{subsubsection}{d) Frameworks et langages front-end}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Angular} : framework front-end qui construit l'interface web dynamique de Coral.io Expense. Angular structure le code en composants réutilisables, indispensable pour une application métier évolutive.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.15\textwidth]{angular.png}
-
  \caption{Logo Angular}
-
  \label{fig:angular}
-
  \end{figure}
-
  
-
  \item \textbf{TypeScript} : langage qui apporte la typisation statique au code Angular pour plus de robustesse. Le typage statique détecte les erreurs à la compilation, indispensable dans une équipe de plusieurs développeurs.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{ts.png}
-
  \caption{Logo TypeScript}
-
  \label{fig:typescript}
-
  \end{figure}
-
  
-
  \item \textbf{HTML} : langage de balisage structurant le contenu des pages web de l'application. Il sert de socle à l'interface utilisateur générée par Angular.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{html.png}
-
  \caption{Logo HTML}
-
  \label{fig:html}
-
  \end{figure}
-
  
-
  \item \textbf{SCSS} : extension du CSS permettant d'écrire des feuilles de style plus maintenables avec des variables et du code imbriqué. Il est utilisé pour personnaliser l'apparence des composants Angular au-delà de Bootstrap.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{scss.png}
-
  \caption{Logo SCSS}
-
  \label{fig:scss}
-
  \end{figure}
-
  
-
  \item \textbf{Bootstrap} : bibliothèque CSS accélérant la construction de l'interface utilisateur responsive. Ses composants pré-stylisés permettent de livrer une interface professionnelle sans écrire tout le CSS manuellement.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{bootstrap.jpg}
-
  \caption{Logo Bootstrap}
-
  \label{fig:bootstrap}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{e) Frameworks et langages back-end}
-
 \addcontentsline{toc}{subsubsection}{e) Frameworks et langages back-end}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Spring Boot} : framework Java qui implémente les microservices métier et l'API Gateway. Son auto-configuration et son intégration avec l'écosystème Spring simplifient la création des microservices.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.12\textwidth]{sb.png}
-
  \caption{Logo Spring Boot}
-
  \label{fig:springboot}
-
  \end{figure}
-
  
-
  \item \textbf{Java} : langage orienté objet utilisé pour implémenter les microservices Spring Boot. Sa robustesse et son écosystème mature garantissent la fiabilité du back-end.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{java.png}
-
  \caption{Logo Java}
-
  \label{fig:java}
-
  \end{figure}
-
  
-
  \item \textbf{Python} : langage utilisé pour écrire le service IA de détection des anomalies. La richesse de ses bibliothèques scientifiques (pandas, scikit-learn) est nécessaire pour le traitement des données financières.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{python.jpg}
-
  \caption{Logo Python}
-
  \label{fig:python}
-
  \end{figure}
-
  
-
  \item \textbf{FastAPI} : framework Python qui expose les endpoints du service IA pour les autres microservices. Sa rapidité et sa génération automatique de documentation OpenAPI facilitent l'intégration avec les autres services.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{fapi.png}
-
  \caption{Logo FastAPI}
-
  \label{fig:fastapi}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{f) Base de données}
-
 \addcontentsline{toc}{subsubsection}{f) Base de données}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{PostgreSQL} : base de données relationnelle stockant toutes les données de l'application. La fiabilité et le respect des standards SQL de PostgreSQL garantissent l'intégrité des données financières.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.12\textwidth]{pgsql.png}
-
  \caption{Logo PostgreSQL}
-
  \label{fig:postgresql}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{g) Sécurité}
-
 \addcontentsline{toc}{subsubsection}{g) Sécurité}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Keycloak} : solution de gestion d'authentification et des rôles (Employé, Manager, Administrateur). Déléguer la gestion des utilisateurs à Keycloak sécurise l'application sans réinventer la roue.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.15\textwidth]{keycloak.jpg}
-
  \caption{Logo Keycloak}
-
  \label{fig:keycloak}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{h) Conteneurisation}
-
 \addcontentsline{toc}{subsubsection}{h) Conteneurisation}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Docker} : plateforme de conteneurisation qui isole chaque microservice pour un déploiement cohérent. Les conteneurs garantissent un environnement d'exécution identique entre le développement et la production.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.25\textwidth]{docker1.png}
-
  \caption{Logo Docker}
-
  \label{fig:docker}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \subsubsection*{i) Tests et documentation d'API}
-
 \addcontentsline{toc}{subsubsection}{i) Tests et documentation d'API}
 
-\begin{itemize}
-
+\begin{itemize}[leftmargin=2cm]
  \item \textbf{Postman} : outil de test et de documentation d'API REST. Il permet de valider les endpoints des microservices Spring Boot et FastAPI avant l'intégration avec le front-end.
-
  
-
  \begin{figure}[H]
-
  \centering
-
  \includegraphics[width=0.1\textwidth]{postman.png}
-
  \caption{Logo Postman}
-
  \label{fig:postman}
-
  \end{figure}
-
 \end{itemize}
-
-
 
 \newpage
 
 \section*{Conclusion}
-
 \addcontentsline{toc}{section}{Conclusion}
 
 Dans ce chapitre, nous avons présenté le cadre du projet, l'entreprise d'accueil Coral-io, analysé l'existant et proposé notre solution Coral.io. Nous avons également exposé la méthodologie Scrum adoptée et les choix technologiques. Cette étude nous permet d'aborder le chapitre suivant dédié à l'analyse et la spécification des besoins.

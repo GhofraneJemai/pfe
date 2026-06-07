@@ -2,242 +2,242 @@
 \contentsline {chapter}{Introduction Générale}{1}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Cadre général du projet}{2}{chapter.1}%
 \contentsline {section}{Introduction}{3}{section*.3}%
-\contentsline {section}{\numberline {1.1}Cadre du projet}{3}{section.1.1}%
+\contentsline {section}{\numberline {1}Cadre du projet}{3}{section.1.1}%
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {1.1.1}Présentation de l'organisme d'accueil}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1}Présentation de l'organisme d'accueil}{3}{subsection.1.1.1}%
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {1.2}Étude de l'existant}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Description de l'existant}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Critique de l'existant}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Synthèse des limitations}{9}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Solution proposée}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Méthodologie utilisée}{11}{section.1.4}%
+\contentsline {section}{\numberline {2}Étude de l'existant}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {2.1}Description de l'existant}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {2.2}Critique de l'existant}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {2.3}Synthèse des limitations}{8}{subsection.1.2.3}%
+\contentsline {section}{\numberline {3}Solution proposée}{9}{section.1.3}%
+\contentsline {section}{\numberline {4}Méthodologie utilisée}{10}{section.1.4}%
 \setcounter {tocdepth}{1}
-\contentsline {subsection}{\numberline {1.4.1}Pourquoi Scrum ?}{11}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {4.1}Pourquoi Scrum ?}{10}{subsection.1.4.1}%
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {1.5}Langage de modélisation UML}{12}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Choix technologiques adoptés}{13}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Environnement matériel}{13}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Choix technologiques}{13}{subsection.1.6.2}%
-\contentsline {subsubsection}{a) Environnements de développement}{13}{section*.11}%
-\contentsline {subsubsection}{b) Versionnement et collaboration}{14}{section*.15}%
-\contentsline {subsubsection}{c) Design et maquettage}{14}{section*.18}%
-\contentsline {subsubsection}{d) Frameworks et langages front-end}{15}{section*.21}%
-\contentsline {subsubsection}{e) Frameworks et langages back-end}{16}{section*.27}%
-\contentsline {subsubsection}{f) Base de données}{17}{section*.32}%
-\contentsline {subsubsection}{g) Sécurité}{17}{section*.34}%
-\contentsline {subsubsection}{h) Conteneurisation}{17}{section*.36}%
-\contentsline {subsubsection}{i) Tests et documentation d'API}{18}{section*.38}%
-\contentsline {section}{Conclusion}{19}{section*.40}%
-\contentsline {chapter}{\numberline {2}État de l'art}{20}{chapter.2}%
-\contentsline {section}{Introduction}{21}{section*.41}%
-\contentsline {section}{\numberline {2.1}Intelligence Artificielle}{21}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Définition}{21}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Apprentissage Automatique (Machine Learning)}{21}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Apprentissage profond (Deep Learning)}{21}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Technologies spécifiques au projet}{22}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}OCR (Optical Character Recognition)}{22}{subsection.2.2.1}%
-\contentsline {subsubsection}{Définition}{22}{section*.42}%
-\contentsline {subsubsection}{Outils OCR utilisés dans Coral.io Expense}{22}{section*.43}%
-\contentsline {subsection}{\numberline {2.2.2}LLM (Large Language Models)}{22}{subsection.2.2.2}%
-\contentsline {subsubsection}{Définition}{22}{section*.44}%
-\contentsline {subsubsection}{Modèles évalués et modèle retenu}{22}{section*.45}%
-\contentsline {subsubsection}{Serveur Ollama}{23}{section*.46}%
-\contentsline {subsection}{\numberline {2.2.3}FAISS (Facebook AI Similarity Search)}{23}{subsection.2.2.3}%
-\contentsline {subsubsection}{Définition}{23}{section*.47}%
-\contentsline {subsubsection}{Application dans le projet}{23}{section*.48}%
-\contentsline {subsection}{\numberline {2.2.4}SentenceTransformer}{23}{subsection.2.2.4}%
-\contentsline {subsubsection}{Définition}{23}{section*.49}%
-\contentsline {subsubsection}{Embedding}{23}{section*.50}%
-\contentsline {subsubsection}{Modèle utilisé}{24}{section*.51}%
-\contentsline {subsection}{\numberline {2.2.5}Isolation Forest}{24}{subsection.2.2.5}%
-\contentsline {subsubsection}{Définition}{24}{section*.52}%
-\contentsline {subsubsection}{Application dans le projet}{24}{section*.53}%
-\contentsline {subsection}{\numberline {2.2.6}FastAPI et l'architecture microservices pour l'IA}{24}{subsection.2.2.6}%
-\contentsline {subsubsection}{Définition}{24}{section*.54}%
-\contentsline {subsubsection}{Architecture déployée dans Coral.io Expense}{24}{section*.55}%
-\contentsline {subsection}{\numberline {2.2.7}Docker}{25}{subsection.2.2.7}%
-\contentsline {subsubsection}{Définition}{25}{section*.56}%
-\contentsline {subsubsection}{Avantages de Docker}{25}{section*.57}%
-\contentsline {subsubsection}{Application dans Coral.io Expense}{25}{section*.58}%
-\contentsline {section}{\numberline {2.3}Méthodologie de gestion de projet Data Science : CRISP-DM}{26}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Présentation des méthodologies existantes}{26}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Application de CRISP-DM dans Coral.io Expense}{26}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}L'apprentissage par transfert (Transfer Learning)}{27}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusion}{27}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Analyse et spécification des besoins}{28}{chapter.3}%
-\contentsline {section}{Introduction}{29}{section*.59}%
-\contentsline {section}{\numberline {3.1}Spécification des besoins}{29}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Identification des acteurs}{29}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Besoins Fonctionnels}{29}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Besoins Non Fonctionnels}{30}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Product Backlog}{31}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Backlog de Produit}{31}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Planification des Sprints}{39}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Critères d’acceptation des User Stories prioritaires}{40}{subsection.3.2.3}%
-\contentsline {section}{Critères d’acceptation}{40}{subsection.3.2.3}%
-\contentsline {section}{Conclusion}{49}{section*.62}%
-\contentsline {chapter}{\numberline {4}Sprint 1 « Gestion des comptes, départements, projets et catégories»}{50}{chapter.4}%
-\contentsline {section}{Introduction}{51}{section*.63}%
-\contentsline {section}{\numberline {4.1}Objectif du sprint}{51}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Backlog du sprint 1}{51}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analyse}{53}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Diagramme de cas d'utilisation global du sprint 1}{53}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Raffinements des cas d'utilisation}{53}{subsection.4.3.2}%
-\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer les comptes utilisateurs »}{53}{section*.65}%
-\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer profil »}{54}{section*.67}%
-\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer les catégories »}{54}{section*.69}%
-\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Créer compte »}{54}{section*.71}%
-\contentsline {subsubsection}{Description textuelle du cas d'utilisation « S'authentifier »}{55}{section*.72}%
-\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Récupérer mot de passe »}{56}{section*.73}%
-\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Modifier son profil »}{57}{section*.75}%
-\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Ajouter une catégorie »}{57}{section*.77}%
-\contentsline {section}{\numberline {4.4}Conception}{58}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagramme de séquence}{58}{subsection.4.4.1}%
-\contentsline {subsubsection}{Diagramme de séquence - S'authentifier}{58}{section*.78}%
-\contentsline {subsubsection}{Diagramme de séquence - Ajouter un projet}{59}{section*.80}%
-\contentsline {subsubsection}{Diagramme de séquence - Ajouter une catégorie}{60}{section*.82}%
-\contentsline {subsection}{\numberline {4.4.2}Diagramme de classe du sprint 1}{61}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Interfaces développées}{62}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Page d'accueil}{62}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Interface d'authentification}{64}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Interface de récupération de mot de passe}{65}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Interface de création/mise à jour du mot de passe}{65}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Interface de mise à jour du profil utilisateur}{66}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}Modal de confirmation de déconnexion}{67}{subsection.4.5.6}%
-\contentsline {subsection}{\numberline {4.5.7}Gestion des utilisateurs par l'administrateur}{67}{subsection.4.5.7}%
-\contentsline {subsubsection}{Interface de liste des utilisateurs}{67}{section*.95}%
-\contentsline {subsubsection}{Interface d'ajout d'un utilisateur}{68}{section*.97}%
-\contentsline {subsubsection}{Interface de modification d'un utilisateur}{69}{section*.99}%
-\contentsline {subsection}{\numberline {4.5.8}Gestion des profils}{69}{subsection.4.5.8}%
-\contentsline {subsubsection}{Interface de consultation du profil}{69}{section*.101}%
-\contentsline {subsubsection}{Interface de modification du profil}{70}{section*.104}%
-\contentsline {subsection}{\numberline {4.5.9}Gestion des départements }{71}{subsection.4.5.9}%
-\contentsline {subsubsection}{Interface de liste des départements}{71}{section*.107}%
-\contentsline {subsubsection}{Interface d'ajout/modification d'un département}{72}{section*.109}%
-\contentsline {subsection}{\numberline {4.5.10}Gestion des projets }{73}{subsection.4.5.10}%
-\contentsline {subsubsection}{Interface de liste des projets}{73}{section*.111}%
-\contentsline {subsubsection}{Interface d'ajout/modification d'un projet}{73}{section*.113}%
-\contentsline {subsubsection}{Interface de consultation des projets (pour employé)}{74}{section*.115}%
-\contentsline {subsubsection}{Interface de consultation des régles de remboursement}{74}{section*.117}%
-\contentsline {subsection}{\numberline {4.5.11}Gestion des catégories de dépenses}{75}{subsection.4.5.11}%
-\contentsline {subsubsection}{Interface de liste des catégories}{75}{section*.119}%
-\contentsline {subsubsection}{Interface d'ajout/modification d'une catégorie avec champs dynamiques}{76}{section*.121}%
-\contentsline {section}{Conclusion}{77}{section*.124}%
-\contentsline {chapter}{\numberline {5}Sprint 2 « Gestion des notes de frais »}{78}{chapter.5}%
-\contentsline {section}{Introduction}{79}{section*.125}%
-\contentsline {section}{\numberline {5.1}Objectif du sprint}{79}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Backlog du sprint 2}{79}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Analyse}{83}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Diagramme de cas d'utilisation global du sprint 2}{83}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Descriptions textuelles des cas d’utilisation}{83}{subsection.5.3.2}%
-\contentsline {subsubsection}{Description textuelle – Créer et soumettre une note de frais }{83}{section*.127}%
-\contentsline {subsubsection}{Description textuelle – Modifier une note de frais}{85}{section*.128}%
-\contentsline {subsubsection}{Description textuelle – Valider ou refuser une note (Manager)}{86}{section*.129}%
-\contentsline {subsubsection}{Description textuelle – Changer la devise d’affichage}{87}{section*.130}%
-\contentsline {section}{\numberline {5.4}Conception}{88}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Diagrammes de séquence}{88}{subsection.5.4.1}%
-\contentsline {subsubsection}{Soumission d'une note avec décision du manager}{88}{section*.131}%
-\contentsline {subsection}{\numberline {5.4.2}Diagramme de classes du sprint 2}{89}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Interfaces développées}{90}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Page « Ajouter une note de frais »}{90}{subsection.5.5.1}%
-\contentsline {subsubsection}{Interface d'ajout d'une note de frais}{90}{section*.134}%
-\contentsline {subsection}{\numberline {5.5.2}Page « Mes notes de frais »}{91}{subsection.5.5.2}%
-\contentsline {subsubsection}{Interface « Mes notes de frais »}{91}{section*.137}%
-\contentsline {subsubsection}{Modal de confirmation de suppression d'une note}{92}{section*.139}%
-\contentsline {subsection}{\numberline {5.5.3}Page manager « Demandes à valider » }{93}{subsection.5.5.3}%
-\contentsline {subsubsection}{Interface de gestion des notes pour le manager}{93}{section*.141}%
-\contentsline {subsubsection}{Interface de détails d'une note de frais}{93}{section*.143}%
-\contentsline {subsection}{\numberline {5.5.4}Interface de consultation de la consommation par employé}{94}{subsection.5.5.4}%
-\contentsline {subsubsection}{Modal de validation}{95}{section*.146}%
-\contentsline {subsubsection}{Modal de refus}{95}{section*.148}%
-\contentsline {subsection}{\numberline {5.5.5}Liste déroulante des notifications}{96}{subsection.5.5.5}%
-\contentsline {subsubsection}{Interface d'historique des notifications}{98}{section*.153}%
-\contentsline {section}{Conclusion}{99}{section*.155}%
-\contentsline {chapter}{\numberline {6}Sprint 3 « Remboursement et déploiement»}{100}{chapter.6}%
-\contentsline {section}{Introduction}{101}{section*.156}%
-\contentsline {section}{\numberline {6.1}Objectif du sprint}{101}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Backlog du sprint 3}{101}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Analyse}{105}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Diagramme de cas d'utilisation global du sprint 3}{105}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Descriptions textuelles des cas d'utilisation}{105}{subsection.6.3.2}%
-\contentsline {subsubsection}{Description textuelle – Consulter les notes validées}{105}{section*.158}%
-\contentsline {subsubsection}{Description textuelle – Rejeter le remboursement d'une note}{106}{section*.159}%
-\contentsline {subsubsection}{Description textuelle – Confirmer le paiement d'un ordre}{107}{section*.160}%
-\contentsline {subsection}{\numberline {6.3.3}Diagrammes de séquence}{109}{subsection.6.3.3}%
-\contentsline {subsubsection}{Diagramme de séquence – Rembourser une note de frais}{109}{section*.161}%
-\contentsline {subsubsection}{Diagramme de séquence – Rejeter une note de frais}{110}{section*.163}%
-\contentsline {subsubsection}{Diagramme de déploiement - Dockerisation}{111}{section*.165}%
-\contentsline {subsection}{\numberline {6.3.4}Diagramme de classes du sprint 3}{112}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Interfaces développées}{112}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Liste des notes validées (page administrateur)}{112}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Formulaire de remboursement (administrateur)}{113}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Page des ordres de paiement en attente}{114}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Page de détail d’un ordre de paiement}{114}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Modal de confirmation de paiement}{115}{subsection.6.4.5}%
-\contentsline {subsection}{\numberline {6.4.6}Modal de confirmation de refus de remboursement}{115}{subsection.6.4.6}%
-\contentsline {subsection}{\numberline {6.4.7}Page d’archive administrative}{116}{subsection.6.4.7}%
-\contentsline {subsection}{\numberline {6.4.8}Notes internes (manager et administrateur)}{117}{subsection.6.4.8}%
-\contentsline {subsection}{\numberline {6.4.9}Dashboard projets administrateur}{119}{subsection.6.4.9}%
-\contentsline {subsection}{\numberline {6.4.10}Export Excel/CSV}{121}{subsection.6.4.10}%
-\contentsline {section}{\numberline {6.5}Déploiement avec Docker}{121}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Avantages}{121}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Captures d'écran}{122}{subsection.6.5.2}%
-\contentsline {section}{Conclusion}{122}{section*.181}%
-\contentsline {chapter}{\numberline {7}Sprint 4 – Détection des anomalies et Dashboards}{123}{chapter.7}%
-\contentsline {section}{Introduction}{124}{section*.182}%
-\contentsline {section}{\numberline {7.1}Objectif du sprint}{124}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Backlog du sprint 4}{124}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Analyse}{127}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Diagramme des cas d'utilisation}{127}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Description textuelle des cas d'utilisation}{128}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}Système de Détection des anomalies}{131}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Architecture globale des détections IA}{131}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Cycle de vie d'une note de frais avec les contrôles automatiques}{131}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Diagramme de classes}{132}{subsection.7.4.3}%
-\contentsline {subsection}{\numberline {7.4.4}Diagramme de déploiement}{133}{subsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.4.5}Pourquoi CRISP-DM ?}{134}{subsection.7.4.5}%
-\contentsline {subsection}{\numberline {7.4.6}Compréhension du métier}{135}{subsection.7.4.6}%
-\contentsline {subsection}{\numberline {7.4.7}Compréhension des données}{135}{subsection.7.4.7}%
-\contentsline {subsubsection}{\numberline {a)}Collecte des données}{135}{subsubsection.7.4.7.1}%
-\contentsline {subsubsection}{\numberline {b)}Exploration des données}{141}{subsubsection.7.4.7.2}%
-\contentsline {subsection}{\numberline {7.4.8}Préparation des données}{142}{subsection.7.4.8}%
-\contentsline {subsubsection}{\numberline {a)}Chargement des données}{142}{subsubsection.7.4.8.1}%
-\contentsline {subsubsection}{\numberline {b)}Nettoyage et normalisation des données}{142}{subsubsection.7.4.8.2}%
-\contentsline {subsubsection}{\numberline {c)}Indexation FAISS pour la détection de doublons}{142}{subsubsection.7.4.8.3}%
-\contentsline {subsubsection}{\numberline {d)}Construction de l'historique des montants}{143}{subsubsection.7.4.8.4}%
-\contentsline {subsubsection}{\numberline {e)}Extraction structurée des accords de mission}{143}{subsubsection.7.4.8.5}%
-\contentsline {subsubsection}{\numberline {f)}Alignement des données pour la comparaison}{144}{subsubsection.7.4.8.6}%
-\contentsline {subsection}{\numberline {7.4.9}Modélisation}{145}{subsection.7.4.9}%
-\contentsline {subsubsection}{\numberline {a)}Définitions des technologies d'IA utilisées}{145}{subsubsection.7.4.9.1}%
-\contentsline {subsubsection}{\numberline {b)}Modèles testés pour la détection des anomalies}{145}{subsubsection.7.4.9.2}%
-\contentsline {paragraph}{1. Détection des doublons de justificatifs}{145}{section*.200}%
-\contentsline {subparagraph}{$\bullet $ Matrices de confusion – Détection des doublons}{146}{section*.201}%
-\contentsline {paragraph}{2. Remplissage automatique des champs du formulaire}{147}{section*.206}%
-\contentsline {subparagraph}{$\bullet $ Matrices de confusion – Extraction de champs}{148}{section*.207}%
-\contentsline {paragraph}{3. Autres anomalies (synthèse)}{150}{section*.212}%
-\contentsline {subsubsection}{\numberline {c)}Ajustements post-évaluation (améliorations)}{150}{subsubsection.7.4.9.3}%
-\contentsline {subsection}{\numberline {7.4.10}Déploiement}{150}{subsection.7.4.10}%
-\contentsline {subsubsection}{\numberline {a)}Architecture globale de déploiement}{150}{subsubsection.7.4.10.1}%
-\contentsline {subsubsection}{\numberline {b)}Sauvegarde des modèles}{151}{subsubsection.7.4.10.2}%
-\contentsline {subsubsection}{\numberline {c)}Intégration dans l'interface web}{152}{subsubsection.7.4.10.3}%
-\contentsline {subparagraph}{$\bullet $Détection des doublons (popup de détail)}{152}{section*.215}%
-\contentsline {subparagraph}{$\bullet $Analyse des montants suspects (popup de détail)}{152}{section*.217}%
-\contentsline {subparagraph}{$\bullet $Analyse des factures et extraction automatique des champs}{153}{section*.219}%
-\contentsline {subparagraph}{$\bullet $Analyse de cohérence Accord / Note de frais (popup de détail)}{154}{section*.222}%
-\contentsline {subparagraph}{$\bullet $Validation de la facture (popup de détail)}{155}{section*.224}%
-\contentsline {subsubsection}{\numberline {d)}Conclusion du déploiement}{156}{subsubsection.7.4.10.4}%
-\contentsline {section}{\numberline {7.5}Chatbot hybride}{156}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Modèle de langage utilisé}{156}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Architecture hybride}{156}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}Structure du prompt pour le LLM}{157}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Gestion du contexte de session}{158}{subsection.7.5.4}%
-\contentsline {subsection}{\numberline {7.5.5}Routage des questions}{159}{subsection.7.5.5}%
-\contentsline {section}{\numberline {7.6}Tableaux de bord}{161}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Tableau de bord employé}{161}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Tableau de bord manager}{163}{subsection.7.6.2}%
-\contentsline {subsection}{\numberline {7.6.3}Tableau de bord administrateur}{167}{subsection.7.6.3}%
-\contentsline {section}{\numberline {7.7}Conclusion}{169}{section.7.7}%
-\contentsline {chapter}{Conclusion Générale}{171}{chapter*.246}%
+\contentsline {section}{\numberline {5}Langage de modélisation UML}{11}{section.1.5}%
+\contentsline {section}{\numberline {6}Choix technologiques adoptés}{12}{section.1.6}%
+\contentsline {subsection}{\numberline {6.1}Environnement matériel}{12}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {6.2}Choix technologiques}{12}{subsection.1.6.2}%
+\contentsline {subsubsection}{a) Environnements de développement}{12}{subsection.1.6.2}%
+\contentsline {subsubsection}{b) Versionnement et collaboration}{13}{figure.caption.12}%
+\contentsline {subsubsection}{c) Design et maquettage}{13}{figure.caption.14}%
+\contentsline {subsubsection}{d) Frameworks et langages front-end}{14}{figure.caption.16}%
+\contentsline {subsubsection}{e) Frameworks et langages back-end}{15}{figure.caption.21}%
+\contentsline {subsubsection}{f) Base de données}{16}{figure.caption.25}%
+\contentsline {subsubsection}{g) Sécurité}{16}{figure.caption.26}%
+\contentsline {subsubsection}{h) Conteneurisation}{16}{figure.caption.27}%
+\contentsline {subsubsection}{i) Tests et documentation d'API}{17}{figure.caption.28}%
+\contentsline {section}{Conclusion}{18}{figure.caption.29}%
+\contentsline {chapter}{\numberline {2}État de l'art}{19}{chapter.2}%
+\contentsline {section}{Introduction}{20}{section*.30}%
+\contentsline {section}{\numberline {1}Intelligence Artificielle}{20}{section.2.1}%
+\contentsline {subsection}{\numberline {1.1}Définition}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {1.2}Apprentissage Automatique (Machine Learning)}{20}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {1.3}Apprentissage profond (Deep Learning)}{20}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2}Technologies spécifiques au projet}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}OCR (Optical Character Recognition)}{21}{subsection.2.2.1}%
+\contentsline {subsubsection}{Définition}{21}{subsection.2.2.1}%
+\contentsline {subsubsection}{Outils OCR utilisés dans Coral.io Expense}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2}LLM (Large Language Models)}{21}{subsection.2.2.2}%
+\contentsline {subsubsection}{Définition}{21}{subsection.2.2.2}%
+\contentsline {subsubsection}{Modèles évalués et modèle retenu}{21}{subsection.2.2.2}%
+\contentsline {subsubsection}{Serveur Ollama}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}FAISS (Facebook AI Similarity Search)}{22}{subsection.2.2.3}%
+\contentsline {subsubsection}{Définition}{22}{subsection.2.2.3}%
+\contentsline {subsubsection}{Application dans le projet}{22}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.4}SentenceTransformer}{22}{subsection.2.2.4}%
+\contentsline {subsubsection}{Définition}{22}{subsection.2.2.4}%
+\contentsline {subsubsection}{Embedding}{22}{subsection.2.2.4}%
+\contentsline {subsubsection}{Modèle utilisé}{22}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.5}Isolation Forest}{23}{subsection.2.2.5}%
+\contentsline {subsubsection}{Définition}{23}{subsection.2.2.5}%
+\contentsline {subsubsection}{Application dans le projet}{23}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.6}FastAPI et l'architecture microservices pour l'IA}{23}{subsection.2.2.6}%
+\contentsline {subsubsection}{Définition}{23}{subsection.2.2.6}%
+\contentsline {subsubsection}{Architecture déployée dans Coral.io Expense}{23}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.7}Docker}{24}{subsection.2.2.7}%
+\contentsline {subsubsection}{Définition}{24}{subsection.2.2.7}%
+\contentsline {subsubsection}{Avantages de Docker}{24}{subsection.2.2.7}%
+\contentsline {subsubsection}{Application dans Coral.io Expense}{24}{subsection.2.2.7}%
+\contentsline {section}{\numberline {3}Méthodologie de gestion de projet Data Science : CRISP-DM}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Présentation des méthodologies existantes}{25}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.2}Application de CRISP-DM dans Coral.io Expense}{25}{subsection.2.3.2}%
+\contentsline {section}{\numberline {4}L'apprentissage par transfert (Transfer Learning)}{26}{section.2.4}%
+\contentsline {section}{\numberline {5}Conclusion}{26}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Analyse et spécification des besoins}{27}{chapter.3}%
+\contentsline {section}{Introduction}{28}{section*.31}%
+\contentsline {section}{\numberline {1}Spécification des besoins}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {1.1}Identification des acteurs}{28}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {1.2}Besoins Fonctionnels}{28}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {1.3}Besoins Non Fonctionnels}{29}{subsection.3.1.3}%
+\contentsline {section}{\numberline {2}Product Backlog}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}Backlog de Produit}{30}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Planification des Sprints}{38}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {2.3}Critères d’acceptation des User Stories prioritaires}{39}{subsection.3.2.3}%
+\contentsline {section}{Critères d’acceptation}{39}{subsection.3.2.3}%
+\contentsline {section}{Conclusion}{48}{table.3.6}%
+\contentsline {chapter}{\numberline {4}Sprint 1 « Gestion des comptes, départements, projets et catégories»}{49}{chapter.4}%
+\contentsline {section}{Introduction}{50}{section*.34}%
+\contentsline {section}{\numberline {1}Objectif du sprint}{50}{section.4.1}%
+\contentsline {section}{\numberline {2}Backlog du sprint 1}{50}{section.4.2}%
+\contentsline {section}{\numberline {3}Analyse}{52}{section.4.3}%
+\contentsline {subsection}{\numberline {3.1}Diagramme de cas d'utilisation global du sprint 1}{52}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {3.2}Raffinements des cas d'utilisation}{52}{subsection.4.3.2}%
+\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer les comptes utilisateurs »}{52}{subsection.4.3.2}%
+\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer profil »}{53}{figure.caption.36}%
+\contentsline {subsubsection}{Raffinement du cas d'utilisation « Gérer les catégories »}{53}{figure.caption.37}%
+\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Créer compte »}{53}{figure.caption.38}%
+\contentsline {subsubsection}{Description textuelle du cas d'utilisation « S'authentifier »}{54}{table.4.3}%
+\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Récupérer mot de passe »}{55}{table.4.4}%
+\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Modifier son profil »}{56}{table.caption.39}%
+\contentsline {subsubsection}{Description textuelle du cas d'utilisation « Ajouter une catégorie »}{56}{table.caption.40}%
+\contentsline {section}{\numberline {4}Conception}{57}{section.4.4}%
+\contentsline {subsection}{\numberline {4.1}Diagramme de séquence}{57}{subsection.4.4.1}%
+\contentsline {subsubsection}{Diagramme de séquence - S'authentifier}{57}{subsection.4.4.1}%
+\contentsline {subsubsection}{Diagramme de séquence - Ajouter un projet}{58}{figure.caption.41}%
+\contentsline {subsubsection}{Diagramme de séquence - Ajouter une catégorie}{59}{figure.caption.42}%
+\contentsline {subsection}{\numberline {4.2}Diagramme de classe du sprint 1}{60}{subsection.4.4.2}%
+\contentsline {section}{\numberline {5}Interfaces développées}{61}{section.4.5}%
+\contentsline {subsection}{\numberline {5.1}Page d'accueil}{61}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {5.2}Interface d'authentification}{63}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {5.3}Interface de récupération de mot de passe}{64}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {5.4}Interface de création/mise à jour du mot de passe}{64}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {5.5}Interface de mise à jour du profil utilisateur}{65}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {5.6}Modal de confirmation de déconnexion}{66}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {5.7}Gestion des utilisateurs par l'administrateur}{66}{subsection.4.5.7}%
+\contentsline {subsubsection}{Interface de liste des utilisateurs}{66}{subsection.4.5.7}%
+\contentsline {subsubsection}{Interface d'ajout d'un utilisateur}{67}{figure.caption.55}%
+\contentsline {subsubsection}{Interface de modification d'un utilisateur}{68}{figure.caption.56}%
+\contentsline {subsection}{\numberline {5.8}Gestion des profils}{68}{subsection.4.5.8}%
+\contentsline {subsubsection}{Interface de consultation du profil}{68}{subsection.4.5.8}%
+\contentsline {subsubsection}{Interface de modification du profil}{69}{figure.caption.59}%
+\contentsline {subsection}{\numberline {5.9}Gestion des départements }{70}{subsection.4.5.9}%
+\contentsline {subsubsection}{Interface de liste des départements}{70}{subsection.4.5.9}%
+\contentsline {subsubsection}{Interface d'ajout/modification d'un département}{71}{figure.caption.62}%
+\contentsline {subsection}{\numberline {5.10}Gestion des projets }{72}{subsection.4.5.10}%
+\contentsline {subsubsection}{Interface de liste des projets}{72}{subsection.4.5.10}%
+\contentsline {subsubsection}{Interface d'ajout/modification d'un projet}{72}{figure.caption.64}%
+\contentsline {subsubsection}{Interface de consultation des projets (pour employé)}{73}{figure.caption.65}%
+\contentsline {subsubsection}{Interface de consultation des régles de remboursement}{73}{figure.caption.66}%
+\contentsline {subsection}{\numberline {5.11}Gestion des catégories de dépenses}{74}{subsection.4.5.11}%
+\contentsline {subsubsection}{Interface de liste des catégories}{74}{subsection.4.5.11}%
+\contentsline {subsubsection}{Interface d'ajout/modification d'une catégorie avec champs dynamiques}{75}{figure.caption.68}%
+\contentsline {section}{Conclusion}{76}{figure.caption.70}%
+\contentsline {chapter}{\numberline {5}Sprint 2 « Gestion des notes de frais »}{77}{chapter.5}%
+\contentsline {section}{Introduction}{78}{section*.71}%
+\contentsline {section}{\numberline {1}Objectif du sprint}{78}{section.5.1}%
+\contentsline {section}{\numberline {2}Backlog du sprint 2}{78}{section.5.2}%
+\contentsline {section}{\numberline {3}Analyse}{82}{section.5.3}%
+\contentsline {subsection}{\numberline {3.1}Diagramme de cas d'utilisation global du sprint 2}{82}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {3.2}Descriptions textuelles des cas d’utilisation}{82}{subsection.5.3.2}%
+\contentsline {subsubsection}{Description textuelle – Créer et soumettre une note de frais }{82}{subsection.5.3.2}%
+\contentsline {subsubsection}{Description textuelle – Modifier une note de frais}{84}{table.5.4}%
+\contentsline {subsubsection}{Description textuelle – Valider ou refuser une note (Manager)}{85}{table.5.6}%
+\contentsline {subsubsection}{Description textuelle – Changer la devise d’affichage}{86}{table.5.8}%
+\contentsline {section}{\numberline {4}Conception}{87}{section.5.4}%
+\contentsline {subsection}{\numberline {4.1}Diagrammes de séquence}{87}{subsection.5.4.1}%
+\contentsline {subsubsection}{Soumission d'une note avec décision du manager}{87}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diagramme de classes du sprint 2}{88}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5}Interfaces développées}{89}{section.5.5}%
+\contentsline {subsection}{\numberline {5.1}Page « Ajouter une note de frais »}{89}{subsection.5.5.1}%
+\contentsline {subsubsection}{Interface d'ajout d'une note de frais}{89}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.2}Page « Mes notes de frais »}{90}{subsection.5.5.2}%
+\contentsline {subsubsection}{Interface « Mes notes de frais »}{90}{subsection.5.5.2}%
+\contentsline {subsubsection}{Modal de confirmation de suppression d'une note}{91}{figure.caption.77}%
+\contentsline {subsection}{\numberline {5.3}Page manager « Demandes à valider » }{92}{subsection.5.5.3}%
+\contentsline {subsubsection}{Interface de gestion des notes pour le manager}{92}{subsection.5.5.3}%
+\contentsline {subsubsection}{Interface de détails d'une note de frais}{92}{figure.caption.79}%
+\contentsline {subsection}{\numberline {5.4}Interface de consultation de la consommation par employé}{93}{subsection.5.5.4}%
+\contentsline {subsubsection}{Modal de validation}{94}{figure.caption.81}%
+\contentsline {subsubsection}{Modal de refus}{94}{figure.caption.82}%
+\contentsline {subsection}{\numberline {5.5}Liste déroulante des notifications}{95}{subsection.5.5.5}%
+\contentsline {subsubsection}{Interface d'historique des notifications}{97}{figure.caption.86}%
+\contentsline {section}{Conclusion}{98}{figure.caption.87}%
+\contentsline {chapter}{\numberline {6}Sprint 3 « Remboursement et déploiement»}{99}{chapter.6}%
+\contentsline {section}{Introduction}{100}{section*.88}%
+\contentsline {section}{\numberline {1}Objectif du sprint}{100}{section.6.1}%
+\contentsline {section}{\numberline {2}Backlog du sprint 3}{100}{section.6.2}%
+\contentsline {section}{\numberline {3}Analyse}{104}{section.6.3}%
+\contentsline {subsection}{\numberline {3.1}Diagramme de cas d'utilisation global du sprint 3}{104}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {3.2}Descriptions textuelles des cas d'utilisation}{104}{subsection.6.3.2}%
+\contentsline {subsubsection}{Description textuelle – Consulter les notes validées}{104}{subsection.6.3.2}%
+\contentsline {subsubsection}{Description textuelle – Rejeter le remboursement d'une note}{105}{table.6.4}%
+\contentsline {subsubsection}{Description textuelle – Confirmer le paiement d'un ordre}{106}{table.6.6}%
+\contentsline {subsection}{\numberline {3.3}Diagrammes de séquence}{108}{subsection.6.3.3}%
+\contentsline {subsubsection}{Diagramme de séquence – Rembourser une note de frais}{108}{subsection.6.3.3}%
+\contentsline {subsubsection}{Diagramme de séquence – Rejeter une note de frais}{109}{figure.caption.90}%
+\contentsline {subsubsection}{Diagramme de déploiement - Dockerisation}{110}{figure.caption.91}%
+\contentsline {subsection}{\numberline {3.4}Diagramme de classes du sprint 3}{111}{subsection.6.3.4}%
+\contentsline {section}{\numberline {4}Interfaces développées}{111}{section.6.4}%
+\contentsline {subsection}{\numberline {4.1}Liste des notes validées (page administrateur)}{111}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {4.2}Formulaire de remboursement (administrateur)}{112}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {4.3}Page des ordres de paiement en attente}{113}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {4.4}Page de détail d’un ordre de paiement}{113}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {4.5}Modal de confirmation de paiement}{114}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {4.6}Modal de confirmation de refus de remboursement}{114}{subsection.6.4.6}%
+\contentsline {subsection}{\numberline {4.7}Page d’archive administrative}{115}{subsection.6.4.7}%
+\contentsline {subsection}{\numberline {4.8}Notes internes (manager et administrateur)}{116}{subsection.6.4.8}%
+\contentsline {subsection}{\numberline {4.9}Dashboard projets administrateur}{118}{subsection.6.4.9}%
+\contentsline {subsection}{\numberline {4.10}Export Excel/CSV}{120}{subsection.6.4.10}%
+\contentsline {section}{\numberline {5}Déploiement avec Docker}{120}{section.6.5}%
+\contentsline {subsection}{\numberline {5.1}Avantages}{120}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {5.2}Captures d'écran}{121}{subsection.6.5.2}%
+\contentsline {section}{Conclusion}{121}{figure.caption.106}%
+\contentsline {chapter}{\numberline {7}Sprint 4 – Détection des anomalies et Dashboards}{122}{chapter.7}%
+\contentsline {section}{Introduction}{123}{section*.107}%
+\contentsline {section}{\numberline {1}Objectif du sprint}{123}{section.7.1}%
+\contentsline {section}{\numberline {2}Backlog du sprint 4}{123}{section.7.2}%
+\contentsline {section}{\numberline {3}Analyse}{126}{section.7.3}%
+\contentsline {subsection}{\numberline {3.1}Diagramme des cas d'utilisation}{126}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {3.2}Description textuelle des cas d'utilisation}{127}{subsection.7.3.2}%
+\contentsline {section}{\numberline {4}Système de Détection des anomalies}{130}{section.7.4}%
+\contentsline {subsection}{\numberline {4.1}Architecture globale des détections IA}{130}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {4.2}Cycle de vie d'une note de frais avec les contrôles automatiques}{130}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {4.3}Diagramme de classes}{131}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diagramme de déploiement}{132}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {4.5}Pourquoi CRISP-DM ?}{133}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {4.6}Compréhension du métier}{134}{subsection.7.4.6}%
+\contentsline {subsection}{\numberline {4.7}Compréhension des données}{134}{subsection.7.4.7}%
+\contentsline {subsubsection}{\numberline {a)}Collecte des données}{134}{subsubsection.7.4.7.1}%
+\contentsline {subsubsection}{\numberline {b)}Exploration des données}{140}{subsubsection.7.4.7.2}%
+\contentsline {subsection}{\numberline {4.8}Préparation des données}{140}{subsection.7.4.8}%
+\contentsline {subsubsection}{\numberline {a)}Chargement des données}{141}{subsubsection.7.4.8.1}%
+\contentsline {subsubsection}{\numberline {b)}Nettoyage et normalisation des données}{141}{subsubsection.7.4.8.2}%
+\contentsline {subsubsection}{\numberline {c)}Indexation FAISS pour la détection de doublons}{141}{subsubsection.7.4.8.3}%
+\contentsline {subsubsection}{\numberline {d)}Construction de l'historique des montants}{142}{subsubsection.7.4.8.4}%
+\contentsline {subsubsection}{\numberline {e)}Extraction structurée des accords de mission}{142}{subsubsection.7.4.8.5}%
+\contentsline {subsubsection}{\numberline {f)}Alignement des données pour la comparaison}{143}{subsubsection.7.4.8.6}%
+\contentsline {subsection}{\numberline {4.9}Modélisation}{144}{subsection.7.4.9}%
+\contentsline {subsubsection}{\numberline {a)}Définitions des technologies d'IA utilisées}{144}{subsubsection.7.4.9.1}%
+\contentsline {subsubsection}{\numberline {b)}Modèles testés pour la détection des anomalies}{144}{subsubsection.7.4.9.2}%
+\contentsline {paragraph}{1. Détection des doublons de justificatifs}{144}{subsubsection.7.4.9.2}%
+\contentsline {subparagraph}{$\bullet $ Matrices de confusion – Détection des doublons}{145}{subsubsection.7.4.9.2}%
+\contentsline {paragraph}{2. Remplissage automatique des champs du formulaire}{146}{figure.caption.126}%
+\contentsline {subparagraph}{$\bullet $ Matrices de confusion – Extraction de champs}{147}{figure.caption.126}%
+\contentsline {paragraph}{3. Autres anomalies (synthèse)}{149}{figure.caption.130}%
+\contentsline {subsubsection}{\numberline {c)}Ajustements post-évaluation (améliorations)}{149}{subsubsection.7.4.9.3}%
+\contentsline {subsection}{\numberline {4.10}Déploiement}{149}{subsection.7.4.10}%
+\contentsline {subsubsection}{\numberline {a)}Architecture globale de déploiement}{149}{subsubsection.7.4.10.1}%
+\contentsline {subsubsection}{\numberline {b)}Sauvegarde des modèles}{150}{subsubsection.7.4.10.2}%
+\contentsline {subsubsection}{\numberline {c)}Intégration dans l'interface web}{151}{subsubsection.7.4.10.3}%
+\contentsline {subparagraph}{$\bullet $Détection des doublons (popup de détail)}{151}{subsubsection.7.4.10.3}%
+\contentsline {subparagraph}{$\bullet $Analyse des montants suspects (popup de détail)}{151}{figure.caption.133}%
+\contentsline {subparagraph}{$\bullet $Analyse des factures et extraction automatique des champs}{152}{figure.caption.134}%
+\contentsline {subparagraph}{$\bullet $Analyse de cohérence Accord / Note de frais (popup de détail)}{153}{figure.caption.136}%
+\contentsline {subparagraph}{$\bullet $Validation de la facture (popup de détail)}{154}{figure.caption.137}%
+\contentsline {subsubsection}{\numberline {d)}Conclusion du déploiement}{155}{subsubsection.7.4.10.4}%
+\contentsline {section}{\numberline {5}Chatbot hybride}{155}{section.7.5}%
+\contentsline {subsection}{\numberline {5.1}Modèle de langage utilisé}{155}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {5.2}Architecture hybride}{155}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {5.3}Structure du prompt pour le LLM}{156}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {5.4}Gestion du contexte de session}{157}{subsection.7.5.4}%
+\contentsline {subsection}{\numberline {5.5}Routage des questions}{158}{subsection.7.5.5}%
+\contentsline {section}{\numberline {6}Tableaux de bord}{160}{section.7.6}%
+\contentsline {subsection}{\numberline {6.1}Tableau de bord employé}{160}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {6.2}Tableau de bord manager}{162}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {6.3}Tableau de bord administrateur}{166}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7}Conclusion}{168}{section.7.7}%
+\contentsline {chapter}{Conclusion Générale}{170}{chapter*.159}%
 \babel@toc {english}{}\relax 
 \babel@toc {french}{}\relax 
