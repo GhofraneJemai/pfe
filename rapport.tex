@@ -1,0 +1,254 @@
+\documentclass[12pt,a4paper]{report}
+
+% ==========================================
+% TOUS VOS PACKAGES (copiez tout ce que vous avez)
+% ==========================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{parskip}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{pdflscape}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{matrix, positioning}
+
+% Personnalisation des puces
+\setlist[itemize]{label=\tiny$\bullet$}
+
+% Mise en page
+\geometry{margin=2.5cm}
+\onehalfspacing
+\setlength{\parskip}{6pt}
+
+% En-tête et pied de page
+\setlength{\headheight}{14.61858pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[L]{DSI11/26}
+\fancyfoot[R]{\thepage}
+
+% Redéfinition des commandes de titre de chapitre
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{%
+  \thispagestyle{empty}%
+  \vspace*{\fill}%
+  {\centering
+    \normalfont\huge\bfseries
+    Chapitre \thechapter :\\[20pt]%
+    #1%
+    \par
+  }%
+  \vspace*{\fill}%
+  \clearpage%
+}
+\renewcommand{\@makeschapterhead}[1]{%
+  \vspace*{50pt}%
+  {\centering
+    \normalfont\huge\bfseries
+    #1\par
+  }%
+  \vspace{40pt}%
+  \@afterheading
+}
+\makeatother
+
+% Format des titres dans la table des matières
+\renewcommand{\cftchappresnum}{Chapitre }
+\renewcommand{\cftchapaftersnum}{ :}
+\setlength{\cftchapnumwidth}{7em}
+
+% Document info
+\title{Rapport de Stage - Gestion des Notes de Frais avec Coral.io}
+\author{Manel Boulares \and Ghofarne Jemai}
+\date{2025}
+
+% Commande personnalisée pour les remerciements
+\newcommand{\remerciement}[1]{%
+    \clearpage
+    \thispagestyle{empty}
+    \vspace*{0.7cm}
+    \begin{center}
+        {\Huge \bfseries #1}
+    \end{center}
+    \vspace{0.5cm}
+}
+
+% ==========================================
+% VOICI LA LIGNE MAGIQUE - À CHANGER À CHAQUE COMPILATION
+% ==========================================
+\includeonly{chapitre4}   % ← Changez le numéro selon le chapitre voulu
+% Pour compiler TOUT le document pour le rendu final, COMMENTEZ cette ligne :
+% \includeonly{chapitre1,chapitre2,chapitre3,chapitre4,chapitre5,chapitre6}
+% ou supprimez-la complètement
+
+\begin{document}
+
+% ==========================================
+% PAGES PRÉLIMINAIRES (gardées ici)
+% ==========================================
+\maketitle
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \vspace*{\fill}
+    \includegraphics[width=0.85\textwidth,height=0.3\textheight]{basmala.png}
+    \vspace*{\fill}
+\end{center}
+\newpage
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+
+% ============================================================
+% REMERCIEMENTS
+% ============================================================
+\remerciement{Remerciements}
+
+\thispagestyle{empty}
+\begin{center}
+\itshape
+
+Derrière chaque réussite se cachent des mains qui ont soutenu et des cœurs qui ont cru. À ma famille, mes grands-parents, mes tantes, mes oncles, mes frères et sœurs, vous êtes mon premier refuge et ma plus grande force. 
+
+\vspace{0.3cm}
+
+À mes parents, \textbf{Afifa} et \textbf{Hosni}, je dédie ma plus profonde gratitude. Merci pour votre amour inconditionnel, vos sacrifices silencieux et votre volonté de me voir réussir. Cette réussite porte mon nom, mais elle raconte avant tout votre histoire. Je serai éternellement fière d’être votre fille.
+
+\vspace{0.3cm}
+
+À mes parents de cœur, \textbf{Raja} et \textbf{Habib}, vous m’avez offert un sentiment d’appartenance, de sécurité et d’amour que je porterai toute ma vie. Votre place dans mon cœur est unique.
+
+\vspace{0.3cm}
+
+À ma sœur \textbf{Feriel}, merci d'être plus qu’une sœur, une amie fidèle, une confidente, un cadeau précieux. Peu importe où la vie nous mènera, tu resteras l’un des plus beaux dons que Dieu m’ait accordés.
+
+\vspace{0.3cm}
+
+À \textbf{Dr Chokri Terzi}, depuis mon plus jeune âge, vous avez accompagné mon parcours avec une bienveillance rare. Vous avez cru en moi, nourri ma curiosité et contribué à construire la personne que je suis devenue, merci.
+
+\vspace{0.3cm}
+
+À mon encadrante, \textbf{Mme Safa}, merci pour votre disponibilité, vos conseils précieux et la confiance que vous m’avez accordée.
+
+\vspace{0.3cm}
+
+À ma binôme, \textbf{Ghofrane}, plus qu’une partenaire de projet, une amie, une sœur de cœur. Merci pour les moments de doute surmontés ensemble et les souvenirs construits.
+
+\vspace{0.3cm}
+
+À la mémoire de mon oncle \textbf{Mohamed}, parti trop tôt. Au milieu de cette joie, une pensée particulière t’est destinée. Où que tu sois, j’espère que tu sais combien tu continueras à occuper une place irremplaçable dans mon cœur. Que Dieu t’accueille dans son vaste Paradis.
+
+\vspace{0.3cm}
+
+Et enfin, à ma mère, \textbf{Afifa}…
+
+Aucune phrase ne pourra traduire ce que je ressens. Derrière chacune de mes réussites se trouvent tes nuits d’inquiétude, tes prières silencieuses, ta force inépuisable. Je te dois bien plus qu’un remerciement, je te dois une partie de ce que je suis.
+
+\vspace{0.3cm}
+
+\textbf{À vous, je dédie cette réussite avec tout mon amour et ma reconnaissance éternelle.} ❤️
+
+\end{center}
+
+\clearpage
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+
+% Acronymes
+\chapter*{Acronymes}
+\begin{tabular}{ll}
+\textbf{API} & Application Programming Interface \\
+\textbf{IA} & Intelligence Artificielle \\
+\textbf{JWT} & JSON Web Token \\
+\textbf{OCR} & Reconnaissance Optique de Caractères \\
+\textbf{PME} & Petite et Moyenne Entreprise \\
+\textbf{SaaS} & Software as a Service \\
+\textbf{ETI} & Entreprise de Taille Intermédiaire \\
+\textbf{ERP} & Enterprise Resource Planning \\
+\textbf{SCRUM} & Méthodologie agile de gestion de projet \\
+\textbf{UML} & Unified Modeling Language \\
+\textbf{MDP} & Mot de Passe \\
+\textbf{CRUD} & Create, Read, Update, Delete \\
+\textbf{CRISP-DM} & Cross-Industry Standard Process for Data Mining \\
+\end{tabular}
+\clearpage
+
+
+% ============================================================
+% INTRODUCTION GÉNÉRALE (NOUVELLE VERSION)
+% ============================================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+
+Dans un contexte économique où la maîtrise des coûts et la réactivité opérationnelle sont devenues des leviers stratégiques, la gestion des notes de frais occupe une place centrale dans le pilotage financier des entreprises. Loin d'être une simple formalité administrative, elle reflète directement la santé des processus internes : fluidité des remboursements, fiabilité des données comptables et conformité aux politiques de dépenses de l'entreprise.
+
+L'essor du travail hybride, la multiplication des déplacements professionnels et l'internationalisation des activités amplifient aujourd'hui le volume et la complexité des dépenses à traiter, créant une opportunité réelle pour des solutions intelligentes capables d'accompagner cette croissance.
+
+Coral.io Expense, la solution que nous proposons, est une application web qui intègre un moteur de reconnaissance automatique des justificatifs par OCR, un système de détection des anomalies et des fraudes basé sur l'analyse comportementale des soumissions, ainsi qu'une gestion intelligente des devises étrangères en temps réel. L'ensemble s'articule autour d'un workflow de validation structuré — Manager, Administrateur, puis Remboursement — garantissant traçabilité et conformité à chaque étape du processus.
+
+Pour garantir le succès de notre projet, nous avons choisi d'adopter une approche basée sur les méthodes agiles, en particulier la méthodologie SCRUM.
+
+Ce rapport s'articule en six chapitres. Dans le premier, on présente le cadre général du projet. Dans le deuxième, on définit le Product Backlog et la planification des sprints. Les quatre derniers chapitres détaillent les différentes étapes de chaque sprint implémenté.
+
+Enfin, nous clôturons notre rapport par une synthèse générale qui récapitule l'ensemble de notre travail.
+
+% ==========================================
+# INCLUSION DES CHAPITRES (LE CŒUR DU SYSTÈME)
+% ==========================================
+
+\include{chapitre1-cadre}
+\include{chapitre2-analyse}
+\include{chapitre3-sprint1}
+\include{chapitre4-sprint2}
+\include{chapitre5-sprint3}
+\include{chapitre6-sprint4}
+
+% ==========================================
+% BIBLIOGRAPHIE
+% ==========================================
+
+% ============================================================
+% BIBLIOGRAPHIE (reprise de l’existant)
+% ============================================================
+\begin{thebibliography}{99}
+\bibitem{coralio} Coral-io, \textit{Site officiel de Coral-io}, [En ligne], Disponible : \url{https://coral-io.com/}, (Consulté le 10/02/2025).
+\bibitem{sapconcur} SAP Concur, \textit{Solution de gestion des notes de frais SAP Concur}, [En ligne], Disponible : \url{https://www.concur.com/}, (Consulté le 15/02/2025).
+\bibitem{expensya} Expensya, \textit{Application de gestion des notes de frais Expensya}, [En ligne], Disponible : \url{https://www.expensya.com/}, (Consulté le 15/02/2025).
+\bibitem{uml} OMG UML, \textit{Unified Modeling Language (UML) Specification}, [En ligne], Disponible : \url{https://www.uml.org/}, (Consulté le 20/02/2025).
+\bibitem{spring} VMware, \textit{Spring Boot Framework Documentation}, [En ligne], Disponible : \url{https://spring.io/projects/spring-boot}, (Consulté le 20/02/2025).
+\bibitem{postgresql} PostgreSQL Global Development Group, \textit{PostgreSQL Documentation}, [En ligne], Disponible : \url{https://www.postgresql.org/docs/}, (Consulté le 20/02/2025).
+\bibitem{scrum} Scrum.org, \textit{Scrum Guide - The Definitive Guide to Scrum}, [En ligne], Disponible : \url{https://scrumguides.org/}, (Consulté le 25/02/2025).
+\bibitem{fastapi} FastAPI, \textit{FastAPI Framework Documentation}, [En ligne], Disponible : \url{https://fastapi.tiangolo.com/}, (Consulté le 25/02/2025).
+\bibitem{angular} Google, \textit{Angular Framework Documentation}, [En ligne], Disponible : \url{https://angular.io/docs}, (Consulté le 25/02/2025).
+\bibitem{typescript} Microsoft, \textit{TypeScript Documentation}, [En ligne], Disponible : \url{https://www.typescriptlang.org/docs/}, (Consulté le 25/02/2025).
+\bibitem{keycloak} Keycloak, \textit{Keycloak Documentation}, [En ligne], Disponible : \url{https://www.keycloak.org/documentation}, (Consulté le 25/02/2025).
+\bibitem{docker} Docker, \textit{Docker Documentation}, [En ligne], Disponible : \url{https://docs.docker.com/}, (Consulté le 25/02/2025).
+\end{thebibliography}
+
+
+\end{document}

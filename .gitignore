@@ -1,0 +1,11 @@
+echo "# Fichiers générés par LaTeX" > .gitignore
+echo "*.aux" >> .gitignore
+echo "*.lof" >> .gitignore
+echo "*.lot" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.out" >> .gitignore
+echo "*.toc" >> .gitignore
+echo "*.synctex.gz" >> .gitignore
+echo "*.pdf" >> .gitignore
+echo "*.fls" >> .gitignore
+echo "*.fdb_latexmk" >> .gitignore
